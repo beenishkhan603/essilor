@@ -1,0 +1,67 @@
+.HeroBannerStatic {
+	/* position: absolute; */
+	background-image: url('https://media.essilor.com/cms/caas/v1/media/109328/data/picture/3d3c7deeb6456317830f9b97dd7f1c08.jpg');
+	height: 100vh;
+	max-height: 700px;
+	width: 100%;
+	max-width: 1440px;
+	margin: auto;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.HeroBannerStatic2 {
+	/* position: absolute; */
+	background-image: url('https://media.essilor.com/cms/caas/v1/media/109332/data/picture/c78611e1535ce771823ff7a8be584de9.png');
+	height: 100vh;
+	max-height: 700px;
+	width: 100%;
+	max-width: 1440px;
+	margin: auto;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.HeroBannerStaticContent {
+	background: var(--essilor-color-filter);
+	height: 100%;
+
+	width: 100%;
+	padding-left: 60px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.heading {
+	font-size: 48px;
+	line-height: 68px;
+	letter-spacing: 0;
+	font-weight: 700;
+	margin: 0;
+	color: #fff;
+	margin-right: auto;
+	max-width: 486px;
+}
+.text {
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0;
+	font-weight: 400;
+	margin: 0;
+	max-width: 486px;
+	margin-top: 12px;
+	margin-bottom: 36px;
+	color: #fff;
+}
+.discoverBtn {
+	background-color: #fff;
+	color: #18b1ae;
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	align-self: flex-start;
+	font-size: 18px;
+	border-radius: 50px;
+	cursor: pointer;
+	font-weight: 600;
+}

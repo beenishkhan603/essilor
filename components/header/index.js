@@ -183,34 +183,47 @@ const NavBar = () => {
 										<Typography className={styles.detailHeading}>
 											Correct
 										</Typography>
-										<Typography className={styles.detailLink}>
-											Eyezen
-										</Typography>
-										<Typography className={styles.detailLink}>
-											Varilux
-										</Typography>
+
+										<Link href="/product-detail">
+											<Typography className={styles.detailLink}>
+												Blanc
+											</Typography>
+										</Link>
+										<Link href="/product-detail">
+											<Typography className={styles.detailLink}>
+												Matterhorn
+											</Typography>
+										</Link>
 									</Box>
 									<Box>
 										<Typography className={styles.detailHeading}>
 											Protection
 										</Typography>
-										<Typography className={styles.detailLink}>
-											Blue UV
-										</Typography>
-										<Typography className={styles.detailLink}>
-											Xperio
-										</Typography>
-										<Typography className={styles.detailLink}>
-											Transitions
-										</Typography>
+										<Link href="/product-detail">
+											<Typography className={styles.detailLink}>
+												Elbrus
+											</Typography>
+										</Link>
+										<Link href="/product-detail">
+											<Typography className={styles.detailLink}>
+												Ben Nevis
+											</Typography>
+										</Link>
+										<Link href="/product-detail">
+											<Typography className={styles.detailLink}>
+												Tatra
+											</Typography>
+										</Link>
 									</Box>
 									<Box>
 										<Typography className={styles.detailHeading}>
 											Enhance
 										</Typography>
-										<Typography className={styles.detailLink}>
-											Crizal
-										</Typography>
+										<Link href="/product-detail">
+											<Typography className={styles.detailLink}>
+												Hamilton
+											</Typography>
+										</Link>
 									</Box>
 								</Box>
 							</Box>
@@ -262,20 +275,39 @@ const NavBar = () => {
 									<Typography className={styles.detailHeading}>
 										Correct
 									</Typography>
-									<Typography className={styles.detailLink}>Eyezen</Typography>
-									<Typography className={styles.detailLink}>Varilux</Typography>
+									<Link href="/product-detail">
+										<Typography className={styles.detailLink}>Blanc</Typography>
+									</Link>
+									<Link href="/product-detail">
+										<Typography className={styles.detailLink}>
+											Matterhorn
+										</Typography>
+									</Link>
 									<Typography className={styles.detailHeading}>
 										Protection
 									</Typography>
-									<Typography className={styles.detailLink}>Blue UV</Typography>
-									<Typography className={styles.detailLink}>Xperio</Typography>
-									<Typography className={styles.detailLink}>
-										Transitions
-									</Typography>
+									<Link href="/product-detail">
+										<Typography className={styles.detailLink}>
+											Elbrus
+										</Typography>
+									</Link>
+									<Link href="/product-detail">
+										<Typography className={styles.detailLink}>
+											Ben Nevis
+										</Typography>
+									</Link>
+									<Link href="/product-detail">
+										{' '}
+										<Typography className={styles.detailLink}>Tatra</Typography>
+									</Link>
 									<Typography className={styles.detailHeading}>
 										Enhance
 									</Typography>
-									<Typography className={styles.detailLink}>Crizal</Typography>
+									<Link href="/product-detail">
+										<Typography className={styles.detailLink}>
+											Hamilton
+										</Typography>
+									</Link>
 									<Typography className={styles.detailbtn}>
 										Discover all products
 									</Typography>

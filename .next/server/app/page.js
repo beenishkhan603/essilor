@@ -228,22 +228,6 @@ module.exports = require("next/dist/shared/lib/utils/warn-once");
 
 /***/ }),
 
-/***/ 71017:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("path");
-
-/***/ }),
-
-/***/ 57310:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("url");
-
-/***/ }),
-
 /***/ 20625:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -278,26 +262,14 @@ const tree = {
         '',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 89725)), "C:\\Users\\Beenish\\Desktop\\Essolir\\my-app\\app\\page.js"],
-          metadata: {
-    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 57481))).default(props))],
-    apple: [],
-    openGraph: [],
-    twitter: [],
-    manifest: undefined
-  }
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 57956)), "C:\\Users\\Beenish\\Desktop\\Essolir\\my-app\\app\\page.js"],
+          
         }]
       },
         {
           'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 95764)), "C:\\Users\\Beenish\\Desktop\\Essolir\\my-app\\app\\layout.js"],
 'not-found': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 95493, 23)), "next/dist/client/components/not-found-error"],
-          metadata: {
-    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 57481))).default(props))],
-    apple: [],
-    openGraph: [],
-    twitter: [],
-    manifest: undefined
-  }
+          
         }
       ]
       }.children;
@@ -316,7 +288,7 @@ const __next_app__ = {
 // Create and export the route module that will be consumed.
 const routeModule = new AppPageRouteModule({
     definition: {
-        kind: next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__.RouteKind.APP_PAGE,
+        kind: next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__/* .RouteKind */ .x.APP_PAGE,
         page: "/page",
         pathname: "/",
         // The following aren't used in production.
@@ -333,18 +305,165 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 80698:
+/***/ 17534:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 73380, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 31909));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 97801));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 11553));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 84858));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 44472));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 48424));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 84858));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 17421, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 73380, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 11553));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 97801));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 31909));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 57613));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 17421, 23))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 48424));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 91704))
+
+/***/ }),
+
+/***/ 10390:
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 52987, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 50831, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 56926, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 44282, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 16505, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 31232, 23))
+
+/***/ }),
+
+/***/ 91704:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ Slider)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(56786);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(18038);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var swiper_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2797);
+/* harmony import */ var swiper_modules__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(11987);
+/* harmony import */ var _global_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(65323);
+/* harmony import */ var _global_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_global_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var swiper_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(63754);
+/* harmony import */ var swiper_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(swiper_css__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var swiper_css_pagination__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(23141);
+/* harmony import */ var swiper_css_pagination__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(swiper_css_pagination__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var swiper_css_navigation__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(12119);
+/* harmony import */ var swiper_css_navigation__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(swiper_css_navigation__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _style_module_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(15613);
+/* harmony import */ var _style_module_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_style_module_css__WEBPACK_IMPORTED_MODULE_8__);
+/* __next_internal_client_entry_do_not_use__ default auto */ 
+
+
+// Import Swiper styles
+
+
+
+
+
+
+function Slider() {
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+        style: {
+            paddingBottom: "50px",
+            background: "#18b1ae"
+        },
+        children: [
+            " ",
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(swiper_react__WEBPACK_IMPORTED_MODULE_2__/* .Swiper */ .tq, {
+                navigation: true,
+                modules: [
+                    swiper_modules__WEBPACK_IMPORTED_MODULE_3__/* .Navigation */ .W_
+                ],
+                className: "mySwiper",
+                children: [
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_2__/* .SwiperSlide */ .o5, {
+                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                            style: {
+                                background: "#18b1ae",
+                                width: "100%",
+                                display: "flex"
+                            },
+                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                className: (_style_module_css__WEBPACK_IMPORTED_MODULE_8___default().HeroBannerStatic),
+                                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                    className: (_style_module_css__WEBPACK_IMPORTED_MODULE_8___default().HeroBannerStaticContent),
+                                    children: [
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                            className: (_style_module_css__WEBPACK_IMPORTED_MODULE_8___default().heading),
+                                            children: "Essilor Experts"
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                            className: (_style_module_css__WEBPACK_IMPORTED_MODULE_8___default().text),
+                                            children: `Finding the right pair of glasses isn't always easy. You need
+                  to choose a frame that you like and lenses that suit your
+                  lifestyle. Finding the right eye care professional to advise
+                  you along the way makes the process much smoother.`
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
+                                            className: (_style_module_css__WEBPACK_IMPORTED_MODULE_8___default().discoverBtn),
+                                            children: "Find an optician"
+                                        })
+                                    ]
+                                })
+                            })
+                        })
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(swiper_react__WEBPACK_IMPORTED_MODULE_2__/* .SwiperSlide */ .o5, {
+                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                            style: {
+                                paddingTop: "64px",
+                                background: "#18b1ae",
+                                width: "100%",
+                                display: "flex"
+                            },
+                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                className: (_style_module_css__WEBPACK_IMPORTED_MODULE_8___default().HeroBannerStatic2),
+                                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                    className: (_style_module_css__WEBPACK_IMPORTED_MODULE_8___default().HeroBannerStaticContent),
+                                    children: [
+                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                            children: [
+                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                    className: (_style_module_css__WEBPACK_IMPORTED_MODULE_8___default().heading),
+                                                    children: "Choosing a"
+                                                }),
+                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                    className: (_style_module_css__WEBPACK_IMPORTED_MODULE_8___default().heading),
+                                                    children: "committed brand"
+                                                })
+                                            ]
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                            className: (_style_module_css__WEBPACK_IMPORTED_MODULE_8___default().text),
+                                            children: `Making the choice to trust Essilor® solutions isn't just
+                  choosing the world leader in prescription glasses – it's
+                  choosing the lenses of a committed brand with a mission: see
+                  more to be more. With a long track record of French design and
+                  lens fabrication, dating back to 1849, our unique capacity for
+                  innovation allows us to continually develop the best vision
+                  solutions and to respond to all needs.`
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
+                                            className: (_style_module_css__WEBPACK_IMPORTED_MODULE_8___default().discoverBtn),
+                                            children: "Find an optician"
+                                        })
+                                    ]
+                                })
+                            })
+                        })
+                    })
+                ]
+            })
+        ]
+    });
+}
+
 
 /***/ }),
 
@@ -394,7 +513,23 @@ module.exports = {
 
 /***/ }),
 
-/***/ 89725:
+/***/ 15613:
+/***/ ((module) => {
+
+// Exports
+module.exports = {
+	"HeroBannerStatic": "style_HeroBannerStatic__g8vaA",
+	"HeroBannerStatic2": "style_HeroBannerStatic2__cahkQ",
+	"HeroBannerStaticContent": "style_HeroBannerStaticContent__yohah",
+	"heading": "style_heading__rgLew",
+	"text": "style_text__Y1jJg",
+	"discoverBtn": "style_discoverBtn__MuDFJ"
+};
+
+
+/***/ }),
+
+/***/ 57956:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -410,34 +545,10 @@ __webpack_require__.d(__webpack_exports__, {
 var jsx_runtime_ = __webpack_require__(56786);
 // EXTERNAL MODULE: ./node_modules/@mui/material/node/index.js
 var node = __webpack_require__(94541);
-// EXTERNAL MODULE: ./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js
-var module_proxy = __webpack_require__(61363);
-;// CONCATENATED MODULE: ./components/header/index.js
-
-const proxy = (0,module_proxy.createProxy)(String.raw`C:\Users\Beenish\Desktop\Essolir\my-app\components\header\index.js`)
-
-// Accessing the __esModule property and exporting $$typeof are required here.
-// The __esModule getter forces the proxy target to create the default export
-// and the $$typeof value is for rendering logic to determine if the module
-// is a client boundary.
-const { __esModule, $$typeof } = proxy;
-const __default__ = proxy.default;
-
-
-/* harmony default export */ const header = (__default__);
-;// CONCATENATED MODULE: ./components/footer/index.js
-
-const footer_proxy = (0,module_proxy.createProxy)(String.raw`C:\Users\Beenish\Desktop\Essolir\my-app\components\footer\index.js`)
-
-// Accessing the __esModule property and exporting $$typeof are required here.
-// The __esModule getter forces the proxy target to create the default export
-// and the $$typeof value is for rendering logic to determine if the module
-// is a client boundary.
-const { __esModule: footer_esModule, $$typeof: footer_$$typeof } = footer_proxy;
-const footer_default_ = footer_proxy.default;
-
-
-/* harmony default export */ const footer = (footer_default_);
+// EXTERNAL MODULE: ./components/header/index.js
+var header = __webpack_require__(55748);
+// EXTERNAL MODULE: ./components/footer/index.js
+var footer = __webpack_require__(78143);
 // EXTERNAL MODULE: ./node_modules/next/dist/compiled/react/react.shared-subset.js
 var react_shared_subset = __webpack_require__(62947);
 // EXTERNAL MODULE: ./node_modules/next/image.js
@@ -478,23 +589,25 @@ const Lens = ()=>{
 };
 /* harmony default export */ const lens = (Lens);
 
+// EXTERNAL MODULE: ./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js
+var module_proxy = __webpack_require__(61363);
 ;// CONCATENATED MODULE: ./components/dicoverOurBrand/carousel.js
 
-const carousel_proxy = (0,module_proxy.createProxy)(String.raw`C:\Users\Beenish\Desktop\Essolir\my-app\components\dicoverOurBrand\carousel.js`)
+const proxy = (0,module_proxy.createProxy)(String.raw`C:\Users\Beenish\Desktop\Essolir\my-app\components\dicoverOurBrand\carousel.js`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
 // and the $$typeof value is for rendering logic to determine if the module
 // is a client boundary.
-const { __esModule: carousel_esModule, $$typeof: carousel_$$typeof } = carousel_proxy;
-const carousel_default_ = carousel_proxy.default;
+const { __esModule, $$typeof } = proxy;
+const __default__ = proxy.default;
 
 
-/* harmony default export */ const carousel = (carousel_default_);
+/* harmony default export */ const carousel = (__default__);
 ;// CONCATENATED MODULE: ./components/assets/discover.jpg
 /* harmony default export */ const discover = ({"src":"/_next/static/media/discover.4193b7f2.jpg","height":183,"width":275,"blurDataURL":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAAUACAMBIgACEQEDEQH/xAAnAAEBAAAAAAAAAAAAAAAAAAAABQEBAAAAAAAAAAAAAAAAAAAAA//aAAwDAQACEAMQAAAArh2//8QAGhABAAIDAQAAAAAAAAAAAAAAAgEDAAQRIv/aAAgBAQABPwAaYqFhTVgiJRK55z//xAAYEQACAwAAAAAAAAAAAAAAAAACIQABQf/aAAgBAgEBPwCyJPJ//8QAGREAAQUAAAAAAAAAAAAAAAAAAgADESFB/9oACAEDAQE/ABbCSrV//9k=","blurWidth":8,"blurHeight":5});
-;// CONCATENATED MODULE: ./components/assets/eyexen.webp
-/* harmony default export */ const eyexen = ({"src":"/_next/static/media/eyexen.0fe0c89a.webp","height":96,"width":238,"blurDataURL":"data:image/webp;base64,UklGRlgAAABXRUJQVlA4WAoAAAAQAAAABwAAAgAAQUxQSBkAAAAAIgAAAAAAAABaMlZYc3NsOCU3JjI7NyMnAFZQOCAYAAAAMAEAnQEqCAADAAJAOCWkAANwAP77DQAA","blurWidth":8,"blurHeight":3});
+// EXTERNAL MODULE: ./components/assets/eyexen.webp
+var eyexen = __webpack_require__(46123);
 // EXTERNAL MODULE: ./components/dicoverOurBrand/style.module.css
 var dicoverOurBrand_style_module = __webpack_require__(19079);
 var dicoverOurBrand_style_module_default = /*#__PURE__*/__webpack_require__.n(dicoverOurBrand_style_module);
@@ -518,7 +631,7 @@ const items = [
             }),
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 alt: "logo",
-                src: eyexen,
+                src: eyexen/* default */.Z,
                 className: (dicoverOurBrand_style_module_default()).brandLogo
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -541,7 +654,7 @@ const items = [
             }),
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 alt: "logo",
-                src: eyexen,
+                src: eyexen/* default */.Z,
                 className: (dicoverOurBrand_style_module_default()).brandLogo
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -564,7 +677,7 @@ const items = [
             }),
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 alt: "logo",
-                src: eyexen,
+                src: eyexen/* default */.Z,
                 className: (dicoverOurBrand_style_module_default()).brandLogo
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -587,7 +700,7 @@ const items = [
             }),
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 alt: "logo",
-                src: eyexen,
+                src: eyexen/* default */.Z,
                 className: (dicoverOurBrand_style_module_default()).brandLogo
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -610,7 +723,7 @@ const items = [
             }),
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 alt: "logo",
-                src: eyexen,
+                src: eyexen/* default */.Z,
                 className: (dicoverOurBrand_style_module_default()).brandLogo
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -633,7 +746,7 @@ const items = [
             }),
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 alt: "logo",
-                src: eyexen,
+                src: eyexen/* default */.Z,
                 className: (dicoverOurBrand_style_module_default()).brandLogo
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -687,7 +800,7 @@ const discoverOurProduct_items = [
             }),
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 alt: "logo",
-                src: eyexen,
+                src: eyexen/* default */.Z,
                 className: (dicoverOurBrand_style_module_default()).brandLogo
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -710,7 +823,7 @@ const discoverOurProduct_items = [
             }),
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 alt: "logo",
-                src: eyexen,
+                src: eyexen/* default */.Z,
                 className: (dicoverOurBrand_style_module_default()).brandLogo
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -733,7 +846,7 @@ const discoverOurProduct_items = [
             }),
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 alt: "logo",
-                src: eyexen,
+                src: eyexen/* default */.Z,
                 className: (dicoverOurBrand_style_module_default()).brandLogo
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -756,7 +869,7 @@ const discoverOurProduct_items = [
             }),
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 alt: "logo",
-                src: eyexen,
+                src: eyexen/* default */.Z,
                 className: (dicoverOurBrand_style_module_default()).brandLogo
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -779,7 +892,7 @@ const discoverOurProduct_items = [
             }),
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 alt: "logo",
-                src: eyexen,
+                src: eyexen/* default */.Z,
                 className: (dicoverOurBrand_style_module_default()).brandLogo
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -801,7 +914,7 @@ const discoverOurProduct_items = [
             }),
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 alt: "logo",
-                src: eyexen,
+                src: eyexen/* default */.Z,
                 className: (dicoverOurBrand_style_module_default()).brandLogo
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -824,7 +937,7 @@ const discoverOurProduct_items = [
             }),
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 alt: "logo",
-                src: eyexen,
+                src: eyexen/* default */.Z,
                 className: (dicoverOurBrand_style_module_default()).brandLogo
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("p", {
@@ -854,19 +967,21 @@ const DiscoverProduct = ()=>{
 };
 /* harmony default export */ const discoverOurProduct = (DiscoverProduct);
 
-;// CONCATENATED MODULE: ./components/newsLetter/index.js
+// EXTERNAL MODULE: ./components/newsLetter/index.js
+var newsLetter = __webpack_require__(52832);
+;// CONCATENATED MODULE: ./components/slider/index.js
 
-const newsLetter_proxy = (0,module_proxy.createProxy)(String.raw`C:\Users\Beenish\Desktop\Essolir\my-app\components\newsLetter\index.js`)
+const slider_proxy = (0,module_proxy.createProxy)(String.raw`C:\Users\Beenish\Desktop\Essolir\my-app\components\slider\index.js`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
 // and the $$typeof value is for rendering logic to determine if the module
 // is a client boundary.
-const { __esModule: newsLetter_esModule, $$typeof: newsLetter_$$typeof } = newsLetter_proxy;
-const newsLetter_default_ = newsLetter_proxy.default;
+const { __esModule: slider_esModule, $$typeof: slider_$$typeof } = slider_proxy;
+const slider_default_ = slider_proxy.default;
 
 
-/* harmony default export */ const newsLetter = (newsLetter_default_);
+/* harmony default export */ const slider = (slider_default_);
 // EXTERNAL MODULE: ./components/global.css
 var global = __webpack_require__(16863);
 // EXTERNAL MODULE: ./components/pages/home/style.module.css
@@ -883,23 +998,37 @@ var home_style_module_default = /*#__PURE__*/__webpack_require__.n(home_style_mo
 
 
 
+
 function Home() {
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
         children: [
-            /*#__PURE__*/ jsx_runtime_.jsx(header, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx(node.Box, {
+            /*#__PURE__*/ jsx_runtime_.jsx(header/* default */.ZP, {}),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)(node.Box, {
                 className: `primaryBg m64`,
-                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)(node.Container, {
-                    maxWidth: "lg",
-                    children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx(lens, {}),
-                        /*#__PURE__*/ jsx_runtime_.jsx(dicoverOurBrand, {})
-                    ]
-                })
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx(node.Grid, {
+                        direction: "row",
+                        justifyContent: "center",
+                        children: /*#__PURE__*/ jsx_runtime_.jsx(node.Grid, {
+                            md: 10,
+                            lg: 10,
+                            sm: 12,
+                            xs: 12,
+                            children: /*#__PURE__*/ jsx_runtime_.jsx(slider, {})
+                        })
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)(node.Container, {
+                        maxWidth: "lg",
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx(lens, {}),
+                            /*#__PURE__*/ jsx_runtime_.jsx(dicoverOurBrand, {})
+                        ]
+                    })
+                ]
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)(node.Box, {
                 children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx(newsLetter, {}),
+                    /*#__PURE__*/ jsx_runtime_.jsx(newsLetter/* default */.ZP, {}),
                     /*#__PURE__*/ jsx_runtime_.jsx(node.Box, {
                         className: (home_style_module_default()).discoverProductContainer,
                         children: /*#__PURE__*/ jsx_runtime_.jsx(node.Container, {
@@ -909,7 +1038,7 @@ function Home() {
                     })
                 ]
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx(footer, {})
+            /*#__PURE__*/ jsx_runtime_.jsx(footer/* default */.ZP, {})
         ]
     });
 }
@@ -935,18 +1064,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/discover.4193b7f2.jpg","height":183,"width":275,"blurDataURL":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAAUACAMBIgACEQEDEQH/xAAnAAEBAAAAAAAAAAAAAAAAAAAABQEBAAAAAAAAAAAAAAAAAAAAA//aAAwDAQACEAMQAAAArh2//8QAGhABAAIDAQAAAAAAAAAAAAAAAgEDAAQRIv/aAAgBAQABPwAaYqFhTVgiJRK55z//xAAYEQACAwAAAAAAAAAAAAAAAAACIQABQf/aAAgBAgEBPwCyJPJ//8QAGREAAQUAAAAAAAAAAAAAAAAAAgADESFB/9oACAEDAQE/ABbCSrV//9k=","blurWidth":8,"blurHeight":5});
-
-/***/ }),
-
-/***/ 11553:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/eyexen.0fe0c89a.webp","height":96,"width":238,"blurDataURL":"data:image/webp;base64,UklGRlgAAABXRUJQVlA4WAoAAAAQAAAABwAAAgAAQUxQSBkAAAAAIgAAAAAAAABaMlZYc3NsOCU3JjI7NyMnAFZQOCAYAAAAMAEAnQEqCAADAAJAOCWkAANwAP77DQAA","blurWidth":8,"blurHeight":3});
 
 /***/ }),
 
@@ -976,7 +1093,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,139,750,380,854,691,685], () => (__webpack_exec__(20625)));
+var __webpack_exports__ = __webpack_require__.X(0, [162,380,155,854,857,613,278,909], () => (__webpack_exec__(20625)));
 module.exports = __webpack_exports__;
 
 })();

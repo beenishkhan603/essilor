@@ -6,6 +6,7 @@ import Lens from '@/components/lens';
 import DiscoverBrand from '@/components/dicoverOurBrand';
 import DiscoverProduct from '@/components/dicoverOurBrand/discoverOurProduct';
 import NewLetter from '@/components/newsLetter';
+import Slider from '@/components/slider';
 
 import '../../global.css';
 import styles from './style.module.css';
@@ -15,6 +16,11 @@ export default function Home() {
 		<>
 			<Header />
 			<Box className={`primaryBg m64`}>
+				<Grid direction={'row'} justifyContent={'center'}>
+					<Grid md={10} lg={10} sm={12} xs={12}>
+						<Slider />
+					</Grid>
+				</Grid>
 				<Container maxWidth="lg">
 					<Lens />
 					<DiscoverBrand />

@@ -228,22 +228,6 @@ module.exports = require("next/dist/shared/lib/utils/warn-once");
 
 /***/ }),
 
-/***/ 71017:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("path");
-
-/***/ }),
-
-/***/ 57310:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("url");
-
-/***/ }),
-
 /***/ 56224:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -287,26 +271,14 @@ const tree = {
       },
         {
           
-          metadata: {
-    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 57481))).default(props))],
-    apple: [],
-    openGraph: [],
-    twitter: [],
-    manifest: undefined
-  }
+          
         }
       ]
       },
         {
           'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 95764)), "C:\\Users\\Beenish\\Desktop\\Essolir\\my-app\\app\\layout.js"],
 'not-found': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 95493, 23)), "next/dist/client/components/not-found-error"],
-          metadata: {
-    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 57481))).default(props))],
-    apple: [],
-    openGraph: [],
-    twitter: [],
-    manifest: undefined
-  }
+          
         }
       ]
       }.children;
@@ -325,7 +297,7 @@ const __next_app__ = {
 // Create and export the route module that will be consumed.
 const routeModule = new AppPageRouteModule({
     definition: {
-        kind: next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__.RouteKind.APP_PAGE,
+        kind: next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__/* .RouteKind */ .x.APP_PAGE,
         page: "/products/page",
         pathname: "/products",
         // The following aren't used in production.
@@ -346,6 +318,18 @@ const routeModule = new AppPageRouteModule({
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 55966))
+
+/***/ }),
+
+/***/ 51154:
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 31232, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 52987, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 50831, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 56926, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 44282, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 16505, 23))
 
 /***/ }),
 
@@ -1146,7 +1130,7 @@ function ProductsPage() {
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,139,380,451,691], () => (__webpack_exec__(56224)));
+var __webpack_exports__ = __webpack_require__.X(0, [162,380,451,857], () => (__webpack_exec__(56224)));
 module.exports = __webpack_exports__;
 
 })();

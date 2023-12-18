@@ -115,6 +115,7 @@
 	margin-bottom: 10px !important;
 	font-weight: 400 !important;
 	font-family: Noto Sans, sans-serif;
+	cursor: pointer;
 }
 
 .detailbtn {

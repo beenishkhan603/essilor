@@ -6,6 +6,7 @@ import Header from '../../header';
 import Footer from '../../footer';
 import NewsLetter from '../../newsLetter';
 import Carousel from '@/components/dicoverOurBrand/carousel';
+import AboutEssilor from '@/components/aboutAccordion';
 
 import styles from './style.module.css';
 
@@ -41,25 +42,37 @@ const AboutPage = () => {
 			<p className={styles.statsText}>years of research on eye health</p>
 		</div>,
 	];
+	const getContent = () => {
+		return (
+			<div className={styles.essilorContainer}>
+				<Grid direction="row" container>
+					<Grid item md={6} lg={6} sm={12} xs={12}>
+						<p className={styles.heading}>
+							Selecting Essilor means choosing a dedicated brand.
+						</p>
+						<p className={styles.decriptionContent}>
+							Opting for Essilor® solutions is more than just choosing the
+							global leader in prescription glasses – it's selecting lenses from
+							a committed brand with a mission: see more to be more. With a rich
+							history of French design and lens fabrication dating back to 1849,
+							our distinctive innovation capacity enables us to consistently
+							evolve and offer the best vision solutions to meet diverse needs.
+						</p>
+					</Grid>
+				</Grid>
+			</div>
+		);
+	};
 	return (
 		<>
 			<Header />
 
 			<Grid className={styles.aboutContainer}>
-				<Container maxWidth="lg">
-					<div className={styles.essilorContainer}>
-						<p>Choosing Essilor is choosing a committed brand</p>
-						<p>
-							Making the choice to trust Essilor® solutions isn’t just choosing
-							the world leader in prescription glasses – it’s choosing the
-							lenses of a committed brand with a mission: see more to be more.
-							With a long track record of French design and lens fabrication,
-							dating back to 1849, our unique capacity for innovation allows us
-							to continually develop the best vision solutions and to respond to
-							all needs.
-						</p>
-					</div>
-				</Container>
+				{isMobile ? (
+					getContent()
+				) : (
+					<Container maxWidth="xl">{getContent()}</Container>
+				)}
 			</Grid>
 			<Container maxWidth="lg">
 				<Grid
@@ -128,13 +141,17 @@ const AboutPage = () => {
 						</Grid>
 					</Grid>
 				</Grid>
-				<Grid direction="row" container>
-					<Grid item md={6} lg={6} sm={6} xs={6}>
-						<p>About Essilor</p>
-					</Grid>
-					<Grid item md={6} lg={6} sm={6} xs={6}></Grid>
-				</Grid>
 			</Container>
+			<Grid
+				direction="row"
+				container
+				justifyContent={'center'}
+				className={styles.aboutEContainer}
+			>
+				<Grid item md={9} lg={9} sm={12} xs={12}>
+					<AboutEssilor />
+				</Grid>
+			</Grid>
 			<NewsLetter />
 			<Footer />
 		</>

@@ -1,0 +1,33 @@
+.Main-lenz-Difference {
+    height: 1000px;
+    width: 100%;
+    background-image: url(../assets/ss.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #001a72; */
+    margin: 0 auto;
+    /* position: absolute; */ /* Check if you need this */
+ }
+.uppercontent {
+    /* position: relative; */
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: white;
+}
+.uppercontent .heading {
+    font-size: 48px;
+    line-height: 68px;
+    letter-spacing: 0;
+    font-weight: 700;
+    color: white;
+}
+.uppercontent .description {
+    font-size: 18px;
+    line-height: 8px;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: white;
+}

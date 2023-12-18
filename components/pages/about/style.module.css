@@ -1,7 +1,6 @@
 .aboutContainer {
 	background-color: #18b1ae;
 	margin-top: 64px;
-	padding: 15% 10% 15% 10%;
 }
 .whyChooseContainer {
 	padding: 10% 0;
@@ -46,7 +45,34 @@
 	margin: 0;
 }
 .essilorContainer {
-	background-image: url('/img/about.png');
+	background-image: url('/img/about.jpg');
+	padding: 15% 10% 15% 10%;
+	background-position: center;
+	box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 50%);
+}
+.decriptionContent {
+	color: #fff;
+	font-size: 16px;
+}
+.heading {
+	font-size: 48px;
+	line-height: 68px;
+	letter-spacing: 0;
+	font-weight: 700;
+	color: #fff;
+}
+.knowMore {
+	background-color: #fff;
+	color: #18b1ae;
+	padding: 2% 3%;
+	border-radius: 12px;
+	border: 1px solid #fff;
+}
+.knowMore:hover {
+	color: #18b1ae50;
+}
+.aboutEContainer {
+	margin-bottom: 5%;
 }
 @media screen and (max-width: 480px) {
 	.whyChoose {
@@ -70,5 +96,10 @@
 		font-weight: 700;
 		color: #000;
 		text-align: center;
+	}
+	.heading {
+		font-size: 32px;
+		line-height: 42px;
+		letter-spacing: 0;
 	}
 }
