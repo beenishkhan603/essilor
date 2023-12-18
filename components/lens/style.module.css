@@ -1,0 +1,32 @@
+.lensContainer {
+	padding: 5% 0 0 0;
+}
+.subHeading {
+	font-size: 10px;
+	line-height: 16px;
+	letter-spacing: 4%;
+	font-weight: 700;
+	text-align: center;
+	color: #fff;
+}
+.heading {
+	font-size: 48px;
+	line-height: 68px;
+	letter-spacing: 0;
+	font-weight: 700;
+	margin-bottom: 48px;
+	text-align: center;
+	color: #fff;
+}
+.about {
+	width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width: 480px) {
+	.heading {
+		font-size: 32px;
+		line-height: 42px;
+		letter-spacing: 0;
+	}
+}

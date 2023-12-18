@@ -1,0 +1,72 @@
+.aboutContainer {
+	background-color: #18b1ae;
+	margin-top: 64px;
+	padding: 15% 10% 15% 10%;
+}
+.whyChooseContainer {
+	padding: 10% 0;
+}
+.description {
+	color: #000;
+	font-size: 16px;
+	text-align: center;
+}
+.decriptionContainer {
+	margin-top: 5%;
+}
+.whyChoose {
+	font-size: 48px;
+	line-height: 68px;
+	letter-spacing: 0;
+	font-weight: 700;
+	color: #000;
+	text-align: center;
+}
+.stats {
+	color: #18b1ae;
+	font-size: 160px;
+	line-height: 218px;
+	text-align: center;
+}
+.statsText {
+	font-size: 21px;
+	font-weight: 700;
+	color: #000;
+	text-align: center;
+}
+.learneContainer {
+	padding-bottom: 10%;
+}
+.learnProcess {
+	font-size: 60px;
+	line-height: 60px;
+	letter-spacing: 0;
+	color: #18b1ae;
+	text-align: center;
+	margin: 0;
+}
+
+@media screen and (max-width: 480px) {
+	.whyChoose {
+		font-size: 32px;
+		line-height: 42px;
+		letter-spacing: 0;
+	}
+	.learnProcess {
+		font-size: 48px;
+		line-height: 68px;
+		letter-spacing: 0;
+	}
+	.stats {
+		color: #18b1ae;
+		font-size: 60px;
+		line-height: 90px;
+		text-align: center;
+	}
+	.statsText {
+		font-size: 16px;
+		font-weight: 700;
+		color: #000;
+		text-align: center;
+	}
+}

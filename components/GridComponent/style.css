@@ -1,0 +1,30 @@
+.background-image {
+  background-image: url(../assets/background_image.avif);
+}
+
+.find-button {
+  text-align: center;
+  min-height: 48px;
+  text-transform: capitalize;
+  color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 28px;
+  font-size: 16px;
+  line-height: 26px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  border: none;
+  font-weight: 700;
+  transition: 0.25s ease;
+  position: relative;
+  overflow: hidden;
+  border-radius: 30px;
+}

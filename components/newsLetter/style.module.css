@@ -1,0 +1,64 @@
+.newsletterContainer {
+	padding: 15% 3%;
+	background-image: url('/img/optician.jpg');
+	background-position: center;
+	box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 50%);
+}
+.subHeading {
+	font-size: 10px;
+	line-height: 16px;
+	letter-spacing: 4%;
+	font-weight: 700;
+	color: #fff;
+}
+.heading {
+	font-size: 30px;
+	line-height: 40px;
+	letter-spacing: 0;
+	font-weight: 700;
+	margin-bottom: 48px;
+	color: #fff;
+}
+.textField > div > fieldset {
+	border: 1px solid #fff;
+	border-radius: 12px;
+}
+.textField > div {
+	border: none;
+}
+.newsLetterBtn {
+	margin-top: 2%;
+	background-color: #18b1ae;
+	color: #fff;
+	border: 1px solid #18b1ae;
+	padding: 4% 4%;
+	width: 40%;
+	font-size: 14px;
+	border-radius: 50px;
+	cursor: pointer;
+	font-weight: 600;
+}
+.newsLetterBtn:hover {
+	background-color: #fff;
+	color: #18b1ae;
+	border: 1px solid #18b1ae;
+}
+
+@media screen and (max-width: 480px) {
+	.heading {
+		font-size: 32px;
+		line-height: 42px;
+		letter-spacing: 0;
+	}
+	.newsLetterBtn {
+		background-color: #18b1ae;
+		color: #fff;
+		border: 1px solid #18b1ae;
+		padding: 4% 4%;
+		width: 40%;
+		font-size: 14px;
+		border-radius: 50px;
+		cursor: pointer;
+		font-weight: 600;
+	}
+}

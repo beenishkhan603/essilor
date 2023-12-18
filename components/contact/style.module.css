@@ -1,0 +1,43 @@
+.submitBtn {
+	background-color: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+	padding: 3% 6%;
+	border-radius: 8px;
+	font-weight: 600;
+	cursor: pointer;
+}
+.contactForm > div {
+	margin: 12px auto;
+}
+.textFields > div > fieldset {
+	padding: 10px;
+	border-color: #fff;
+	border-radius: 12px;
+	margin-top: 1%;
+}
+.description {
+	margin-top: 1%;
+	width: 100%;
+	border: 1px solid #fff;
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 1.4375em;
+	letter-spacing: 0.00938em;
+	color: #000;
+	box-sizing: border-box;
+	padding: 16.5px 14px;
+	font-family: inherit;
+	border-radius: 4px;
+	background-color: transparent;
+	border-radius: 12px;
+}
+.description:hover {
+	border: 1px solid #000;
+}
+.description:focus-visible,
+.description:focus,
+.description:active {
+	border: 2px solid #1976d2 !important;
+	outline: #1976d2;
+}
