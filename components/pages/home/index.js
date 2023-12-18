@@ -7,6 +7,7 @@ import DiscoverBrand from '@/components/dicoverOurBrand';
 import DiscoverProduct from '@/components/dicoverOurBrand/discoverOurProduct';
 import NewLetter from '@/components/newsLetter';
 import Slider from '@/components/slider';
+import JourneySection from '@/components/JourneySection';
 
 import '../../global.css';
 import styles from './style.module.css';
@@ -27,6 +28,7 @@ export default function Home() {
 				</Container>
 			</Box>
 			<Box>
+				<JourneySection />
 				<NewLetter />
 				<Box className={styles.discoverProductContainer}>
 					<Container maxWidth="lg">

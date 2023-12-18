@@ -1,0 +1,59 @@
+.jSection {
+	padding: 5% 0;
+}
+.jSection > h1 {
+	font-size: 48px;
+	line-height: 68px;
+	letter-spacing: 0;
+	font-weight: 700;
+	text-align: center;
+	padding-bottom: 2%;
+}
+.journey1 {
+	background-color: #eff0f1;
+	padding: 4%;
+	border-radius: 12px;
+	margin-right: 1%;
+	text-align: center;
+}
+.journey2 {
+	background-color: #dee0e3;
+	padding: 4%;
+	border-radius: 12px;
+	margin-right: 1%;
+	text-align: center;
+}
+.subHeading {
+	margin-bottom: 8px;
+	font-size: 12px;
+	color: #18b1ae;
+}
+.heading {
+	font-size: 32px;
+	line-height: 45px;
+	letter-spacing: 0;
+	font-weight: 700;
+	margin-bottom: 4%;
+}
+.blueBtn {
+	background-color: #18b1ae;
+	border: 1px solid #18b1ae;
+	padding: 3% 7%;
+	font-size: 16px;
+	margin-bottom: 5%;
+	border-radius: 25px;
+	cursor: pointer;
+	color: #fff;
+}
+.blueBtn:hover {
+	color: #18b1ae;
+	background-color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+	.jSection > h1 {
+		font-size: 32px;
+		line-height: 42px;
+		letter-spacing: 0;
+	}
+}

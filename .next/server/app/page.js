@@ -262,7 +262,7 @@ const tree = {
         '',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 57956)), "C:\\Users\\Beenish\\Desktop\\Essolir\\my-app\\app\\page.js"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 86317)), "C:\\Users\\Beenish\\Desktop\\Essolir\\my-app\\app\\page.js"],
           
         }]
       },
@@ -305,31 +305,20 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 12981:
+/***/ 70237:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 44472));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 57613));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 84858));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 17421, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 73380, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 11553));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 97801));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 31909));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 57613));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 97801));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 48424));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 91704))
-
-/***/ }),
-
-/***/ 10390:
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
-
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 52987, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 50831, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 56926, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 44282, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 16505, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 31232, 23))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 91704));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 60539))
 
 /***/ }),
 
@@ -467,6 +456,22 @@ function Slider() {
 
 /***/ }),
 
+/***/ 60659:
+/***/ ((module) => {
+
+// Exports
+module.exports = {
+	"jSection": "style_jSection__alHu8",
+	"journey1": "style_journey1__ULVK2",
+	"journey2": "style_journey2__SG6RC",
+	"subHeading": "style_subHeading__tjODW",
+	"heading": "style_heading__JwY2I",
+	"blueBtn": "style_blueBtn__dzn2I"
+};
+
+
+/***/ }),
+
 /***/ 19079:
 /***/ ((module) => {
 
@@ -529,7 +534,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 57956:
+/***/ 86317:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -982,12 +987,100 @@ const slider_default_ = slider_proxy.default;
 
 
 /* harmony default export */ const slider = (slider_default_);
+;// CONCATENATED MODULE: ./components/assets/about.jpg
+/* harmony default export */ const about = ({"src":"/_next/static/media/about.3ab7087d.jpg","height":683,"width":1024,"blurDataURL":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAAUACAMBIgACEQEDEQH/xAAoAAEBAAAAAAAAAAAAAAAAAAAAAwEBAQAAAAAAAAAAAAAAAAAAAAL/2gAMAwEAAhADEAAAALCX/8QAGxAAAQQDAAAAAAAAAAAAAAAAAgEDBBEAIlL/2gAIAQEAAT8AjRGThI4ops2Z1XOf/8QAGREBAAIDAAAAAAAAAAAAAAAAAQIDABFC/9oACAECAQE/ALJLZPb05//EABkRAAIDAQAAAAAAAAAAAAAAAAECAAMRQv/aAAgBAwEBPwBFArTBzP/Z","blurWidth":8,"blurHeight":5});
+// EXTERNAL MODULE: ./components/JourneySection/style.module.css
+var JourneySection_style_module = __webpack_require__(60659);
+var JourneySection_style_module_default = /*#__PURE__*/__webpack_require__.n(JourneySection_style_module);
+;// CONCATENATED MODULE: ./components/JourneySection/index.js
+
+
+
+
+
+
+const JourneySection = ()=>{
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+        className: (JourneySection_style_module_default()).jSection,
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                children: "Your journey starts here"
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)(node.Grid, {
+                direction: "row",
+                justifyContent: "center",
+                container: true,
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)(node.Grid, {
+                        className: (JourneySection_style_module_default()).journey1,
+                        item: true,
+                        md: 3,
+                        lg: 3,
+                        sm: 12,
+                        xs: 12,
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                className: (JourneySection_style_module_default()).subHeading,
+                                children: "HELP ME CHOOSE"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                className: (JourneySection_style_module_default()).heading,
+                                children: "Build your lenses"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                className: (JourneySection_style_module_default()).blueBtn,
+                                children: "Start"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                src: about,
+                                alt: "lenses",
+                                width: 300,
+                                height: 300
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)(node.Grid, {
+                        className: (JourneySection_style_module_default()).journey2,
+                        item: true,
+                        md: 3,
+                        lg: 3,
+                        sm: 12,
+                        xs: 12,
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                className: (JourneySection_style_module_default()).subHeading,
+                                children: "GET LENSES"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                className: (JourneySection_style_module_default()).heading,
+                                children: "Book an eye test"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                className: (JourneySection_style_module_default()).blueBtn,
+                                children: "Book now"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                src: about,
+                                alt: "lenses",
+                                width: 300,
+                                height: 300
+                            })
+                        ]
+                    })
+                ]
+            })
+        ]
+    });
+};
+/* harmony default export */ const components_JourneySection = (JourneySection);
+
 // EXTERNAL MODULE: ./components/global.css
 var global = __webpack_require__(16863);
 // EXTERNAL MODULE: ./components/pages/home/style.module.css
 var home_style_module = __webpack_require__(16289);
 var home_style_module_default = /*#__PURE__*/__webpack_require__.n(home_style_module);
 ;// CONCATENATED MODULE: ./components/pages/home/index.js
+
 
 
 
@@ -1028,6 +1121,7 @@ function Home() {
             }),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)(node.Box, {
                 children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx(components_JourneySection, {}),
                     /*#__PURE__*/ jsx_runtime_.jsx(newsLetter/* default */.ZP, {}),
                     /*#__PURE__*/ jsx_runtime_.jsx(node.Box, {
                         className: (home_style_module_default()).discoverProductContainer,
@@ -1052,6 +1146,18 @@ function page_Home() {
     });
 }
 
+
+/***/ }),
+
+/***/ 60539:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/about.3ab7087d.jpg","height":683,"width":1024,"blurDataURL":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAAUACAMBIgACEQEDEQH/xAAoAAEBAAAAAAAAAAAAAAAAAAAAAwEBAQAAAAAAAAAAAAAAAAAAAAL/2gAMAwEAAhADEAAAALCX/8QAGxAAAQQDAAAAAAAAAAAAAAAAAgEDBBEAIlL/2gAIAQEAAT8AjRGThI4ops2Z1XOf/8QAGREBAAIDAAAAAAAAAAAAAAAAAQIDABFC/9oACAECAQE/ALJLZPb05//EABkRAAIDAQAAAAAAAAAAAAAAAAECAAMRQv/aAAgBAwEBPwBFArTBzP/Z","blurWidth":8,"blurHeight":5});
 
 /***/ }),
 
@@ -1093,7 +1199,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [162,380,155,854,857,613,278,909], () => (__webpack_exec__(20625)));
+var __webpack_exports__ = __webpack_require__.X(0, [162,380,155,854,229,613,278,909], () => (__webpack_exec__(20625)));
 module.exports = __webpack_exports__;
 
 })();
