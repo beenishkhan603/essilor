@@ -45,7 +45,9 @@
 	text-align: center;
 	margin: 0;
 }
-
+.essilorContainer {
+	background-image: url('/img/about.png');
+}
 @media screen and (max-width: 480px) {
 	.whyChoose {
 		font-size: 32px;

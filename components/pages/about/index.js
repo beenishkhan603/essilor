@@ -47,15 +47,18 @@ const AboutPage = () => {
 
 			<Grid className={styles.aboutContainer}>
 				<Container maxWidth="lg">
-					<p>Choosing Essilor is choosing a committed brand</p>
-					<p>
-						Making the choice to trust Essilor® solutions isn’t just choosing
-						the world leader in prescription glasses – it’s choosing the lenses
-						of a committed brand with a mission: see more to be more. With a
-						long track record of French design and lens fabrication, dating back
-						to 1849, our unique capacity for innovation allows us to continually
-						develop the best vision solutions and to respond to all needs.
-					</p>
+					<div className={styles.essilorContainer}>
+						<p>Choosing Essilor is choosing a committed brand</p>
+						<p>
+							Making the choice to trust Essilor® solutions isn’t just choosing
+							the world leader in prescription glasses – it’s choosing the
+							lenses of a committed brand with a mission: see more to be more.
+							With a long track record of French design and lens fabrication,
+							dating back to 1849, our unique capacity for innovation allows us
+							to continually develop the best vision solutions and to respond to
+							all needs.
+						</p>
+					</div>
 				</Container>
 			</Grid>
 			<Container maxWidth="lg">
