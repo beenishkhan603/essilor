@@ -26,7 +26,7 @@ export default function Accord() {
 						xs={12}
 						lg={6}
 						//height={{ xs: '50%', sm: '50%', md: '100%', lg: '100%' }}
-						padding={{ xs: '10px', sm: '10px', md: '100px', lg: '100px' }}
+						padding={{ xs: '20px', sm: '20px', md: '100px', lg: '100px' }}
 					>
 						<p className={styles.heading}>About Essilor</p>
 						<Accordion

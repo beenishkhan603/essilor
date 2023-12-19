@@ -7,7 +7,6 @@
 .mainSub {
 	background-color: #eff0f1;
 	width: 100%;
-
 	height: 85vh;
 	border-radius: 10px;
 }
@@ -65,4 +64,19 @@
 
 .text2 {
 	color: #18b1ae;
+}
+@media screen and (max-width: 480px) {
+	.heading {
+		font-size: 20px;
+		line-height: 30px;
+		letter-spacing: 0;
+		margin-bottom: 20px;
+	}
+	.drawerLink {
+		font-size: 16px;
+	}
+	.accordionSummary {
+		gap: 16px;
+		padding-bottom: 16px !important;
+	}
 }
