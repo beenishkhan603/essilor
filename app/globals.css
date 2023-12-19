@@ -127,21 +127,3 @@ a {
 		color-scheme: dark;
 	}
 }
-@media screen and (max-width: 480px) {
-	.swiper-slide {
-		width: 80%;
-	}
-
-	.swiper-slide:nth-child(n) {
-		width: 60% !important;
-	}
-	.swiper-slide:nth-child(2n) {
-		width: 60% !important;
-	}
-	.swiper-slide:nth-child(3n) {
-		width: 60% !important;
-	}
-	.swiper-slide:nth-child(4n) {
-		width: 60% !important;
-	}
-}

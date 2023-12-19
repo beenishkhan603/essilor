@@ -13,9 +13,17 @@ import style from './style.module.css';
 
 export default function Slider() {
 	return (
-		<div style={{ paddingBottom: '50px', background: '#18b1ae' }}>
+		<div
+			style={{ paddingBottom: '50px', background: '#18b1ae' }}
+			className="homepageSlider"
+		>
 			{' '}
-			<Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+			<Swiper
+				navigation={true}
+				modules={[Navigation]}
+				className="mySwiper"
+				slidesPerView={1}
+			>
 				<SwiperSlide>
 					<div
 						style={{
@@ -42,8 +50,6 @@ export default function Slider() {
 				<SwiperSlide>
 					<div
 						style={{
-							paddingTop: '64px',
-							background: '#18b1ae',
 							width: '100%',
 							display: 'flex',
 						}}

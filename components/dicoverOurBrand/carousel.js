@@ -33,12 +33,17 @@ export default function App(props) {
 			};
 		}
 	}, []);
+
 	return (
 		<>
 			<Swiper
 				slidesPerView={isMobile ? 'auto' : 4}
 				centeredSlides={isMobile ? true : false}
 				spaceBetween={30}
+				style={{
+					'--swiper-pagination-color': '#fff',
+					'--swiper-navigation-size': '30px',
+				}}
 				pagination={{
 					clickable: true,
 				}}

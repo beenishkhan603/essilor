@@ -28,7 +28,6 @@ export default function Home() {
 				</Container>
 			</Box>
 			<Box>
-				<JourneySection />
 				<NewLetter />
 				<Box className={styles.discoverProductContainer}>
 					<Container maxWidth="lg">

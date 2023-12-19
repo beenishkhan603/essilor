@@ -24,8 +24,9 @@ const NewLetter = () => {
 			};
 		}
 	}, []);
-	const getContent = () => {
-		return (
+
+	return (
+		<>
 			<div className={styles.newsletterContainer}>
 				<Grid direction="row" container>
 					<Grid item md={5} lg={5} sm={12} xs={12}>
@@ -33,20 +34,16 @@ const NewLetter = () => {
 						<p className={styles.heading}>
 							Get an Essilor lens solution at a partnered optician
 						</p>
-						<TextField type="text" fullWidth className={styles.textField} />
-						<button className={styles.newsLetterBtn}>Find an optician</button>
+						{/*<TextField
+							type="text"
+							className={styles.textField}
+							placeholder="Enter an address or a city"
+						/>
+						<br />
+						<button className={styles.newsLetterBtn}>Find an optician</button> */}
 					</Grid>
 				</Grid>
 			</div>
-		);
-	};
-	return (
-		<>
-			{isMobile ? (
-				getContent()
-			) : (
-				<Container maxWidth="lg">{getContent()}</Container>
-			)}
 		</>
 	);
 };
