@@ -1,135 +1,162 @@
 .discoverContainer {
-	padding: 96px 0;
+  padding: 96px 0;
 }
 .swiper_pagination {
-	color: white;
+  color: white;
 }
 
 .swiper_button_prev,
 .swiper_button_next {
-	color: white;
+  color: white;
 }
 
 .swiper_slide {
-	transform: scale(0.8);
-	transition: transform 0.5s;
+  transform: scale(0.8);
+  transition: transform 0.5s;
 }
 
 .swiper_slide.swiper_slide_active {
-	transform: scale(1);
+  transform: scale(1);
 }
 
 .discoverProductContainer {
-	padding: 3% 0;
+  padding: 3% 0;
 }
 .subHeading {
-	font-size: 10px;
-	line-height: 16px;
-	letter-spacing: 4%;
-	font-weight: 700;
-	color: #fff;
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: 4%;
+  font-weight: 700;
+  color: #fff;
 }
+.heading1,
 .heading {
-	font-size: 48px;
-	line-height: 68px;
-	letter-spacing: 0;
-	font-weight: 700;
-	margin-bottom: 48px;
-	color: #fff;
+  font-size: 48px;
+  line-height: 68px;
+  letter-spacing: 0;
+  font-weight: 700;
+  margin-bottom: 48px;
+  color: #fff;
+}
+.heading1 {
+  color: #18b1ae;
+  margin: 0;
 }
 .brandLogo {
-	width: 136px;
-	height: 50px;
+  width: 136px;
+  height: 50px;
 }
 .brandImg {
-	width: 282px;
-	height: 300px;
-	border-radius: 12px;
+  width: 282px;
+  height: 300px;
+  border-radius: 12px;
 }
 .brandSlide {
-	width: 80%;
-	height: 65vh;
+  width: 80%;
+  height: 65vh;
 }
 .brandName {
-	font-size: 21px;
-	line-height: 30px;
-	letter-spacing: 0;
-	font-weight: 700;
-	margin-bottom: 24px;
-	height: 100px;
-	color: #fff;
+  font-size: 21px;
+  line-height: 30px;
+  letter-spacing: 0;
+  font-weight: 700;
+  margin-bottom: 24px;
+  height: 100px;
+  color: #fff;
 }
 .discoverBtn {
-	background-color: #fff;
-	color: #18b1ae;
-	border: 1px solid #fff;
-	padding: 7% 4%;
-	width: 100%;
-	font-size: 14px;
-	border-radius: 50px;
-	cursor: pointer;
-	font-weight: 600;
+  background-color: #fff;
+  color: #18b1ae;
+  border: 1px solid #fff;
+  padding: 7% 4%;
+  width: 100%;
+  font-size: 14px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 600;
 }
 .discoverProductBtn {
-	color: #fff;
-	background-color: #18b1ae;
-	border: 1px solid #18b1ae;
-	padding: 7% 4%;
-	width: 100%;
-	font-size: 14px;
-	border-radius: 50px;
-	cursor: pointer;
-	font-weight: 600;
+  color: #fff;
+  background-color: #18b1ae;
+  border: 1px solid #18b1ae;
+  padding: 7% 4%;
+  width: 100%;
+  font-size: 14px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.discoverProductBtn:hover {
+  background-color: #fff;
+  color: #18b1ae;
 }
 .discoverBtn:hover {
-	color: #18b1ae50;
+  color: #18b1ae50;
 }
 .black {
-	color: #000 !important;
+  color: #000 !important;
 }
+
+.rangeMain {
+  width: 100%;
+  background-color: #eff0f1;
+  display: flex;
+  flex-direction: column;
+}
+
 @media screen and (max-width: 1500px) and (min-width: 1200px) {
-	.brandSlide {
-		width: 80%;
-		height: 60vh;
-	}
+  .brandSlide {
+    width: 80%;
+    height: 60vh;
+  }
 }
 
 @media screen and (max-width: 1100px) and (min-width: 900px) {
-	.brandSlide {
-		width: 80%;
-		height: 50vh;
-	}
-	.brandImg {
-		width: 200px;
-		height: 250px;
-		border-radius: 12px;
-	}
+  .brandSlide {
+    width: 80%;
+    height: 50vh;
+  }
+  .brandImg {
+    width: 200px;
+    height: 250px;
+    border-radius: 12px;
+  }
 }
 @media screen and (max-width: 480px) {
-	.heading {
-		font-size: 32px;
-		line-height: 42px;
-		letter-spacing: 0;
-	}
-	.brandImg {
-		width: 241px;
-		height: 256px;
-		border-radius: 12px;
-	}
-	.brandName {
-		font-size: 16px;
-		line-height: 28px;
-		height: 60px;
-	}
-	.discoverBtn {
-		background-color: #fff;
-		color: #18b1ae;
-		border: 1px solid #fff;
-		padding: 6% 4%;
-		width: 100%;
-		font-size: 14px;
-		border-radius: 50px;
-		cursor: pointer;
-		font-weight: 600;
-	}
+  .heading1 {
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0;
+    text-align: center;
+  }
+  .heading {
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: 0;
+  }
+  .brandImg {
+    width: 241px;
+    height: 256px;
+    border-radius: 12px;
+  }
+  .brandName {
+    font-size: 16px;
+    line-height: 28px;
+    height: 60px;
+    text-align: center;
+  }
+  .discoverBtn {
+    background-color: #fff;
+    color: #18b1ae;
+    border: 1px solid #fff;
+    padding: 6% 4%;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  .rangeMain {
+    align-items: center;
+  }
 }

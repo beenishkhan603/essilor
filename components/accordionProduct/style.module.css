@@ -1,0 +1,82 @@
+.main {
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.mainSub {
+  background-color: #eff0f1;
+  width: 100%;
+  height: 85vh;
+  border-radius: 10px;
+}
+
+.accordion {
+  padding: 0 !important;
+  box-shadow: none !important;
+  /* width: 100%; */
+  background-color: transparent !important;
+}
+.accordionSummary {
+  padding: 0% !important;
+  flex-direction: row-reverse !important;
+  gap: 16px;
+  padding-bottom: 20px !important;
+  outline: none;
+}
+.accordionDetail {
+  padding: 0% !important;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.heading {
+  color: #18b1ae;
+  font-size: 48px;
+  line-height: 68px;
+  letter-spacing: 0;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 38px;
+}
+
+.drawerLink {
+  color: #80869e;
+  font-size: 21px;
+  line-height: 30px;
+  letter-spacing: 0;
+  font-weight: 700;
+  margin: 0;
+  /* margin-bottom: 30px; */
+}
+.text2,
+.text {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0;
+  font-weight: 400;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.text2 {
+  color: #18b1ae;
+}
+@media screen and (max-width: 480px) {
+  .heading {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0;
+    margin-bottom: 20px;
+  }
+  .drawerLink {
+    font-size: 16px;
+  }
+  .accordionSummary {
+    gap: 16px;
+    padding-bottom: 16px !important;
+  }
+}
