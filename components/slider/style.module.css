@@ -71,11 +71,19 @@
 	color: #fff;
 }
 
+@media screen and (max-width: 1500px) and (min-width: 900px) {
+	.HeroBannerStaticContent {
+		padding-left: 140px !important;
+	}
+}
 @media screen and (max-width: 480px) {
 	.heading {
 		font-size: 32px;
 		line-height: 40px;
 		letter-spacing: 0;
+	}
+	.HeroBannerStaticContent {
+		padding-left: 60px !important ;
 	}
 	.text {
 		font-size: 14px;

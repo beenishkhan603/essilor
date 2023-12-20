@@ -10,6 +10,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import style from './style.module.css';
+import Link from 'next/link';
 
 export default function Slider() {
 	return (
@@ -42,7 +43,6 @@ export default function Slider() {
                   lifestyle. Finding the right eye care professional to advise
                   you along the way makes the process much smoother.`}
 								</p>
-								<button className={style.discoverBtn}>Find an optician</button>
 							</div>
 						</div>
 					</div>
@@ -70,7 +70,9 @@ export default function Slider() {
                   innovation allows us to continually develop the best vision
                   solutions and to respond to all needs.`}
 								</p>
-								<button className={style.discoverBtn}>Know more</button>
+								<button className={style.discoverBtn}>
+									<Link href="/about-us">Know more</Link>
+								</button>
 							</div>
 						</div>
 					</div>
