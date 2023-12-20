@@ -262,7 +262,7 @@ const tree = {
         '',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 86317)), "C:\\Users\\Beenish\\Desktop\\Essolir\\my-app\\app\\page.js"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 49107)), "C:\\Users\\Beenish\\Desktop\\Essolir\\my-app\\app\\page.js"],
           
         }]
       },
@@ -305,19 +305,18 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 15368:
+/***/ 85280:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 44472));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 57613));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 84858));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 17421, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 57613));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 73380, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 11553));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 97801));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 31909));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 48424));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 60539));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 97801));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 11553));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 31909));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 91704))
 
 /***/ }),
@@ -456,32 +455,6 @@ function Slider() {
 
 /***/ }),
 
-/***/ 19079:
-/***/ ((module) => {
-
-// Exports
-module.exports = {
-	"discoverContainer": "style_discoverContainer__jq9bP",
-	"swiper_pagination": "style_swiper_pagination__OX3j4",
-	"swiper_button_prev": "style_swiper_button_prev__GwNGp",
-	"swiper_button_next": "style_swiper_button_next__j_epB",
-	"swiper_slide": "style_swiper_slide__AZeQk",
-	"swiper_slide_active": "style_swiper_slide_active__lOYMO",
-	"discoverProductContainer": "style_discoverProductContainer__dCEp_",
-	"subHeading": "style_subHeading__YaKoD",
-	"heading": "style_heading__5of4X",
-	"brandLogo": "style_brandLogo__KtJos",
-	"brandImg": "style_brandImg__5BGeH",
-	"brandSlide": "style_brandSlide__6SuBm",
-	"brandName": "style_brandName__M9067",
-	"discoverBtn": "style_discoverBtn__EFxpG",
-	"discoverProductBtn": "style_discoverProductBtn__HRRSE",
-	"black": "style_black__QWOrp"
-};
-
-
-/***/ }),
-
 /***/ 51162:
 /***/ ((module) => {
 
@@ -523,7 +496,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 86317:
+/***/ 49107:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -598,8 +571,8 @@ const __default__ = proxy.default;
 
 
 /* harmony default export */ const carousel = (__default__);
-;// CONCATENATED MODULE: ./components/assets/discover.jpg
-/* harmony default export */ const discover = ({"src":"/_next/static/media/discover.4193b7f2.jpg","height":183,"width":275,"blurDataURL":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAAUACAMBIgACEQEDEQH/xAAnAAEBAAAAAAAAAAAAAAAAAAAABQEBAAAAAAAAAAAAAAAAAAAAA//aAAwDAQACEAMQAAAArh2//8QAGhABAAIDAQAAAAAAAAAAAAAAAgEDAAQRIv/aAAgBAQABPwAaYqFhTVgiJRK55z//xAAYEQACAwAAAAAAAAAAAAAAAAACIQABQf/aAAgBAgEBPwCyJPJ//8QAGREAAQUAAAAAAAAAAAAAAAAAAgADESFB/9oACAEDAQE/ABbCSrV//9k=","blurWidth":8,"blurHeight":5});
+// EXTERNAL MODULE: ./components/assets/discover.jpg
+var discover = __webpack_require__(54843);
 // EXTERNAL MODULE: ./components/assets/eyexen.webp
 var eyexen = __webpack_require__(46123);
 // EXTERNAL MODULE: ./components/dicoverOurBrand/style.module.css
@@ -621,7 +594,7 @@ const items = [
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 className: (dicoverOurBrand_style_module_default()).brandImg,
                 alt: "brand",
-                src: discover
+                src: discover/* default */.Z
             }),
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 alt: "logo",
@@ -644,7 +617,7 @@ const items = [
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 className: (dicoverOurBrand_style_module_default()).brandImg,
                 alt: "brand",
-                src: discover
+                src: discover/* default */.Z
             }),
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 alt: "logo",
@@ -667,7 +640,7 @@ const items = [
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 className: (dicoverOurBrand_style_module_default()).brandImg,
                 alt: "brand",
-                src: discover
+                src: discover/* default */.Z
             }),
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 alt: "logo",
@@ -690,7 +663,7 @@ const items = [
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 className: (dicoverOurBrand_style_module_default()).brandImg,
                 alt: "brand",
-                src: discover
+                src: discover/* default */.Z
             }),
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 alt: "logo",
@@ -713,7 +686,7 @@ const items = [
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 className: (dicoverOurBrand_style_module_default()).brandImg,
                 alt: "brand",
-                src: discover
+                src: discover/* default */.Z
             }),
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 alt: "logo",
@@ -736,7 +709,7 @@ const items = [
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 className: (dicoverOurBrand_style_module_default()).brandImg,
                 alt: "brand",
-                src: discover
+                src: discover/* default */.Z
             }),
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 alt: "logo",
@@ -775,8 +748,11 @@ const DiscoverBrand = ()=>{
 };
 /* harmony default export */ const dicoverOurBrand = (DiscoverBrand);
 
+// EXTERNAL MODULE: ./components/dicoverOurBrand/discoverCards.js
+var discoverCards = __webpack_require__(73330);
 ;// CONCATENATED MODULE: ./components/dicoverOurBrand/discoverOurProduct.js
 // pages/index.js
+
 
 
 
@@ -791,7 +767,7 @@ const discoverOurProduct_items = [
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 className: (dicoverOurBrand_style_module_default()).brandImg,
                 alt: "brand",
-                src: discover
+                src: discover/* default */.Z
             }),
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 alt: "logo",
@@ -814,7 +790,7 @@ const discoverOurProduct_items = [
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 className: (dicoverOurBrand_style_module_default()).brandImg,
                 alt: "brand",
-                src: discover
+                src: discover/* default */.Z
             }),
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 alt: "logo",
@@ -837,7 +813,7 @@ const discoverOurProduct_items = [
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 className: (dicoverOurBrand_style_module_default()).brandImg,
                 alt: "brand",
-                src: discover
+                src: discover/* default */.Z
             }),
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 alt: "logo",
@@ -860,7 +836,7 @@ const discoverOurProduct_items = [
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 className: (dicoverOurBrand_style_module_default()).brandImg,
                 alt: "brand",
-                src: discover
+                src: discover/* default */.Z
             }),
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 alt: "logo",
@@ -883,7 +859,7 @@ const discoverOurProduct_items = [
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 className: (dicoverOurBrand_style_module_default()).brandImg,
                 alt: "brand",
-                src: discover
+                src: discover/* default */.Z
             }),
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 alt: "logo",
@@ -905,7 +881,7 @@ const discoverOurProduct_items = [
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 className: (dicoverOurBrand_style_module_default()).brandImg,
                 alt: "brand",
-                src: discover
+                src: discover/* default */.Z
             }),
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 alt: "logo",
@@ -928,7 +904,7 @@ const discoverOurProduct_items = [
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 className: (dicoverOurBrand_style_module_default()).brandImg,
                 alt: "brand",
-                src: discover
+                src: discover/* default */.Z
             }),
             /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
                 alt: "logo",
@@ -977,90 +953,6 @@ const slider_default_ = slider_proxy.default;
 
 
 /* harmony default export */ const slider = (slider_default_);
-;// CONCATENATED MODULE: ./components/assets/about.jpg
-/* harmony default export */ const about = ({"src":"/_next/static/media/about.3ab7087d.jpg","height":683,"width":1024,"blurDataURL":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAAUACAMBIgACEQEDEQH/xAAoAAEBAAAAAAAAAAAAAAAAAAAAAwEBAQAAAAAAAAAAAAAAAAAAAAL/2gAMAwEAAhADEAAAALCX/8QAGxAAAQQDAAAAAAAAAAAAAAAAAgEDBBEAIlL/2gAIAQEAAT8AjRGThI4ops2Z1XOf/8QAGREBAAIDAAAAAAAAAAAAAAAAAQIDABFC/9oACAECAQE/ALJLZPb05//EABkRAAIDAQAAAAAAAAAAAAAAAAECAAMRQv/aAAgBAwEBPwBFArTBzP/Z","blurWidth":8,"blurHeight":5});
-;// CONCATENATED MODULE: ./components/JourneySection/index.js
-
-
-
-
-
-
-const JourneySection = ()=>{
-    return /*#__PURE__*/ _jsxs("div", {
-        className: styles.jSection,
-        children: [
-            /*#__PURE__*/ _jsx("h1", {
-                children: "Your journey starts here"
-            }),
-            /*#__PURE__*/ _jsxs(Grid, {
-                direction: "row",
-                justifyContent: "center",
-                container: true,
-                children: [
-                    /*#__PURE__*/ _jsxs(Grid, {
-                        className: styles.journey1,
-                        item: true,
-                        md: 3,
-                        lg: 3,
-                        sm: 12,
-                        xs: 12,
-                        children: [
-                            /*#__PURE__*/ _jsx("p", {
-                                className: styles.subHeading,
-                                children: "HELP ME CHOOSE"
-                            }),
-                            /*#__PURE__*/ _jsx("p", {
-                                className: styles.heading,
-                                children: "Build your lenses"
-                            }),
-                            /*#__PURE__*/ _jsx("button", {
-                                className: styles.blueBtn,
-                                children: "Start"
-                            }),
-                            /*#__PURE__*/ _jsx(Image, {
-                                src: aboutImage,
-                                alt: "lenses",
-                                width: 300,
-                                height: 300
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ _jsxs(Grid, {
-                        className: styles.journey2,
-                        item: true,
-                        md: 3,
-                        lg: 3,
-                        sm: 12,
-                        xs: 12,
-                        children: [
-                            /*#__PURE__*/ _jsx("p", {
-                                className: styles.subHeading,
-                                children: "GET LENSES"
-                            }),
-                            /*#__PURE__*/ _jsx("p", {
-                                className: styles.heading,
-                                children: "Book an eye test"
-                            }),
-                            /*#__PURE__*/ _jsx("button", {
-                                className: styles.blueBtn,
-                                children: "Book now"
-                            }),
-                            /*#__PURE__*/ _jsx(Image, {
-                                src: aboutImage,
-                                alt: "lenses",
-                                width: 300,
-                                height: 300
-                            })
-                        ]
-                    })
-                ]
-            })
-        ]
-    });
-};
-/* harmony default export */ const components_JourneySection = ((/* unused pure expression or super */ null && (JourneySection)));
-
 // EXTERNAL MODULE: ./components/global.css
 var global = __webpack_require__(16863);
 // EXTERNAL MODULE: ./components/pages/home/style.module.css
@@ -1076,7 +968,7 @@ var home_style_module_default = /*#__PURE__*/__webpack_require__.n(home_style_mo
 
 
 
-
+// import JourneySection from '@/components/JourneySection';
 
 
 function Home() {
@@ -1135,30 +1027,6 @@ function page_Home() {
 
 /***/ }),
 
-/***/ 60539:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/about.3ab7087d.jpg","height":683,"width":1024,"blurDataURL":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAAUACAMBIgACEQEDEQH/xAAoAAEBAAAAAAAAAAAAAAAAAAAAAwEBAQAAAAAAAAAAAAAAAAAAAAL/2gAMAwEAAhADEAAAALCX/8QAGxAAAQQDAAAAAAAAAAAAAAAAAgEDBBEAIlL/2gAIAQEAAT8AjRGThI4ops2Z1XOf/8QAGREBAAIDAAAAAAAAAAAAAAAAAQIDABFC/9oACAECAQE/ALJLZPb05//EABkRAAIDAQAAAAAAAAAAAAAAAAECAAMRQv/aAAgBAwEBPwBFArTBzP/Z","blurWidth":8,"blurHeight":5});
-
-/***/ }),
-
-/***/ 97801:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/discover.4193b7f2.jpg","height":183,"width":275,"blurDataURL":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAAUACAMBIgACEQEDEQH/xAAnAAEBAAAAAAAAAAAAAAAAAAAABQEBAAAAAAAAAAAAAAAAAAAAA//aAAwDAQACEAMQAAAArh2//8QAGhABAAIDAQAAAAAAAAAAAAAAAgEDAAQRIv/aAAgBAQABPwAaYqFhTVgiJRK55z//xAAYEQACAwAAAAAAAAAAAAAAAAACIQABQf/aAAgBAgEBPwCyJPJ//8QAGREAAQUAAAAAAAAAAAAAAAAAAgADESFB/9oACAEDAQE/ABbCSrV//9k=","blurWidth":8,"blurHeight":5});
-
-/***/ }),
-
 /***/ 48424:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -1185,7 +1053,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [162,380,155,854,229,613,278,909], () => (__webpack_exec__(20625)));
+var __webpack_exports__ = __webpack_require__.X(0, [162,380,155,854,229,613,365,909], () => (__webpack_exec__(20625)));
 module.exports = __webpack_exports__;
 
 })();

@@ -16,7 +16,6 @@
 	padding: 2.5% 2.5%;
 	top: var(--swiper-navigation-top-offset, 26%) !important;
 }
-
 .swiper-button-prev:after,
 .swiper-button-next:after {
 	font-size: 18px !important;
@@ -39,7 +38,6 @@
 	.swiper-slide {
 		width: 80%;
 	}
-
 	.swiper-slide:nth-child(n) {
 		width: 60% !important;
 	}

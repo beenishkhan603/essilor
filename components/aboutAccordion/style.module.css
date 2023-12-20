@@ -65,6 +65,11 @@
 .text2 {
 	color: #18b1ae;
 }
+@media screen and (max-width: 1500px) and (min-width: 1200px) {
+	.mainSub {
+		height: 100vh;
+	}
+}
 @media screen and (max-width: 480px) {
 	.heading {
 		font-size: 20px;
