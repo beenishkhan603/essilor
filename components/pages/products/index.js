@@ -6,14 +6,15 @@ import {
 	useMediaQuery,
 	Tab,
 	Tabs,
-	Box,
+	Grid,
 } from '@mui/material';
 import React, { useState, useEffect } from 'react';
 import Header from '../../../components/header';
 import Footer from '../../footer';
-import './style.css';
+import styles from './style.module.css';
 import ProductsCard from '../../../components/productCard';
 import Image from 'next/image';
+import bikeImage from '@/components/assets/bike.jpg';
 
 const filters = [
 	{
@@ -262,7 +263,6 @@ const filters = [
 					'Lens aesthetic',
 				],
 			},
-			// More products...
 		],
 	},
 ];
@@ -329,28 +329,24 @@ export default function Products() {
 	return (
 		<>
 			<Header />
-			<Container className="main-container" maxWidth="xl">
-				<Typography className="brand-heading-small">ESSILOR BRANDS</Typography>
-				<Typography className="page-heading">Discover our brands</Typography>
-				<p className="page-sub-heading">
+			<Container className={styles.main_container} maxWidth="xl">
+				<Typography className={styles.brand_heading_small}>
+					ESSILOR BRANDS
+				</Typography>
+				<Typography className={styles.page_heading}>
+					Discover our brands
+				</Typography>
+				<p className={styles.page_sub_heading}>
 					No matter your age or what you need in a lens, Essilor has a product
 					that gives you your best vision.
 				</p>
-				<Typography
-					sx={{
-						fontSize: '20px',
-						fontWeight: 'bold',
-						display: isMobile ? 'block' : 'none',
-					}}
-				>
-					Filter tab
-				</Typography>
+				<p className={styles.filterBy}>Filter by:</p>
 				<div
-					className="filter-tabs"
+					className={styles.filter_tabs}
 					style={{ justifyContent: isMobile ? 'center' : 'left' }}
 				>
 					<Typography
-						className="filter-tab-text"
+						className={styles.filter_tab_text}
 						sx={{ display: isMobile ? 'none' : 'block' }}
 					>
 						Filter tab
@@ -358,7 +354,7 @@ export default function Products() {
 					{filters.map((filter) => (
 						<Button
 							key={filter.name}
-							className="filter-button"
+							className={styles.filter_button}
 							onClick={() => handleFilterClick(filter.name, filter.categories)}
 							style={{
 								backgroundColor:
@@ -367,8 +363,8 @@ export default function Products() {
 							}}
 						>
 							<Typography
-								className="filter-button-text"
-								sx={{ fontSize: isMobileText ? '16px' : '20px' }}
+								className={styles.filter_button_text}
+								sx={{ fontSize: isMobileText ? '14px' : '16px' }}
 							>
 								{filter.name}
 							</Typography>
@@ -411,7 +407,7 @@ export default function Products() {
 				) : (
 					<>
 						{' '}
-						<div className="filter-main-container">
+						<div className={styles.filter_main_container}>
 							<div
 								style={{
 									display: 'flex',
@@ -425,7 +421,7 @@ export default function Products() {
 								{activeFilterCategories.map((category, index) => (
 									<div
 										key={index}
-										className="filter-category-button"
+										className={styles.filter_category_button}
 										onClick={() => handleCategoryClick(category)}
 										style={{
 											backgroundColor:
@@ -435,10 +431,7 @@ export default function Products() {
 											cursor: 'pointer',
 										}}
 									>
-										<Typography
-											className="filter-category-text"
-											sx={{ fontSize: '20px' }}
-										>
+										<Typography className={styles.filter_category_text}>
 											{category}
 										</Typography>
 									</div>
@@ -477,67 +470,46 @@ export default function Products() {
 					<></>
 				)}
 			</Container>
-			{/* Container for the Information */}
-			<Container maxWidth="xl">
-				<div className={'productConatiner'}>
-					<div
-						style={{
-							display: 'flex',
-							justifyContent: 'center',
-							flexDirection: 'column',
-							alignItems: 'center',
-							marginTop: '2rem',
-							marginBottom: '2rem',
-						}}
-					>
-						<Typography className="info-heading">
-							Discover our other vision solutions
-						</Typography>
-					</div>
-					<div
-						style={{
-							display: 'flex',
-							gap: '4rem',
-							alignItems: 'flex-start', // Align items at the start of the flex container
-							flexWrap: 'wrap',
-							alignItems: 'center',
-						}}
-					>
-						<div style={{ flex: '0 0 auto' }}>
-							<Image
-								src="/img/info_image.avif"
-								height={isMobileText ? 300 : isMobile ? 400 : 600}
-								width={isMobileText ? 300 : isMobile ? 600 : 800}
-								alt="image"
-							></Image>
-						</div>
 
-						<div style={{ flex: '1 1 auto', maxWidth: '500px' }}>
-							<div
-								style={{
-									display: 'flex',
-									flexDirection: 'column',
-									gap: '2rem',
-								}}
-							>
-								<Typography className="info-sub-heading">
-									Exceptio Special Lenses
-								</Typography>
-								<Typography className="info-context">
-									The Special Lenses Lab in France mobilizes its unique know-how
-									and technology to develop lenses with extraordinary
-									characteristics. Don't settle for acceptable correction;
-									rediscover the comfort of good vision thanks to the power of
-									Exceptio lenses.
-								</Typography>
-								<Button variant="contained" className="learn-button">
-									Learn More
-								</Button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</Container>
+			<Grid direction="row" container>
+				<Grid
+					item
+					md={12}
+					lg={12}
+					sm={12}
+					xs={12}
+					className={styles.productConatiner}
+				>
+					<p className={styles.info_heading}>
+						Discover our other vision solutions
+					</p>
+				</Grid>
+				<Grid
+					direction="row"
+					container
+					justifyContent={'center'}
+					className={styles.productContent}
+				>
+					<Grid item sm={12} xs={12} md={5} lg={5}>
+						<Image src={bikeImage} alt="image"></Image>
+					</Grid>
+					<Grid item sm={12} xs={12} md={4} lg={4} className={styles.content}>
+						<p className={styles.info_sub_heading}>
+							Specialized Exceptio Lenses
+						</p>
+						<p className={styles.info_context}>
+							The Special Lenses Lab in France harnesses its unparalleled
+							expertise and technology to craft lenses with exceptional
+							characteristics. Don't compromise on merely acceptable correction;
+							experience the comfort of clear vision with the exceptional power
+							of Exceptio lenses.
+						</p>
+						<Button variant="contained" className={styles.learn_button}>
+							Learn More
+						</Button>
+					</Grid>
+				</Grid>
+			</Grid>
 			<Footer />
 		</>
 	);
