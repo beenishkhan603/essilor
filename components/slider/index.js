@@ -70,7 +70,7 @@ export default function Slider() {
                   innovation allows us to continually develop the best vision
                   solutions and to respond to all needs.`}
 								</p>
-								<button className={style.discoverBtn}>Find an optician</button>
+								<button className={style.discoverBtn}>Know more</button>
 							</div>
 						</div>
 					</div>

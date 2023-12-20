@@ -54,7 +54,7 @@ const DiscoverBrand = () => {
 		<div className={styles.discoverContainer}>
 			<p className={styles.subHeading}>OUR BRANDS</p>
 			<p className={styles.heading}>Discover our brands</p>
-			<Carousel items={items} />
+			<Carousel items={items} bulletColor={'#fff'} />
 		</div>
 	);
 };

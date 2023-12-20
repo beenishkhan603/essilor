@@ -317,11 +317,11 @@ const routeModule = new AppPageRouteModule({
 /***/ 55683:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 55966))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 76364))
 
 /***/ }),
 
-/***/ 55966:
+/***/ 76364:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -343,8 +343,9 @@ var react_ = __webpack_require__(18038);
 var header = __webpack_require__(84858);
 // EXTERNAL MODULE: ./components/footer/index.js + 1 modules
 var footer = __webpack_require__(44472);
-// EXTERNAL MODULE: ./components/pages/products/style.css
-var style = __webpack_require__(74819);
+// EXTERNAL MODULE: ./components/pages/products/style.module.css
+var style_module = __webpack_require__(73975);
+var style_module_default = /*#__PURE__*/__webpack_require__.n(style_module);
 // EXTERNAL MODULE: ./node_modules/@mui/material/node/Card/index.js
 var Card = __webpack_require__(76267);
 var Card_default = /*#__PURE__*/__webpack_require__.n(Card);
@@ -392,8 +393,9 @@ function FeatureListIcon() {
 // EXTERNAL MODULE: ./node_modules/next/image.js
 var next_image = __webpack_require__(52451);
 var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
-// EXTERNAL MODULE: ./components/productCard/style.css
-var productCard_style = __webpack_require__(3787);
+// EXTERNAL MODULE: ./components/productCard/style.module.css
+var productCard_style_module = __webpack_require__(97180);
+var productCard_style_module_default = /*#__PURE__*/__webpack_require__.n(productCard_style_module);
 ;// CONCATENATED MODULE: ./components/productCard/index.js
 
 
@@ -416,7 +418,7 @@ const defaultFeaturesList = [
 function ProductCard(props) {
     const { imrUrl, bandColor, filterName, brandLogo, subHeading, featuresList } = props;
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)((Card_default()), {
-        className: "product-card",
+        className: (productCard_style_module_default()).product_card,
         sx: {
             maxWidth: 380,
             position: "relative",
@@ -451,7 +453,7 @@ function ProductCard(props) {
                     /*#__PURE__*/ jsx_runtime_.jsx((Typography_default()), {
                         gutterBottom: true,
                         component: "div",
-                        className: "filter-text",
+                        className: (productCard_style_module_default()).filter_text,
                         children: filterName ? filterName : "Filter"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("div", {
@@ -471,7 +473,7 @@ function ProductCard(props) {
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx((Typography_default()), {
                         variant: "body2",
-                        className: "card-sub-heading",
+                        className: (productCard_style_module_default()).card_sub_heading,
                         children: subHeading ? subHeading : "Context coming soon"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("div", {
@@ -491,7 +493,8 @@ function ProductCard(props) {
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx(assets_FeatureListIcon, {}),
                                     " ",
-                                    /*#__PURE__*/ jsx_runtime_.jsx((Typography_default()), {
+                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                        className: (productCard_style_module_default()).featureList,
                                         children: feature
                                     })
                                 ]
@@ -521,7 +524,7 @@ function ProductCard(props) {
                 },
                 children: /*#__PURE__*/ jsx_runtime_.jsx((Button_default()), {
                     variant: "contained",
-                    className: "discover-button",
+                    className: (productCard_style_module_default()).discover_button,
                     children: "Discover"
                 })
             })
@@ -529,8 +532,11 @@ function ProductCard(props) {
     });
 }
 
+;// CONCATENATED MODULE: ./components/assets/bike.png
+/* harmony default export */ const bike = ({"src":"/_next/static/media/bike.c07a58ef.png","height":648,"width":810,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAIAAABxZ0isAAAAoUlEQVR42gGWAGn/AP7y8tzY0aepm9/Z1MnHv3iDYnaBY4qSfADh29bT0cTSzsfMu7vAr62AiW5wfGBxe2IAubqtyMq4yryuomFErXZfi457kJOLjpKFAK+1mdDQuq2NcJReTJdiS8a5r5+inJ6gkwCapYWSjGiBWTG+i36vgXKEbFSKhnZvemAAcIBPaV1CW0Ym3MC52sC6YEwiZ1w9RVUvwqtTGTKp2SsAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":6});
 ;// CONCATENATED MODULE: ./components/pages/products/index.js
 /* __next_internal_client_entry_do_not_use__ default auto */ 
+
 
 
 
@@ -835,53 +841,46 @@ function Products() {
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx(header["default"], {}),
             /*#__PURE__*/ (0,jsx_runtime_.jsxs)(node.Container, {
-                className: "main-container",
+                className: (style_module_default()).main_container,
                 maxWidth: "xl",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx(node.Typography, {
-                        className: "brand-heading-small",
+                        className: (style_module_default()).brand_heading_small,
                         children: "ESSILOR BRANDS"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx(node.Typography, {
-                        className: "page-heading",
+                        className: (style_module_default()).page_heading,
                         children: "Discover our brands"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                        className: "page-sub-heading",
+                        className: (style_module_default()).page_sub_heading,
                         children: "No matter your age or what you need in a lens, Essilor has a product that gives you your best vision."
                     }),
-                    /*#__PURE__*/ jsx_runtime_.jsx(node.Typography, {
-                        sx: {
-                            fontSize: "20px",
-                            fontWeight: "bold",
-                            display: isMobile ? "block" : "none"
-                        },
-                        children: "Filter tab"
+                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                        className: (style_module_default()).filterByMobile,
+                        children: "Filter by:"
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: "filter-tabs",
+                        className: (style_module_default()).filter_tabs,
                         style: {
                             justifyContent: isMobile ? "center" : "left"
                         },
                         children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx(node.Typography, {
-                                className: "filter-tab-text",
-                                sx: {
-                                    display: isMobile ? "none" : "block"
-                                },
-                                children: "Filter tab"
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                className: (style_module_default()).filterByDesktop,
+                                children: "Filter by: \xa0\xa0"
                             }),
                             filters.map((filter)=>/*#__PURE__*/ jsx_runtime_.jsx(node.Button, {
-                                    className: "filter-button",
+                                    className: (style_module_default()).filter_button,
                                     onClick: ()=>handleFilterClick(filter.name, filter.categories),
                                     style: {
                                         backgroundColor: activeFilter === filter.name ? "#edf7fc" : "transparent",
                                         cursor: "pointer"
                                     },
                                     children: /*#__PURE__*/ jsx_runtime_.jsx(node.Typography, {
-                                        className: "filter-button-text",
+                                        className: (style_module_default()).filter_button_text,
                                         sx: {
-                                            fontSize: isMobileText ? "16px" : "20px"
+                                            fontSize: isMobileText ? "14px" : "16px"
                                         },
                                         children: filter.name
                                     })
@@ -899,8 +898,8 @@ function Products() {
                             onChange: (event, newValue)=>handleCategoryClick(activeFilterCategories[newValue]),
                             variant: "scrollable",
                             scrollButtons: "auto",
-                            textColor: "primary",
-                            indicatorColor: "primary",
+                            textColor: "18b1ae",
+                            indicatorColor: "18b1ae",
                             children: activeFilterCategories.map((category, index)=>/*#__PURE__*/ jsx_runtime_.jsx(node.Tab, {
                                     label: category,
                                     sx: {
@@ -910,7 +909,7 @@ function Products() {
                                         fontSize: "14px",
                                         backgroundColor: activeCategory === category ? "#edf7fc" : "transparent",
                                         marginRight: isMobileText ? "" : "2rem",
-                                        color: "#0d52a0"
+                                        color: "#18b1ae"
                                     }
                                 }, index))
                         })
@@ -918,7 +917,7 @@ function Products() {
                         children: [
                             " ",
                             /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "filter-main-container",
+                                className: (style_module_default()).filter_main_container,
                                 children: [
                                     /*#__PURE__*/ jsx_runtime_.jsx("div", {
                                         style: {
@@ -930,7 +929,7 @@ function Products() {
                                             minWidth: "250px"
                                         },
                                         children: activeFilterCategories.map((category, index)=>/*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                className: "filter-category-button",
+                                                className: (style_module_default()).filter_category_button,
                                                 onClick: ()=>handleCategoryClick(category),
                                                 style: {
                                                     backgroundColor: activeCategory === category ? "#edf7fc" : "transparent",
@@ -939,10 +938,7 @@ function Products() {
                                                     cursor: "pointer"
                                                 },
                                                 children: /*#__PURE__*/ jsx_runtime_.jsx(node.Typography, {
-                                                    className: "filter-category-text",
-                                                    sx: {
-                                                        fontSize: "20px"
-                                                    },
+                                                    className: (style_module_default()).filter_category_text,
                                                     children: category
                                                 })
                                             }, index))
@@ -976,82 +972,114 @@ function Products() {
                     }) : /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {})
                 ]
             }),
-            /*#__PURE__*/ jsx_runtime_.jsx(node.Container, {
-                maxWidth: "xl",
-                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                    className: "productConatiner",
-                    children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            style: {
-                                display: "flex",
-                                justifyContent: "center",
-                                flexDirection: "column",
-                                alignItems: "center",
-                                marginTop: "2rem",
-                                marginBottom: "2rem"
-                            },
-                            children: /*#__PURE__*/ jsx_runtime_.jsx(node.Typography, {
-                                className: "info-heading",
-                                children: "Discover our other vision solutions"
-                            })
-                        }),
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            style: {
-                                display: "flex",
-                                gap: "4rem",
-                                alignItems: "flex-start",
-                                flexWrap: "wrap",
-                                alignItems: "center"
-                            },
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    style: {
-                                        flex: "0 0 auto"
-                                    },
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                        src: "/img/info_image.avif",
-                                        height: isMobileText ? 300 : isMobile ? 400 : 600,
-                                        width: isMobileText ? 300 : isMobile ? 600 : 800,
-                                        alt: "image"
-                                    })
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    style: {
-                                        flex: "1 1 auto",
-                                        maxWidth: "500px"
-                                    },
-                                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                        style: {
-                                            display: "flex",
-                                            flexDirection: "column",
-                                            gap: "2rem"
-                                        },
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx(node.Typography, {
-                                                className: "info-sub-heading",
-                                                children: "Exceptio Special Lenses"
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx(node.Typography, {
-                                                className: "info-context",
-                                                children: "The Special Lenses Lab in France mobilizes its unique know-how and technology to develop lenses with extraordinary characteristics. Don't settle for acceptable correction; rediscover the comfort of good vision thanks to the power of Exceptio lenses."
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx(node.Button, {
-                                                variant: "contained",
-                                                className: "learn-button",
-                                                children: "Learn More"
-                                            })
-                                        ]
-                                    })
-                                })
-                            ]
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)(node.Grid, {
+                direction: "row",
+                container: true,
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx(node.Grid, {
+                        item: true,
+                        md: 12,
+                        lg: 12,
+                        sm: 12,
+                        xs: 12,
+                        className: (style_module_default()).productConatiner,
+                        children: /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                            className: (style_module_default()).info_heading,
+                            children: "Discover our other vision solutions"
                         })
-                    ]
-                })
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)(node.Grid, {
+                        direction: "row",
+                        container: true,
+                        justifyContent: "center",
+                        className: (style_module_default()).productContent,
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx(node.Grid, {
+                                item: true,
+                                sm: 12,
+                                xs: 12,
+                                md: 5,
+                                lg: 5,
+                                children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                    src: bike,
+                                    alt: "image"
+                                })
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)(node.Grid, {
+                                item: true,
+                                sm: 12,
+                                xs: 12,
+                                md: 4,
+                                lg: 4,
+                                className: (style_module_default()).content,
+                                children: [
+                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                        className: (style_module_default()).info_sub_heading,
+                                        children: "Specialized Exceptio Lenses"
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                        className: (style_module_default()).info_context,
+                                        children: "The Special Lenses Lab in France harnesses its unparalleled expertise and technology to craft lenses with exceptional characteristics. Don't compromise on merely acceptable correction; experience the comfort of clear vision with the exceptional power of Exceptio lenses."
+                                    }),
+                                    /*#__PURE__*/ jsx_runtime_.jsx(node.Button, {
+                                        variant: "contained",
+                                        className: (style_module_default()).learn_button,
+                                        children: "Learn More"
+                                    })
+                                ]
+                            })
+                        ]
+                    })
+                ]
             }),
             /*#__PURE__*/ jsx_runtime_.jsx(footer["default"], {})
         ]
     });
 }
+
+
+/***/ }),
+
+/***/ 73975:
+/***/ ((module) => {
+
+// Exports
+module.exports = {
+	"main_container": "style_main_container__oKxGM",
+	"productConatiner": "style_productConatiner__nhaWY",
+	"productContent": "style_productContent__tJGng",
+	"brand_heading_small": "style_brand_heading_small__B3PMb",
+	"page_heading": "style_page_heading__VTm9O",
+	"page_sub_heading": "style_page_sub_heading__vF46M",
+	"filter_tabs": "style_filter_tabs__dNwuP",
+	"filter_tab_text": "style_filter_tab_text__n7UOE",
+	"filter_button": "style_filter_button__JMadN",
+	"filter_button_text": "style_filter_button_text__l4HQu",
+	"filter_main_container": "style_filter_main_container__sjHxY",
+	"filter_category_text": "style_filter_category_text__j2lhp",
+	"info_heading": "style_info_heading__kGgMX",
+	"info_sub_heading": "style_info_sub_heading__YidO4",
+	"info_context": "style_info_context__kNseH",
+	"learn_button": "style_learn_button__dhFYV",
+	"filterByDesktop": "style_filterByDesktop__35CXS",
+	"filterByMobile": "style_filterByMobile__3a_I_",
+	"newsLetterBtn": "style_newsLetterBtn__YPFod"
+};
+
+
+/***/ }),
+
+/***/ 97180:
+/***/ ((module) => {
+
+// Exports
+module.exports = {
+	"filter_text": "style_filter_text__NYTrD",
+	"card_sub_heading": "style_card_sub_heading__x5nFe",
+	"discover_button": "style_discover_button__e8vF7",
+	"product_card": "style_product_card__vMajl",
+	"featureList": "style_featureList__VJIYw"
+};
 
 
 /***/ }),
@@ -1093,20 +1121,6 @@ function ProductsPage() {
         children: /*#__PURE__*/ jsx_runtime_.jsx(products, {})
     });
 }
-
-
-/***/ }),
-
-/***/ 74819:
-/***/ (() => {
-
-
-
-/***/ }),
-
-/***/ 3787:
-/***/ (() => {
-
 
 
 /***/ })

@@ -1,0 +1,50 @@
+.filter_text {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: bold;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+}
+.card_sub_heading {
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 26px;
+	letter-spacing: 0;
+	color: #18b1ae;
+}
+.discover_button {
+	text-align: center;
+	background-color: #18b1ae;
+	text-transform: capitalize;
+	min-height: 48px;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 28px;
+	font-size: 16px;
+	line-height: 26px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: pointer;
+	border: 1px solid #18b1ae;
+	font-weight: 700;
+	transition: 0.25s ease;
+	position: relative;
+	overflow: hidden;
+	border-radius: 30px;
+}
+.discover_button:hover {
+	color: #18b1ae;
+	background-color: #fff;
+}
+.product_card {
+	object-fit: fill !important;
+}
+.featureList {
+	font-size: 14px;
+}

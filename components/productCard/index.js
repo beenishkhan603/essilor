@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import FeatureListIcon from '../assets/FeatureListIcon';
 import Image from 'next/image';
-import './style.css';
+import styles from './style.module.css';
 const defaultFeaturesList = [
 	'Lightweight',
 	'Durable',
@@ -22,7 +22,7 @@ export default function ProductCard(props) {
 
 	return (
 		<Card
-			className="product-card"
+			className={styles.product_card}
 			sx={{
 				maxWidth: 380,
 				position: 'relative',
@@ -51,7 +51,7 @@ export default function ProductCard(props) {
 				}}
 			/>
 			<CardContent>
-				<Typography gutterBottom component="div" className="filter-text">
+				<Typography gutterBottom component="div" className={styles.filter_text}>
 					{filterName ? filterName : 'Filter'}
 				</Typography>
 				<div style={{ width: '300px', height: '150px' }}>
@@ -63,7 +63,7 @@ export default function ProductCard(props) {
 						image={brandLogo ? brandLogo : './img/eyexen.webp'}
 					/>
 				</div>
-				<Typography variant="body2" className="card-sub-heading">
+				<Typography variant="body2" className={styles.card_sub_heading}>
 					{subHeading ? subHeading : 'Context coming soon'}
 				</Typography>
 
@@ -87,7 +87,7 @@ export default function ProductCard(props) {
 									}}
 								>
 									<FeatureListIcon /> {/* Render your icon component here */}
-									<Typography>{feature}</Typography>
+									<p className={styles.featureList}>{feature}</p>
 								</div>
 						  ))
 						: defaultFeaturesList.map((feature, index) => (
@@ -112,7 +112,7 @@ export default function ProductCard(props) {
 			<CardActions
 				sx={{ display: 'flex', justifyContent: 'center', marginBottom: '2rem' }}
 			>
-				<Button variant="contained" className="discover-button">
+				<Button variant="contained" className={styles.discover_button}>
 					Discover
 				</Button>
 			</CardActions>
