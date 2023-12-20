@@ -1,100 +1,167 @@
-// import React from 'react'
-// // import Image from 'next/image'
+import React, { useEffect, useState } from 'react';
+import styles from './style.module.css';
+import Carousel from '../dicoverOurBrand/carousel';
+import DiscoverCards from '../dicoverOurBrand/discoverCards';
+import { Box } from '@mui/material';
 
-// import './style.css'
+export default function EyezenLens() {
+  const items = [
+    <div>
+      <p className={styles.headingMbl}>Protect your eyes</p>
+      <DiscoverCards
+        disc={'Advanced filtration technology'}
+        logo={
+          'https://media.essilor.com/cms/caas/v1/media/108820/data/picture/d30ed6b7f52abd6faae16f80d9c03a09.png'
+        }
+        image={
+          'https://media.essilor.com/cms/caas/v1/media/108848/data/picture/0a32bbb2935711109896f3b653966f11.jpg'
+        }
+        productbtn={true}
+      />
+    </div>,
+    <div>
+      <p className={styles.headingMbl}>Protect your eyes</p>
+      <DiscoverCards
+        disc={'Goes beyond protection'}
+        logo={
+          '	https://media.essilor.com/cms/caas/v1/media/108832/data/picture/a68cfc95885bb96717cc4e2b92b56624.png'
+        }
+        image={
+          'https://media.essilor.com/cms/caas/v1/media/108850/data/picture/a483b831bc5b9c39f55d3766f8d22e7d.png'
+        }
+        productbtn={true}
+      />
+    </div>,
+    <div>
+      <p className={styles.headingMbl}>Protect your eyes</p>
+      <DiscoverCards
+        disc={'Light Intelligent Technology'}
+        logo={
+          'https://media.essilor.com/cms/caas/v1/media/108828/data/picture/623eb9a7a9542e23e8644eb2d5700424.png'
+        }
+        image={
+          'https://media.essilor.com/cms/caas/v1/media/108852/data/picture/d8930867df0d4b44342bc28ccdc9de0b.png'
+        }
+        productbtn={true}
+      />
+    </div>,
+    <div>
+      <p className={styles.headingMbl}>Enhance your eyes</p>
+      <DiscoverCards
+        disc={`Your lenses' invisible shield`}
+        logo={
+          'https://media.essilor.com/cms/caas/v1/media/108822/data/picture/fa10b1d3b7f907793c7fce164c1bfa79.png'
+        }
+        image={
+          'https://media.essilor.com/cms/caas/v1/media/108854/data/picture/8b9408b1a90c793db84d0f424c7fffe6.png'
+        }
+        productbtn={true}
+      />
+    </div>,
+  ];
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    // Check if window is defined (to avoid SSR issues)
+    if (typeof window !== 'undefined') {
+      setIsMobile(window.innerWidth <= 480);
 
-// const Index = () => {
-//     return (
-//         <div className='main-div'>
-//             <div className='heading'>Complete your Eyezen lenses with</div>
-//             <div className='cards-container'>
-//                 <div className='categories'>
-//                     <div className='left'>Protect your eyes</div>
-//                     <div className='right'>Enhance your eyes</div>
-//                 </div>
-//                 <div className='cards'>
-//                     <div className='card'>
-//                         <div className='header'>
-//                         <div className='left'>    
-//                         </div>
-//                         <div className='right'></div>
-//                         </div>
+      // Add event listener to update isMobile on window resize
+      const handleResize = () => {
+        setIsMobile(window.innerWidth <= 480);
+      };
 
-//                     </div>
-//                 </div>
-//             </div>
-//         </div>
-//     )
-// }
+      window.addEventListener('resize', handleResize);
 
-// export default Index
-import * as React from "react";
-import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
-import CardContent from "@mui/material/CardContent";
-import CardMedia from "@mui/material/CardMedia";
-import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
-import Image from "next/image";
-import "./style.css";
-export default function EyezenLens(props) {
-  const { imrUrl, bandColor, context, brandLogo } = props;
+      // Remove event listener on component unmount
+      return () => {
+        window.removeEventListener('resize', handleResize);
+      };
+    }
+  }, []);
   return (
     <>
-    
-
-    <Card
-      className="eye-lens-card"
-      sx={{
-        maxWidth: 350,
-        position: "relative",
-        border: "none",
-        boxShadow: "none !important",
-        borderRadius: "20px",
-      }}
-    >
-      <Image
-        component="img"
-        alt="green iguana"
-        height={250}
-        width={300}
-        src={imrUrl ? imrUrl : "/img/about.jpg"}
-        style={{ cursor: "pointer" }}
-      />
-      <div
-        style={{
-          position: "absolute",
-          top: 0,
-          right: 0,
-          bottom: 0,
-          height: "250px",
-          width: "8%",
-          backgroundColor: bandColor ? bandColor : "rgba(0, 0, 0, 0.8)",
-          zIndex: 2, // Adjust the z-index as needed
-        }}
-      />
-      <CardContent>
-        <div style={{ width: "300px", height: "150px" }}>
-          <CardMedia
-            style={{ objectFit: "" }}
-            component="img"
-            alt="green iguana"
-            height="100"
-            image={brandLogo ? brandLogo : "./img/eyexen.webp"}
-          />
+      <Box width={'90%'}>
+        <div className={styles.completeLen}>
+          <h1>Complete your Eyezen lenses with</h1>
+          {isMobile ? null : (
+            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+              <h3>Protect your eyes</h3>
+              <h3>Enhance your eyes</h3>
+            </div>
+          )}
         </div>
-        <Typography gutterBottom component="div" className="context">
-          {context ? context : "No Context"}
-        </Typography>
-      </CardContent>
-      <CardActions
-        sx={{ display: "flex", justifyContent: "center", marginBottom: "2rem" }}
-      >
-        <Button variant="contained" className="discover-button">
-          Discover
-        </Button>
-      </CardActions>
-    </Card>
+      </Box>
+      {isMobile ? (
+        <Box
+          sx={{
+            display: 'flex',
+            width: '100%',
+          }}
+        >
+          <Carousel items={items} />
+        </Box>
+      ) : (
+        <Box
+          sx={{
+            display: 'flex',
+            gap: '2rem',
+            justifyContent: 'space-between',
+          }}
+          alignItems={{
+            lg: 'flex-start',
+            sm: 'center',
+            md: 'flex-start',
+            xs: 'center',
+          }}
+          flexDirection={{
+            lg: 'row',
+            md: 'row',
+            sm: 'column',
+            xs: 'column',
+          }}
+        >
+          <DiscoverCards
+            disc={'Advanced filtration technology'}
+            logo={
+              'https://media.essilor.com/cms/caas/v1/media/108820/data/picture/d30ed6b7f52abd6faae16f80d9c03a09.png'
+            }
+            image={
+              'https://media.essilor.com/cms/caas/v1/media/108848/data/picture/0a32bbb2935711109896f3b653966f11.jpg'
+            }
+            productbtn={true}
+          />
+          <DiscoverCards
+            disc={'Goes beyond protection'}
+            logo={
+              '	https://media.essilor.com/cms/caas/v1/media/108832/data/picture/a68cfc95885bb96717cc4e2b92b56624.png'
+            }
+            image={
+              'https://media.essilor.com/cms/caas/v1/media/108850/data/picture/a483b831bc5b9c39f55d3766f8d22e7d.png'
+            }
+            productbtn={true}
+          />
+          <DiscoverCards
+            disc={'Light Intelligent Technology'}
+            logo={
+              'https://media.essilor.com/cms/caas/v1/media/108828/data/picture/623eb9a7a9542e23e8644eb2d5700424.png'
+            }
+            image={
+              'https://media.essilor.com/cms/caas/v1/media/108852/data/picture/d8930867df0d4b44342bc28ccdc9de0b.png'
+            }
+            productbtn={true}
+          />
+          <DiscoverCards
+            disc={`Your lenses' invisible shield`}
+            logo={
+              'https://media.essilor.com/cms/caas/v1/media/108822/data/picture/fa10b1d3b7f907793c7fce164c1bfa79.png'
+            }
+            image={
+              'https://media.essilor.com/cms/caas/v1/media/108854/data/picture/8b9408b1a90c793db84d0f424c7fffe6.png'
+            }
+            productbtn={true}
+          />
+        </Box>
+      )}
     </>
   );
 }

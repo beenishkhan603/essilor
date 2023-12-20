@@ -56,6 +56,14 @@
   width: 80%;
   height: 65vh;
 }
+.brandSlideCard {
+  width: 20%;
+  height: 65vh;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
 .brandName {
   font-size: 21px;
   line-height: 30px;
@@ -157,7 +165,24 @@
     cursor: pointer;
     font-weight: 600;
   }
+  .discoverProductBtn {
+    color: #fff;
+    background-color: #18b1ae;
+    border: 1px solid #18b1ae;
+    padding: 6% 4%;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+  }
   .rangeMain {
+    align-items: center;
+  }
+
+  .brandSlideCard {
+    width: 80%;
+
     align-items: center;
   }
 }
