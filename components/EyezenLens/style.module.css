@@ -1,0 +1,32 @@
+.completeLen {
+  display: 'flex';
+  flex-direction: 'column';
+  gap: 1.5rem;
+  color: 'black';
+}
+.completeLen > h1 {
+  padding: 5% 0;
+  font-size: 48px;
+  font-weight: 700;
+}
+.completeLen > div > h3 {
+  font-weight: 600;
+  font-size: 16px;
+  padding-bottom: 2%;
+}
+
+.headingMbl {
+  font-weight: 600;
+  font-size: 16px;
+  /* padding-bottom: 24px; */
+}
+
+@media screen and (max-width: 480px) {
+  .journeyHeading,
+  .completeLen > h1,
+  .disclaimer > h1 {
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: 0;
+  }
+}

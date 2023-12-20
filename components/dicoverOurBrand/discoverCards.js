@@ -10,24 +10,7 @@ import styles from './style.module.css';
 export default function DiscoverCards(props) {
   const { disc, textbtn, image, logo, productbtn } = props;
   return (
-    <Box
-      display={'flex'}
-      flexDirection={'column'}
-      alignItems={{
-        lg: 'flex-start',
-        sm: 'center',
-        md: 'flex-start',
-        xs: 'center',
-      }}
-      justifyContent={'center'}
-      height={'65vh'}
-      width={{
-        lg: '20% !important',
-        md: '20% !important',
-        sm: '80% !important',
-        xs: '80% !important',
-      }}
-    >
+    <Box className={styles.brandSlideCard}>
       <img className={styles.brandImg} alt='brand' src={image || discoverImg} />
       <img
         alt='logo'
