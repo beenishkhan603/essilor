@@ -4,20 +4,37 @@
 .m64 {
 	margin-top: 64px;
 }
+.homepageSlider .swiper-button-next,
+.homepageSlider .swiper-button-prev {
+	top: var(--swiper-navigation-top-offset, 40%) !important;
+}
 .swiper-button-next,
 .swiper-button-prev {
 	color: #18b1ae !important;
 	background: #ffffffab;
-	border-radius: 23px;
-	padding: 1.5% 1.5%;
+	border-radius: 50%;
+	padding: 2.5% 2.5%;
+	top: var(--swiper-navigation-top-offset, 26%) !important;
 }
+
 .swiper-button-prev:after,
 .swiper-button-next:after {
-	font-size: 16px;
+	font-size: 18px !important;
 }
 @media screen and (max-width: 480px) {
+	.aboutSlider > div > div > .swiper-slide,
 	.homepageSlider > div > div > .swiper-slide {
 		width: 100% !important;
+	}
+	.aboutSlider > div > div > .swiper-slide {
+		height: 23vh;
+	}
+	.homepageSlider > div > div > .swiper-slide > div > div {
+		padding-right: 60px;
+	}
+	.homepageSlider .swiper-button-next,
+	.homepageSlider .swiper-button-prev {
+		padding: 3.5% 5.5%;
 	}
 	.swiper-slide {
 		width: 80%;

@@ -317,11 +317,11 @@ const routeModule = new AppPageRouteModule({
 /***/ 55683:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 76128))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 76364))
 
 /***/ }),
 
-/***/ 76128:
+/***/ 76364:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -532,8 +532,8 @@ function ProductCard(props) {
     });
 }
 
-;// CONCATENATED MODULE: ./components/assets/bike.jpg
-/* harmony default export */ const bike = ({"src":"/_next/static/media/bike.9f4ba617.jpg","height":673,"width":1200,"blurDataURL":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAAQACAMBIgACEQEDEQH/xAAoAAEBAAAAAAAAAAAAAAAAAAAABQEBAQAAAAAAAAAAAAAAAAAAAgP/2gAMAwEAAhADEAAAAJgm/wD/xAAbEAACAgMBAAAAAAAAAAAAAAABAgMRAAUxsf/aAAgBAQABPwDUxCNoI0Z1D0Go9DWD5n//xAAXEQADAQAAAAAAAAAAAAAAAAAAASEx/9oACAECAQE/AHMP/8QAFxEBAAMAAAAAAAAAAAAAAAAAAQACMf/aAAgBAwEBPwCoOk//2Q==","blurWidth":8,"blurHeight":4});
+;// CONCATENATED MODULE: ./components/assets/bike.png
+/* harmony default export */ const bike = ({"src":"/_next/static/media/bike.c07a58ef.png","height":648,"width":810,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAIAAABxZ0isAAAAoUlEQVR42gGWAGn/AP7y8tzY0aepm9/Z1MnHv3iDYnaBY4qSfADh29bT0cTSzsfMu7vAr62AiW5wfGBxe2IAubqtyMq4yryuomFErXZfi457kJOLjpKFAK+1mdDQuq2NcJReTJdiS8a5r5+inJ6gkwCapYWSjGiBWTG+i36vgXKEbFSKhnZvemAAcIBPaV1CW0Ym3MC52sC6YEwiZ1w9RVUvwqtTGTKp2SsAAAAASUVORK5CYII=","blurWidth":8,"blurHeight":6});
 ;// CONCATENATED MODULE: ./components/pages/products/index.js
 /* __next_internal_client_entry_do_not_use__ default auto */ 
 
@@ -857,7 +857,7 @@ function Products() {
                         children: "No matter your age or what you need in a lens, Essilor has a product that gives you your best vision."
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                        className: (style_module_default()).filterBy,
+                        className: (style_module_default()).filterByMobile,
                         children: "Filter by:"
                     }),
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
@@ -866,12 +866,9 @@ function Products() {
                             justifyContent: isMobile ? "center" : "left"
                         },
                         children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx(node.Typography, {
-                                className: (style_module_default()).filter_tab_text,
-                                sx: {
-                                    display: isMobile ? "none" : "block"
-                                },
-                                children: "Filter tab"
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                className: (style_module_default()).filterByDesktop,
+                                children: "Filter by: \xa0\xa0"
                             }),
                             filters.map((filter)=>/*#__PURE__*/ jsx_runtime_.jsx(node.Button, {
                                     className: (style_module_default()).filter_button,
@@ -901,8 +898,8 @@ function Products() {
                             onChange: (event, newValue)=>handleCategoryClick(activeFilterCategories[newValue]),
                             variant: "scrollable",
                             scrollButtons: "auto",
-                            textColor: "primary",
-                            indicatorColor: "primary",
+                            textColor: "18b1ae",
+                            indicatorColor: "18b1ae",
                             children: activeFilterCategories.map((category, index)=>/*#__PURE__*/ jsx_runtime_.jsx(node.Tab, {
                                     label: category,
                                     sx: {
@@ -912,7 +909,7 @@ function Products() {
                                         fontSize: "14px",
                                         backgroundColor: activeCategory === category ? "#edf7fc" : "transparent",
                                         marginRight: isMobileText ? "" : "2rem",
-                                        color: "#0d52a0"
+                                        color: "#18b1ae"
                                     }
                                 }, index))
                         })
@@ -1064,7 +1061,8 @@ module.exports = {
 	"info_sub_heading": "style_info_sub_heading__YidO4",
 	"info_context": "style_info_context__kNseH",
 	"learn_button": "style_learn_button__dhFYV",
-	"filterBy": "style_filterBy__naV44",
+	"filterByDesktop": "style_filterByDesktop__35CXS",
+	"filterByMobile": "style_filterByMobile__3a_I_",
 	"newsLetterBtn": "style_newsLetterBtn__YPFod"
 };
 

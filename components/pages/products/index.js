@@ -14,7 +14,7 @@ import Footer from '../../footer';
 import styles from './style.module.css';
 import ProductsCard from '../../../components/productCard';
 import Image from 'next/image';
-import bikeImage from '@/components/assets/bike.jpg';
+import bikeImage from '@/components/assets/bike.png';
 
 const filters = [
 	{
@@ -340,17 +340,12 @@ export default function Products() {
 					No matter your age or what you need in a lens, Essilor has a product
 					that gives you your best vision.
 				</p>
-				<p className={styles.filterBy}>Filter by:</p>
+				<p className={styles.filterByMobile}>Filter by:</p>
 				<div
 					className={styles.filter_tabs}
 					style={{ justifyContent: isMobile ? 'center' : 'left' }}
 				>
-					<Typography
-						className={styles.filter_tab_text}
-						sx={{ display: isMobile ? 'none' : 'block' }}
-					>
-						Filter tab
-					</Typography>
+					<p className={styles.filterByDesktop}>Filter by: &nbsp;&nbsp;</p>
 					{filters.map((filter) => (
 						<Button
 							key={filter.name}
@@ -383,8 +378,8 @@ export default function Products() {
 							}
 							variant="scrollable"
 							scrollButtons="auto"
-							textColor="primary"
-							indicatorColor="primary"
+							textColor="18b1ae"
+							indicatorColor="18b1ae"
 						>
 							{activeFilterCategories.map((category, index) => (
 								<Tab
@@ -398,7 +393,7 @@ export default function Products() {
 										backgroundColor:
 											activeCategory === category ? '#edf7fc' : 'transparent',
 										marginRight: isMobileText ? '' : '2rem',
-										color: '#0d52a0',
+										color: '#18b1ae',
 									}}
 								/>
 							))}

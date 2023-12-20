@@ -7,7 +7,7 @@ import Footer from '../../footer';
 import NewsLetter from '../../newsLetter';
 import Carousel from '@/components/dicoverOurBrand/carousel';
 import AboutEssilor from '@/components/aboutAccordion';
-
+import '@/components/global.css';
 import styles from './style.module.css';
 
 const AboutPage = () => {
@@ -85,9 +85,9 @@ const AboutPage = () => {
 						<h1 className={styles.whyChoose}>Why choose Essilor?</h1>
 					</Grid>
 					{isMobile ? (
-						<>
-							<Carousel items={item} />
-						</>
+						<div className="aboutSlider">
+							<Carousel items={item} bulletColor={'#18b1ae'} />
+						</div>
 					) : (
 						<>
 							<Grid item md={6} sm={6} xs={6} lg={6}>

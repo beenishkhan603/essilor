@@ -13,7 +13,7 @@ import 'swiper/css/navigation';
 import { Pagination, Navigation } from 'swiper/modules';
 
 export default function App(props) {
-	const { items } = props;
+	const { items, bulletColor = '#18b1ae' } = props;
 	const [isMobile, setIsMobile] = useState(false);
 	useEffect(() => {
 		// Check if window is defined (to avoid SSR issues)
@@ -41,7 +41,7 @@ export default function App(props) {
 				centeredSlides={isMobile ? true : false}
 				spaceBetween={30}
 				style={{
-					'--swiper-pagination-color': '#fff',
+					'--swiper-pagination-color': bulletColor,
 					'--swiper-navigation-size': '30px',
 				}}
 				pagination={{

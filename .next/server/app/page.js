@@ -305,20 +305,20 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 70237:
+/***/ 15368:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 44472));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 57613));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 84858));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 17421, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 57613));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 73380, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 11553));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 31909));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 97801));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 31909));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 48424));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 91704));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 60539))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 60539));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 91704))
 
 /***/ }),
 
@@ -440,7 +440,7 @@ function Slider() {
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
                                             className: (_style_module_css__WEBPACK_IMPORTED_MODULE_8___default().discoverBtn),
-                                            children: "Find an optician"
+                                            children: "Know more"
                                         })
                                     ]
                                 })
@@ -767,7 +767,8 @@ const DiscoverBrand = ()=>{
                 children: "Discover our brands"
             }),
             /*#__PURE__*/ jsx_runtime_.jsx(carousel, {
-                items: items
+                items: items,
+                bulletColor: "#fff"
             })
         ]
     });

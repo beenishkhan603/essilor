@@ -503,11 +503,14 @@ function Accord() {
     });
 }
 
+// EXTERNAL MODULE: ./components/global.css
+var global = __webpack_require__(65323);
 // EXTERNAL MODULE: ./components/pages/about/style.module.css
 var about_style_module = __webpack_require__(54346);
 var about_style_module_default = /*#__PURE__*/__webpack_require__.n(about_style_module);
 ;// CONCATENATED MODULE: ./components/pages/about/index.js
 /* __next_internal_client_entry_do_not_use__ default auto */ 
+
 
 
 
@@ -604,9 +607,11 @@ const AboutPage = ()=>{
                                     children: "Why choose Essilor?"
                                 })
                             }),
-                            isMobile ? /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
+                            isMobile ? /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                className: "aboutSlider",
                                 children: /*#__PURE__*/ jsx_runtime_.jsx(carousel["default"], {
-                                    items: item
+                                    items: item,
+                                    bulletColor: "#18b1ae"
                                 })
                             }) : /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
                                 children: [

@@ -36,7 +36,7 @@ __webpack_require__.r(__webpack_exports__);
 // import required modules
 
 function App(props) {
-    const { items } = props;
+    const { items, bulletColor = "#18b1ae" } = props;
     const [isMobile, setIsMobile] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);
     (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{
         // Check if window is defined (to avoid SSR issues)
@@ -48,7 +48,7 @@ function App(props) {
             centeredSlides: isMobile ? true : false,
             spaceBetween: 30,
             style: {
-                "--swiper-pagination-color": "#fff",
+                "--swiper-pagination-color": bulletColor,
                 "--swiper-navigation-size": "30px"
             },
             pagination: {

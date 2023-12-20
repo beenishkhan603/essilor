@@ -128,9 +128,13 @@
 	color: #18b1ae;
 	background-color: #fff;
 }
-.filterBy {
-	font-size: 20px;
+.filterByDesktop {
+	font-size: 18px;
 	font-weight: bold;
+	display: block;
+}
+.filterByMobile {
+	display: none;
 }
 @media screen and (max-width: 480px) {
 	.page_heading,
@@ -140,9 +144,14 @@
 		letter-spacing: 0;
 		margin-bottom: 0;
 	}
-	.filterBy {
+	.filterByDesktop {
+		display: none;
+	}
+	.filterByMobile {
 		font-size: 16px;
+		font-weight: 600;
 		padding: 5% 0 0 0;
+		display: block;
 	}
 	.page_sub_heading {
 		font-size: 15px;

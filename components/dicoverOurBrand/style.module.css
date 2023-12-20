@@ -2,7 +2,8 @@
 	padding: 96px 0;
 }
 .swiper_pagination {
-	color: white;
+	color: #18b1ae;
+	border: 1px solid #fff;
 }
 
 .swiper_button_prev,
