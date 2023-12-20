@@ -305,26 +305,14 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 10390:
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
-
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 52987, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 50831, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 56926, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 44282, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 16505, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 31232, 23))
-
-/***/ }),
-
-/***/ 84577:
+/***/ 83546:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 73380, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 31909));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 17421, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 97801));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 11553));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 17421, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 84858));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 44472));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 48424));
@@ -355,12 +343,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var swiper_css_pagination__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(swiper_css_pagination__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var swiper_css_navigation__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(12119);
 /* harmony import */ var swiper_css_navigation__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(swiper_css_navigation__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _style_module_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(15613);
-/* harmony import */ var _style_module_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_style_module_css__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _style_module_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(15613);
+/* harmony import */ var _style_module_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_style_module_css__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(11440);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_8__);
 /* __next_internal_client_entry_do_not_use__ default auto */ 
 
 
 // Import Swiper styles
+
 
 
 
@@ -392,24 +383,20 @@ function Slider() {
                                 display: "flex"
                             },
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: (_style_module_css__WEBPACK_IMPORTED_MODULE_8___default().HeroBannerStatic),
+                                className: (_style_module_css__WEBPACK_IMPORTED_MODULE_9___default().HeroBannerStatic),
                                 children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                    className: (_style_module_css__WEBPACK_IMPORTED_MODULE_8___default().HeroBannerStaticContent),
+                                    className: (_style_module_css__WEBPACK_IMPORTED_MODULE_9___default().HeroBannerStaticContent),
                                     children: [
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            className: (_style_module_css__WEBPACK_IMPORTED_MODULE_8___default().heading),
+                                            className: (_style_module_css__WEBPACK_IMPORTED_MODULE_9___default().heading),
                                             children: "Essilor Experts"
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            className: (_style_module_css__WEBPACK_IMPORTED_MODULE_8___default().text),
+                                            className: (_style_module_css__WEBPACK_IMPORTED_MODULE_9___default().text),
                                             children: `Finding the right pair of glasses isn't always easy. You need
                   to choose a frame that you like and lenses that suit your
                   lifestyle. Finding the right eye care professional to advise
                   you along the way makes the process much smoother.`
-                                        }),
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
-                                            className: (_style_module_css__WEBPACK_IMPORTED_MODULE_8___default().discoverBtn),
-                                            children: "Find an optician"
                                         })
                                     ]
                                 })
@@ -423,24 +410,24 @@ function Slider() {
                                 display: "flex"
                             },
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: (_style_module_css__WEBPACK_IMPORTED_MODULE_8___default().HeroBannerStatic2),
+                                className: (_style_module_css__WEBPACK_IMPORTED_MODULE_9___default().HeroBannerStatic2),
                                 children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                    className: (_style_module_css__WEBPACK_IMPORTED_MODULE_8___default().HeroBannerStaticContent),
+                                    className: (_style_module_css__WEBPACK_IMPORTED_MODULE_9___default().HeroBannerStaticContent),
                                     children: [
                                         /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                             children: [
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                    className: (_style_module_css__WEBPACK_IMPORTED_MODULE_8___default().heading),
+                                                    className: (_style_module_css__WEBPACK_IMPORTED_MODULE_9___default().heading),
                                                     children: "Choosing a"
                                                 }),
                                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                    className: (_style_module_css__WEBPACK_IMPORTED_MODULE_8___default().heading),
+                                                    className: (_style_module_css__WEBPACK_IMPORTED_MODULE_9___default().heading),
                                                     children: "committed brand"
                                                 })
                                             ]
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            className: (_style_module_css__WEBPACK_IMPORTED_MODULE_8___default().text),
+                                            className: (_style_module_css__WEBPACK_IMPORTED_MODULE_9___default().text),
                                             children: `Making the choice to trust Essilor® solutions isn't just
                   choosing the world leader in prescription glasses – it's
                   choosing the lenses of a committed brand with a mission: see
@@ -450,8 +437,11 @@ function Slider() {
                   solutions and to respond to all needs.`
                                         }),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("button", {
-                                            className: (_style_module_css__WEBPACK_IMPORTED_MODULE_8___default().discoverBtn),
-                                            children: "Know more"
+                                            className: (_style_module_css__WEBPACK_IMPORTED_MODULE_9___default().discoverBtn),
+                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_8___default()), {
+                                                href: "/about-us",
+                                                children: "Know more"
+                                            })
                                         })
                                     ]
                                 })
@@ -1163,7 +1153,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [162,155,380,854,857,685,163], () => (__webpack_exec__(20625)));
+var __webpack_exports__ = __webpack_require__.X(0, [162,155,380,854,229,685,163], () => (__webpack_exec__(20625)));
 module.exports = __webpack_exports__;
 
 })();

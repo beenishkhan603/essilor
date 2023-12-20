@@ -1,7 +1,7 @@
 {
   "pages": {
     "/page": [
-      "static/chunks/webpack-aa7e50c0d04a3abb.js",
+      "static/chunks/webpack-8128188581868ce5.js",
       "static/chunks/fd9d1056-8def09e5124de850.js",
       "static/chunks/596-4fa76dc8212cf17d.js",
       "static/chunks/main-app-90a726074acab3c9.js",
@@ -11,11 +11,11 @@
       "static/chunks/139-a8f905f5343e5d7e.js",
       "static/chunks/165-17659c229525a32d.js",
       "static/css/c6e5dff2ef068088.css",
-      "static/css/555118f7cb27efd9.css",
-      "static/chunks/app/page-2c3937df399a8a37.js"
+      "static/css/9fb76bb326d007a0.css",
+      "static/chunks/app/page-5f7b660c73c01a22.js"
     ],
     "/layout": [
-      "static/chunks/webpack-aa7e50c0d04a3abb.js",
+      "static/chunks/webpack-8128188581868ce5.js",
       "static/chunks/fd9d1056-8def09e5124de850.js",
       "static/chunks/596-4fa76dc8212cf17d.js",
       "static/chunks/main-app-90a726074acab3c9.js",
@@ -23,7 +23,7 @@
       "static/chunks/app/layout-cc6466d3cd1f73b9.js"
     ],
     "/about-us/page": [
-      "static/chunks/webpack-aa7e50c0d04a3abb.js",
+      "static/chunks/webpack-8128188581868ce5.js",
       "static/chunks/fd9d1056-8def09e5124de850.js",
       "static/chunks/596-4fa76dc8212cf17d.js",
       "static/chunks/main-app-90a726074acab3c9.js",
@@ -35,7 +35,7 @@
       "static/chunks/app/about-us/page-c31d94cb2941aa19.js"
     ],
     "/product-detail/page": [
-      "static/chunks/webpack-aa7e50c0d04a3abb.js",
+      "static/chunks/webpack-8128188581868ce5.js",
       "static/chunks/fd9d1056-8def09e5124de850.js",
       "static/chunks/596-4fa76dc8212cf17d.js",
       "static/chunks/main-app-90a726074acab3c9.js",
@@ -48,7 +48,7 @@
       "static/chunks/app/product-detail/page-4a96a604c724fadc.js"
     ],
     "/products/page": [
-      "static/chunks/webpack-aa7e50c0d04a3abb.js",
+      "static/chunks/webpack-8128188581868ce5.js",
       "static/chunks/fd9d1056-8def09e5124de850.js",
       "static/chunks/596-4fa76dc8212cf17d.js",
       "static/chunks/main-app-90a726074acab3c9.js",
