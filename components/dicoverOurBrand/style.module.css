@@ -42,6 +42,8 @@
 .heading1 {
   color: #18b1ae;
   margin: 0;
+
+  padding: 5% 0 0 0;
 }
 .brandLogo {
   width: 136px;
@@ -116,14 +118,14 @@
 @media screen and (max-width: 1500px) and (min-width: 1200px) {
   .brandSlide {
     width: 80%;
-    height: 60vh;
+    height: 100vh;
   }
 }
 
 @media screen and (max-width: 1100px) and (min-width: 900px) {
   .brandSlide {
     width: 80%;
-    height: 50vh;
+    height: 100vh;
   }
   .brandImg {
     width: 200px;
