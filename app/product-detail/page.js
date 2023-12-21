@@ -19,25 +19,37 @@ const Page = () => {
   return (
     <>
       <Header />
-      <div className={styles.header}>
-        <div className={styles.header_content}>
-          <div className={styles.first_row}>
-            <Image height={32} width={32} src={cupIcon} alt='icon' />
-            <div style={{ fontWeight: '700', color: '#fff' }}>
-              Correct your vision
+      <Grid
+        direction='row'
+        container
+        justifyContent={'center'}
+        className={styles.aboutEContainer}
+      >
+        <Grid item md={9} lg={9} sm={12} xs={12}>
+          <div className={styles.header}>
+            <div className={styles.headerCon}>
+              <div className={styles.header_content}>
+                <div className={styles.first_row}>
+                  <Image height={32} width={32} src={cupIcon} alt='icon' />
+                  <div style={{ fontWeight: '700', color: '#fff' }}>
+                    Correct your vision
+                  </div>
+                </div>
+                <div className={styles.second_row}>
+                  <Image src={eyexen} alt='eyexen logo' />
+                </div>
+                <div className={styles.third_row}>
+                  <p className={styles.descrip}>
+                    Essilor® Eyezen® lenses are optimised single vision lenses
+                    that relax your eyes so you can keep up in a connected
+                    world.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-          <div className={styles.second_row}>
-            <Image src={eyexen} alt='eyexen logo' />
-          </div>
-          <div className={styles.third_row}>
-            <p className={styles.descrip}>
-              Essilor® Eyezen® lenses are optimised single vision lenses that
-              relax your eyes so you can keep up in a connected world.
-            </p>
-          </div>
-        </div>
-      </div>
+        </Grid>
+      </Grid>
       <BenifitsSummary />
       <Grid
         direction='row'

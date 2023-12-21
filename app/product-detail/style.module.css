@@ -3,18 +3,28 @@
 }
 
 .header {
+  margin-top: 64px;
   position: relative;
   height: 550px;
   width: 100%;
-  /* background: linear-gradient(180deg,#0086d6 -25%,#001a72 139.5%); */
-  background-color: #18b1ae;
+
+  background: var(--essilor-color-filter);
+
   background-image: url(../../components/assets/banner.jpeg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   display: flex;
   align-items: center;
 }
+.headerCon {
+  width: 100%;
+  height: 100%;
+  background: var(--essilor-color-filter);
+  display: flex;
+  align-items: center;
+}
+
 .header_content {
   margin-left: 15vw;
   /* height: 100px;
@@ -29,6 +39,11 @@
   display: flex;
   gap: 1rem;
   align-items: center;
+}
+.second_row img {
+  width: 135px;
+  height: auto;
+  padding: 16px 0;
 }
 
 .third_row p {

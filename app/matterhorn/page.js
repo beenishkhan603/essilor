@@ -81,12 +81,40 @@ const Page = () => {
         >
           <EyezenLens />
         </Grid>
+        <Grid
+          direction='row'
+          container
+          justifyContent={'center'}
+          item
+          bgcolor={'#eff0f1'}
+          md={12}
+          lg={12}
+          sm={12}
+          xs={12}
+        >
+          <Grid
+            item
+            md={9}
+            lg={9}
+            sm={12}
+            xs={12}
+            display={'flex'}
+            flexDirection={'column'}
+            bgcolor={'#eff0f1'}
+            alignItems={{
+              lg: 'flex-start',
+              sm: 'center',
+              md: 'flex-start',
+              xs: 'center',
+            }}
+            py={'5%'}
+          >
+            <DiscoverRange />
+          </Grid>
+        </Grid>
       </Grid>
 
       <Grid direction='row' container>
-        <Grid item md={12} lg={12} sm={12} xs={12}>
-          <DiscoverRange />
-        </Grid>
         <Grid
           item
           md={12}

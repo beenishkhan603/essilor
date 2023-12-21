@@ -1,0 +1,123 @@
+.descrip {
+  color: #fff;
+}
+.aboutEContainer {
+  background-color: #18b1ae;
+  width: 100%;
+}
+
+.header {
+  margin-top: 64px;
+  position: relative;
+  height: 550px;
+  width: 100%;
+
+  background-image: url('https://media.essilor.com/cms/caas/v1/media/114182/data/picture/46a7f5ab8c7532911fc2c052dc723c1d.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.headerCon {
+  width: 100%;
+  height: 100%;
+  background: var(--essilor-color-filter);
+  display: flex;
+  align-items: center;
+}
+
+.header_content {
+  margin-left: 15vw;
+  /* height: 100px;
+    width: 300px; */
+  max-width: 400px;
+  /* border: 2px solid white; */
+  display: flex;
+  flex-direction: column;
+  /* gap: 1rem; */
+}
+.first_row {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.second_row img {
+  width: 135px;
+  height: auto;
+  padding: 16px 0;
+}
+.third_row p {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+.completeLen {
+  display: 'flex';
+  flex-direction: 'column';
+  gap: 1.5rem;
+  color: 'black';
+}
+.completeLen > h1 {
+  padding: 5% 0;
+  font-size: 48px;
+  font-weight: 700;
+}
+.completeLen > div > h3 {
+  font-weight: 600;
+  font-size: 16px;
+  padding-bottom: 2%;
+}
+.journeyHeading {
+  font-size: 48px;
+  line-height: 68px;
+  letter-spacing: 0;
+  font-weight: 700;
+  margin-bottom: 48px;
+  color: #fff;
+}
+.disclaimer {
+  padding: 10% 10%;
+}
+.disclaimer > h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 3%;
+}
+.disclaimer > ol > li {
+  font-size: 14px;
+}
+@media screen and (max-width: 480px) {
+  .journeyHeading,
+  .completeLen > h1,
+  .disclaimer > h1 {
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: 0;
+  }
+  .brandImg {
+    width: 241px;
+    height: 256px;
+    border-radius: 12px;
+  }
+  .brandName {
+    font-size: 16px;
+    line-height: 28px;
+    height: 60px;
+  }
+  .discoverBtn {
+    background-color: #fff;
+    color: #18b1ae;
+    border: 1px solid #fff;
+    padding: 6% 4%;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  .header {
+    background-size: cover;
+  }
+}

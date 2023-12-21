@@ -115,6 +115,18 @@
   flex-direction: column;
 }
 
+.completeLen {
+  display: 'flex';
+  flex-direction: 'column';
+  gap: 1.5rem;
+  color: 'black';
+}
+.completeLen > h1 {
+  padding: 5% 0;
+  font-size: 48px;
+  font-weight: 700;
+}
+
 @media screen and (max-width: 1500px) and (min-width: 1200px) {
   .brandSlide {
     width: 80%;
@@ -140,6 +152,7 @@
     letter-spacing: 0;
     text-align: center;
   }
+  .completeLen > h1,
   .heading {
     font-size: 32px;
     line-height: 42px;
