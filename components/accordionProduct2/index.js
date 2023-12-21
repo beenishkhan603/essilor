@@ -78,7 +78,7 @@ export default function AccordProduct() {
                     {`Lenses should adapt to your behaviour and not the other way around. Experience instant sharpness even in motion`}
                   </Typography>
                   <Typography variant='p' className={styles.text2}>
-                    {` Discover Essilor® Start.`}
+                    {` Discover Belvin® Start.`}
                   </Typography>
                 </div>
               </AccordionDetails>

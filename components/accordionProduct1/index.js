@@ -78,7 +78,7 @@ export default function AccordProduct() {
                     {`Light is everywhere. We are exposed to blue light all day long, all year long, from the sun, artificial lighting and screens. However you lead your life, managing your UV and blue light exposure is recommended for everyone. Keep your vision at its best every day.`}
                   </Typography>
                   <Typography variant='p' className={styles.text2}>
-                    {` Discover Essilor® Start.`}
+                    {` Discover Belvin® Start.`}
                   </Typography>
                 </div>
               </AccordionDetails>

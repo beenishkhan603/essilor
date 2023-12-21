@@ -78,7 +78,7 @@ export default function AccordProduct() {
                     {`Eyezen® Start lenses are optimised single vision lenses designed to relax and protect`}
                   </Typography>
                   <Typography variant='p' className={styles.text2}>
-                    {` Discover Essilor® Start.`}
+                    {` Discover Belvin® Start.`}
                   </Typography>
                 </div>
               </AccordionDetails>
