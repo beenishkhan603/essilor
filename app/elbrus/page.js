@@ -25,7 +25,7 @@ const Page = () => {
         justifyContent={'center'}
         className={styles.aboutEContainer}
       >
-        <Grid item md={9} lg={9} sm={12} xs={12}>
+        <Grid item md={9} lg={12} sm={12} xs={12}>
           <div className={styles.header}>
             <div className={styles.headerCon}>
               <div className={styles.header_content}>
@@ -55,7 +55,7 @@ const Page = () => {
       </Grid>
       <BenifitsSummary />
       <Grid direction='row' container justifyContent={'center'}>
-        <Grid item md={9} lg={9} sm={12} xs={12}>
+        <Grid item xl={6} md={9} lg={12} sm={12} xs={12}>
           <AccordProduct />
         </Grid>
         <Grid item md={12} lg={12} sm={12} xs={12}>
@@ -64,13 +64,14 @@ const Page = () => {
         <Grid
           item
           md={9}
-          lg={9}
+          lg={12}
+          xl={9}
           sm={12}
           xs={12}
           display={'flex'}
           flexDirection={'column'}
           alignItems={{
-            lg: 'flex-start',
+            lg: 'center',
             sm: 'center',
             md: 'flex-start',
             xs: 'center',

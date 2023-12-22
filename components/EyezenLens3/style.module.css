@@ -30,3 +30,12 @@
     letter-spacing: 0;
   }
 }
+
+@media screen and (max-width: 1440px) {
+  .completeLenMedia {
+    padding: 62px;
+  }
+  .completeLen {
+    padding-left: 25px;
+  }
+}

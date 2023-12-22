@@ -119,6 +119,7 @@ export default function EyezenLens() {
 						sm: 'column',
 						xs: 'column',
 					}}
+					className={styles.completeLenMedia}
 				>
 					<DiscoverCards
 						disc={'The new generation of single vision lenses'}

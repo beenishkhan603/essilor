@@ -142,9 +142,9 @@ const NavBar = () => {
                     onClick={handleDrawerClose}
                   />
                 )}
-                <img
+                <Image
                   src={
-                    'https://media.essilor.com/cms/caas/v1/media/111038/data/picture/ad4c95e15735798f651c1308f70ee60b.png'
+                   logo
                   }
                   alt={'logo'}
                   className={styles.logo}

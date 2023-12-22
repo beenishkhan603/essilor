@@ -111,3 +111,10 @@
     color: #ff5c6b;
   }
 }
+
+
+@media screen and (max-width: 1440px) {
+  .satisfaction_cont {
+    gap: 5rem;
+  }
+}

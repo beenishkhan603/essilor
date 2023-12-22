@@ -37,7 +37,7 @@ export default function App(props) {
 	return (
 		<>
 			<Swiper
-				slidesPerView={isMobile ? 'auto' : 4}
+				slidesPerView={isMobile ? 1 : 4}
 				centeredSlides={isMobile ? true : false}
 				spaceBetween={30}
 				style={{

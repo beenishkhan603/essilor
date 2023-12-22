@@ -101,6 +101,7 @@ export default function discoverRange() {
             sm: 'column',
             xs: 'column',
           }}
+          className={styles.completeLenMedia}
         >
           <DiscoverCards
             disc={'Instant sharpness even in motion'}
