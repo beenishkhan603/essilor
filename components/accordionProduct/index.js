@@ -25,7 +25,7 @@ export default function AccordProduct() {
             xs={12}
             lg={6}
             //height={{ xs: '50%', sm: '50%', md: '100%', lg: '100%' }}
-            padding={{ xs: '20px', sm: '20px', md: '100px', lg: '100px' }}
+            padding={{ xs: '20px', sm: '20px', md: '44px', lg: '88px', xl: '100px' }}
           >
             <p
               className={styles.heading}

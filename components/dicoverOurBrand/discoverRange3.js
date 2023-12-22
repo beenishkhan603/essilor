@@ -91,6 +91,7 @@ export default function discoverRange() {
             sm: 'column',
             xs: 'column',
           }}
+          className={styles.completeLenMedia}
         >
           <DiscoverCards
             disc={'Advanced filtration technology'}

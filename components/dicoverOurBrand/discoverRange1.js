@@ -19,7 +19,8 @@ export default function discoverRange() {
         <Grid
           item
           md={9}
-          lg={9}
+          lg={12}
+          xl={9}
           sm={12}
           xs={12}
           paddingY={{ xs: '20px', sm: '20px', md: '100px', lg: '100px' }}
@@ -30,6 +31,7 @@ export default function discoverRange() {
             md: 'flex-start',
             xs: 'center',
           }}
+          className={style.completeLenMedia}
         >
           <DiscoverCards
             disc={'The new generation of single vision lenses'}
