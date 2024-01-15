@@ -331,7 +331,7 @@ export default function Products() {
       <Header />
       <Container className={styles.main_container} maxWidth='xl'>
         <Typography className={styles.brand_heading_small}>
-          ESSILOR BRANDS
+        BELVINITALY BRANDS
         </Typography>
         <Typography className={styles.page_heading}>
           Discover our brands

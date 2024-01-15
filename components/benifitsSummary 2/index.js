@@ -9,62 +9,62 @@ const index = () => {
       <div className={styles.benifit_summary_main}>
         <div className={styles.benifits}>
           <div className={styles.heading}>
-            Benefits of Blue UV Filter System
+            Benefits of Hamilton coatings
           </div>
           <div className={styles.benifits_box}>
             <div className={styles.benifits_box_child}>
               <Image src={benifitIcon} alt='Icon' />
-              <div className={styles.name}>UV protection</div>
+              <div className={styles.name}>Enhanced visual experience</div>
               <div className={styles.description}>
-                100% UV protection on front side
+                Minimize distracting light reflections.
               </div>
             </div>
             <div className={styles.benifits_box_child}>
               <Image src={benifitIcon} alt='Icon' />
-              <div className={styles.name}>Selective filtering</div>
+              <div className={styles.name}>Increased lens resistance</div>
               <div className={styles.description}>
-                No disruption of your own circadian rhythms
+              Enhance the resistance of your lenses against scratches.
               </div>
             </div>
             <div className={styles.benifits_box_child}>
               <Image src={benifitIcon} alt='Icon' />
-              <div className={styles.name}>Optimal clarity</div>
+              <div className={styles.name}>Hassle-free lenses</div>
               <div className={styles.description}>
-                Don't compromise contrast and colour perception
+                Resistant to smudges, and repels water and dust.
               </div>
             </div>
             <div className={styles.benifits_box_child}>
               <Image src={benifitIcon} alt='Icon' />
-              <div className={styles.name}>Filter blue-violet light</div>
+              <div className={styles.name}>Optimal UV protection</div>
               <div className={styles.description}>
-                Up to 3 times more filtering
+                UV protection on both sides.
               </div>
             </div>
           </div>
         </div>
         <div className={styles.chooseUs}>
           <div className={styles.heading}>
-            Why choose the Blue UV Filter System?
+            Why choose Hamilton?
           </div>
           <div className={styles.satisfaction_cont}>
             <div className={styles.left}>
-              <div className={styles.pink_heading}>88%</div>
+              <div className={styles.pink_heading}>6</div>
               <div className={styles.desc}>
                 {
-                  'of wearers are more satisfied with Blue UV™ Capture when looking at screens'
+                  '9 out of 10 Hamilton® wearers are very satisfied versus only'
                 }
               </div>
             </div>
             <div className={styles.right}>
-              <div className={styles.pink_heading}>91%</div>
+              <div className={styles.pink_heading}>4</div>
               <div className={styles.desc}>
-                {'of wearers would continue using them'}
+                {'9 out of 10 unbranded/generic coating wearers'}
               </div>
             </div>
             <div className={styles.right}>
-              <div className={styles.pink_heading}>86%</div>
+              <div className={styles.pink_heading}>20</div>
               <div className={styles.desc}>
-                {'of wearers are satisfied with their overall visual comfort'}
+                {'years of innovation'}
               </div>
             </div>
           </div>

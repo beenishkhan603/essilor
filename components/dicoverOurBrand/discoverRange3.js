@@ -60,7 +60,7 @@ export default function discoverRange() {
     <>
       <Box width={'100%'} bgcolor={'#eff0f1'}>
         <div className={styles.completeLen}>
-          <h1>Discover the Transitions range</h1>
+          <h1>Discover the Ben Nevis range</h1>
         </div>
       </Box>
       {isMobile ? (
@@ -102,6 +102,7 @@ export default function discoverRange() {
               '	https://media.essilor.com/cms/caas/v1/media/108988/data/picture/fd6b3e7a67a10130180180307ff16218.jpg'
             }
             productbtn={false}
+            title= {"Benty"}
           />
           <DiscoverCards
             disc={'Light Intelligent Technology'}
@@ -112,6 +113,7 @@ export default function discoverRange() {
               '	https://media.essilor.com/cms/caas/v1/media/108990/data/picture/ade51e909d0b12194fb2e6fec5947024.jpg'
             }
             productbtn={false}
+            title= {"Balnc II"}
           />
           <DiscoverCards
             disc={`Your lenses' invisible shield`}
@@ -122,6 +124,7 @@ export default function discoverRange() {
               'https://media.essilor.com/cms/caas/v1/media/108992/data/picture/80f2e41b690d912b3e8f85d44e14e0b3.jpg'
             }
             productbtn={false}
+            title= {"Hamilton"}
           />
         </Box>
       )}

@@ -29,7 +29,7 @@ const NewLetter = () => {
     <>
       <div className={styles.newsletterContainer}>
         <Grid direction='row' container>
-          <Grid item md={5} lg={5} sm={12} xs={12}>
+          <Grid item md={5} lg={6} sm={12} xs={12}>
             <p className={styles.subHeading}>Find your nearest optician</p>
             <p className={styles.heading}>
               Get an Belvin lens solution at a partnered optician

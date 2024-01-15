@@ -20,7 +20,7 @@
 }
 .about {
 	width: 100%;
-	height: auto;
+	height: 768px;
 }
 
 @media screen and (max-width: 480px) {

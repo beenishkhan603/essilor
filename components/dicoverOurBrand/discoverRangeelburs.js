@@ -10,7 +10,7 @@ export default function discoverRange() {
 			<Grid direction="row" container>
 				<Grid item md={1} lg={1} sm={12} xs={12}></Grid>
 				<Grid item md={9} lg={9} sm={12} xs={12}>
-					<p className={style.heading1}>{`Discover the Xperio range`}</p>
+					<p className={style.heading1}>{`Discover the Benty range`}</p>
 				</Grid>
 			</Grid>
 			<Grid container direction="row" justifyContent={'center'}>

@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-import aboutImg from '@/components/assets/glasse1.webp';
+import aboutImg from '@/components/assets/glasse1.avif';
 import styles from './style.module.css';
 
 const Lens = () => {

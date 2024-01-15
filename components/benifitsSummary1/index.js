@@ -8,7 +8,7 @@ const index = () => {
     <>
       <div className={styles.benifit_summary_main}>
         <div className={styles.benifits}>
-          <div className={styles.heading}>Benefits of Varilux lenses</div>
+          <div className={styles.heading}>Benefits of Balnc II lenses</div>
           <div className={styles.benifits_box}>
             <div className={styles.benifits_box_child}>
               <Image src={benifitIcon} alt='Icon' />
@@ -41,19 +41,19 @@ const index = () => {
           </div>
         </div>
         <div className={styles.chooseUs}>
-          <div className={styles.heading}>Why choose Varilux?</div>
+          <div className={styles.heading}>Why choose Blanc-II?</div>
           <div className={styles.satisfaction_cont}>
             <div className={styles.left}>
               <div className={styles.pink_heading}>#1</div>
               <div className={styles.desc}>
-                {'progressive lens brand recommended by eye care professionals'}
+                {'Eyecare professionals frequently endorse a brand of progressive lenses.'}
               </div>
             </div>
             <div className={styles.right}>
               <div className={styles.pink_heading}>93%</div>
               <div className={styles.desc}>
                 {
-                  'of wearers are satisfied with the quality of vision their Varilux® presbyopia lenses give them'
+                  'A high percentage of users express contentment with the visual quality provided by their Blanc-II® presbyopia lenses.'
                 }
               </div>
             </div>

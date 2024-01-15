@@ -23,13 +23,13 @@ export default function AccordProduct() {
             md={12}
             sm={6}
             xs={12}
-            lg={6}
+            lg={8}
             //height={{ xs: '50%', sm: '50%', md: '100%', lg: '100%' }}
             padding={{ xs: '20px', sm: '20px', md: '44px', lg: '88px', xl: '100px' }}
           >
             <p
               className={styles.heading}
-            >{`Which Eyezen lenses are right for me?`}</p>
+            >{`Which Blanc lenses are right for me?`}</p>
 
             <Accordion
               onChange={() => {
@@ -75,7 +75,7 @@ export default function AccordProduct() {
                   }}
                 >
                   <Typography variant='p' className={styles.text}>
-                    {`Eyezen® Start lenses are optimised single vision lenses designed to relax and protect`}
+                    {`Blanc Start lenses are optimized single vision lenses crafted to provide relaxation and protection.`}
                   </Typography>
                   <Typography variant='p' className={styles.text2}>
                     {` Discover Belvin® Start.`}
@@ -89,7 +89,7 @@ export default function AccordProduct() {
             md={12}
             sm={6}
             xs={12}
-            lg={6}
+            lg={4}
             height={{ xs: '60%', sm: '60%', md: '100%', lg: '100%' }}
           >
             {accordionOpen2 ? (

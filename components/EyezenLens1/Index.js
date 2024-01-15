@@ -2,9 +2,13 @@ import React, { useEffect, useState } from 'react';
 import styles from './style.module.css';
 import Carousel from '../dicoverOurBrand/carousel';
 import DiscoverCards from '../dicoverOurBrand/discoverCards';
+import hamImg from '../assets/hamilton1.jpg'
+import nevImg from '../assets/nevis.jpg'
 import { Box } from '@mui/material';
 
-export default function EyezenLens() {
+export default function EyezenLens(props) {
+	const { title } = props;
+
 	const items = [
 		<div>
 			<p className={styles.headingMbl}>Protect your eyes</p>
@@ -37,10 +41,10 @@ export default function EyezenLens() {
 			<DiscoverCards
 				disc={'Light Intelligent Technology'}
 				logo={
-					'https://media.essilor.com/cms/caas/v1/media/108828/data/picture/623eb9a7a9542e23e8644eb2d5700424.png'
+					null
 				}
 				image={
-					'https://media.essilor.com/cms/caas/v1/media/108852/data/picture/d8930867df0d4b44342bc28ccdc9de0b.png'
+					nevImg
 				}
 				productbtn={true}
 			/>
@@ -50,10 +54,10 @@ export default function EyezenLens() {
 			<DiscoverCards
 				disc={`Your lenses' invisible shield`}
 				logo={
-					'https://media.essilor.com/cms/caas/v1/media/108822/data/picture/fa10b1d3b7f907793c7fce164c1bfa79.png'
+					null
 				}
 				image={
-					'https://media.essilor.com/cms/caas/v1/media/108854/data/picture/8b9408b1a90c793db84d0f424c7fffe6.png'
+					hamImg
 				}
 				productbtn={true}
 			/>
@@ -64,7 +68,7 @@ export default function EyezenLens() {
 		// Check if window is defined (to avoid SSR issues)
 		if (typeof window !== 'undefined') {
 			setIsMobile(window.innerWidth <= 480);
-
+  
 			// Add event listener to update isMobile on window resize
 			const handleResize = () => {
 				setIsMobile(window.innerWidth <= 480);
@@ -82,7 +86,7 @@ export default function EyezenLens() {
 		<>
 			<Box width={'90%'}>
 				<div className={styles.completeLen}>
-					<h1>Complete your Eyezen lenses with</h1>
+					<h1>{title}</h1>
 					{isMobile ? null : (
 						<div style={{ display: 'flex', justifyContent: 'space-between' }}>
 							<h3>Protect your eyes</h3>
@@ -144,20 +148,20 @@ export default function EyezenLens() {
 					<DiscoverCards
 						disc={'Advanced filtration technology'}
 						logo={
-							'https://media.essilor.com/cms/caas/v1/media/108828/data/picture/623eb9a7a9542e23e8644eb2d5700424.png'
+							null
 						}
 						image={
-							'https://media.essilor.com/cms/caas/v1/media/108852/data/picture/d8930867df0d4b44342bc28ccdc9de0b.png'
+							nevImg
 						}
 						productbtn={true}
 					/>
 					<DiscoverCards
 						disc={`Your lenses' invisible shield`}
 						logo={
-							'https://media.essilor.com/cms/caas/v1/media/108822/data/picture/fa10b1d3b7f907793c7fce164c1bfa79.png'
+							null
 						}
 						image={
-							'https://media.essilor.com/cms/caas/v1/media/108854/data/picture/8b9408b1a90c793db84d0f424c7fffe6.png'
+							hamImg
 						}
 						productbtn={true}
 					/>

@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
@@ -22,7 +22,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import DragHandleIcon from '@mui/icons-material/DragHandle';
 import CloseIcon from '@mui/icons-material/Close';
 import AddIcon from '@mui/icons-material/Add';
-import logo from '@/components/assets/logo.jpeg';
+import logo from '@/components/assets/logo.png';
 
 import styles from './style.module.css';
 import Image from 'next/image';
@@ -35,7 +35,7 @@ const NavBar = () => {
   const pages = [
     { name: 'About us', url: '/about-us' },
     { name: 'Our products', url: '' },
-    { name: 'Help me choose', url: '' },
+    // { name: 'Help me choose', url: '' },
   ];
 
   const handleDrawerOpen = () => {
@@ -45,6 +45,22 @@ const NavBar = () => {
   const handleDrawerClose = () => {
     setDrawerOpen(false);
   };
+
+  useEffect(() => {
+    const handleBodyClick = (event) => {
+      const classList = event.target.className;
+      if (!classList.includes('navigationDropdown')) {
+        handleDrawerClose();
+        setDrop(false)
+      }
+    };
+
+    document.body.addEventListener('click', handleBodyClick);
+
+    return () => {
+      document.body.removeEventListener('click', handleBodyClick);
+    };
+  }, [handleDrawerClose]);
 
   return (
     <>
@@ -102,7 +118,7 @@ const NavBar = () => {
                   </Box>
                 </Box>
 
-                <Box className={styles.barItemGlobe}>
+                {/* <Box className={styles.barItemGlobe}>
                   <LanguageIcon
                     sx={{
                       color: '#fff',
@@ -110,7 +126,7 @@ const NavBar = () => {
                       fontSize: '42px !important',
                     }}
                   />
-                </Box>
+                </Box> */}
               </Box>
             </Box>
             <Box
@@ -167,12 +183,10 @@ const NavBar = () => {
                   <p className={styles.cardheading}>Lenses for you</p>
 
                   <p className={styles.cardText}>
-                    Belvin lenses are the number one brand in spectacle lenses
-                    recommended by opticians around the world. We have a vision
-                    solution for every lifestyle and need.
+                  Belvin lenses stand out as the top choice among opticians globally when it comes to spectacle lenses. Offering a vision solution tailored to various lifestyles and requirements, we ensure that your visual needs are expertly addressed.
                   </p>
 
-                  <a href='/products/'>Discover all products</a>
+                  {/* <a href='/products/'>Discover all products</a> */}
                 </div>
                 <Box className={styles.linksWrapper}>
                   <Box>
@@ -180,14 +194,14 @@ const NavBar = () => {
                       Correct
                     </Typography>
 
-                    <Link href='/product-detail'>
+                    <Link href='/blanc'>
                       <Typography className={styles.detailLink}>
                         Blanc
                       </Typography>
                     </Link>
-                    <Link href='/matterhorn'>
+                    <Link href='/blanc-II'>
                       <Typography className={styles.detailLink}>
-                        Matterhorn
+                      Blanc II
                       </Typography>
                     </Link>
                   </Box>
@@ -195,9 +209,9 @@ const NavBar = () => {
                     <Typography className={styles.detailHeading}>
                       Protection
                     </Typography>
-                    <Link href='/elbrus'>
+                    <Link href='/benty'>
                       <Typography className={styles.detailLink}>
-                        Elbrus
+                      Benty
                       </Typography>
                     </Link>
                     <Link href='/ben'>
@@ -274,9 +288,9 @@ const NavBar = () => {
                   <Link href='/product-detail'>
                     <Typography className={styles.detailLink}>Blanc</Typography>
                   </Link>
-                  <Link href='/matterhorn'>
+                  <Link href='/blanc-II'>
                     <Typography className={styles.detailLink}>
-                      Matterhorn
+                    blanc-II
                     </Typography>
                   </Link>
                   <Typography className={styles.detailHeading}>

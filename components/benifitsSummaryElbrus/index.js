@@ -9,70 +9,95 @@ const index = () => {
     <>
       <div className={styles.benifit_summary_main}>
         <div className={styles.benifits}>
-          <div className={styles.heading}>Benefits of Xperio Sun Lenses</div>
+          <div className={styles.heading}>Benefits of Benty Filter System</div>
           <div className={styles.benifits_box}>
             <div className={styles.benifits_box_child}>
               <Image src={benifitIcon} alt='Icon' />
-              <div className={styles.name}>Sun protection</div>
+              <div className={styles.name}>UV protection</div>
               <div className={styles.description}>
-                Protect your eyes from UV rays and filter the blue-violet light1
+                Full protection against UV rays on the front side.
               </div>
             </div>
             <div className={styles.benifits_box_child}>
               <Image src={benifitIcon} alt='Icon' />
-              <div className={styles.name}>Vision correction</div>
+              <div className={styles.name}>Selective filtering</div>
               <div className={styles.description}>
-                Prescription polarised glasses for clearer outdoor vision
+                Preservation of your circadian rhythms without any disturbance.
               </div>
             </div>
             <div className={styles.benifits_box_child}>
               <Image src={benifitIcon} alt='Icon' />
-              <div className={styles.name}>Vision comfort</div>
+              <div className={styles.name}>Optimal clarity</div>
               <div className={styles.description}>
-                Enjoy activities in bright light conditions
+                Avoid compromising contrast and color perception.
               </div>
             </div>
             <div className={styles.benifits_box_child}>
               <Image src={benifitIcon} alt='Icon' />
-              <div className={styles.name}>Glare cut</div>
+              <div className={styles.name}>Lens aesthetic</div>
               <div className={styles.description}>
-                Discover Xperio® polarised lenses for enhanced contrast and
-                better comfort
+                Experience optimal vision in all lighting conditions with an anti-glare finish.
               </div>
             </div>
             <div className={styles.benifits_box_child}>
               <Image src={benifitIcon} alt='Icon' />
-              <div className={styles.name}>Style</div>
+              <div className={styles.name}>Filter blue-violet light<sup>2</sup></div>
               <div className={styles.description}>
-                Enjoy a wide range of frames and styles
+                Enhanced filtering, up to three times more according to specifications.
               </div>
             </div>
           </div>
         </div>
         <div className={styles.chooseUs}>
           <div className={styles.heading}>
-            Why choose the Xperio Sun Lenses?
+            Why choose the Benty Filter System??
           </div>
           <Grid direction='row' container justifyContent={'center'}>
-            <Grid item md={4} lg={4} sm={12} xs={12}>
+            <Grid item md={4} lg={6} sm={12} xs={12}>
               <p className={styles.subheading}>
-                Style and protection come first when buying sunglasses, but it
-                doesn’t have to be at the expense of correction. Don't
-                compromise on vision clarity when you can choose stylish Belvin®
-                sunglasses
+                Prioritize style and protection when purchasing sunglasses, without compromising on vision clarity. Choose the combination of style and correction with Belvin® sunglasses.
               </p>
             </Grid>
           </Grid>
-          <div className={styles.satisfaction_cont}>
-            <div>
-              <div className={styles.pink_heading}>32%</div>
-              <div className={styles.desc}>
-                {
-                  'of people who need visual correction wear non-prescription sunglasses2'
-                }
+          <Grid direction='row' container justifyContent={'center'}>
+            <Grid item md={4} lg={4} sm={12} xs={12}>
+              <div className={styles.satisfaction_cont}>
+                <div>
+                  <div className={styles.pink_heading}>88%</div>
+                  <div className={styles.desc}>
+                    {
+                      'A significant percentage of users express higher satisfaction with Blue UV™ Capture when viewing screens.'
+                    }
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
+            </Grid>
+            <Grid item md={4} lg={4} sm={12} xs={12}>
+              <div className={styles.satisfaction_cont}>
+                <div>
+                  <div className={styles.pink_heading}>91%</div>
+                  <div className={styles.desc}>
+                    {
+                      'A substantial percentage of wearers express their intent to continue using them.'
+                    }
+                  </div>
+                </div>
+              </div>
+            </Grid>
+            <Grid item md={4} lg={4} sm={12} xs={12}>
+              <div className={styles.satisfaction_cont}>
+                <div>
+                  <div className={styles.pink_heading}>86%</div>
+                  <div className={styles.desc}>
+                    {
+                      'A notable percentage of wearers express satisfaction with their overall visual comfort.'
+                    }
+                  </div>
+                </div>
+              </div>
+            </Grid>
+          </Grid>
+
         </div>
       </div>
     </>

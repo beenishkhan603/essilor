@@ -73,7 +73,7 @@
 
 @media screen and (max-width: 1500px) and (min-width: 900px) {
 	.HeroBannerStaticContent {
-		padding-left: 140px !important;
+		padding-left: 96px !important;
 	}
 }
 @media screen and (max-width: 480px) {
