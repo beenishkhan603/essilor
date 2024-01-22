@@ -45,7 +45,7 @@ const filters = [
         filterName: 'Protect Your Eyes',
         bandColor: 'red',
         brandLogo: '/img/eyezen.avif', // Replace with your brand's logo URL
-        subHeading: 'The new generation of single vision lenses',
+        subHeading: 'The new generation of single vision lensessss',
         featuresList: [
           'Better acuity',
           'Visual fatigue reduction',
@@ -331,7 +331,7 @@ export default function Products() {
       <Header />
       <Container className={styles.main_container} maxWidth='xl'>
         <Typography className={styles.brand_heading_small}>
-          ESSILOR BRANDS
+        BELVINITALY BRANDS
         </Typography>
         <Typography className={styles.page_heading}>
           Discover our brands

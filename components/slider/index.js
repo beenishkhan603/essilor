@@ -38,10 +38,8 @@ export default function Slider() {
                 <p className={style.heading}>Belvin Experts</p>
 
                 <p className={style.text}>
-                  {`Finding the right pair of glasses isn't always easy. You need
-                  to choose a frame that you like and lenses that suit your
-                  lifestyle. Finding the right eye care professional to advise
-                  you along the way makes the process much smoother.`}
+                  {`
+Finding the ideal eyewear is not a straightforward task. It requires selecting a frame that resonates with your personal style and lenses that align with your daily activities. The assistance of a knowledgeable eye care professional can greatly simplify this process.`}
                 </p>
               </div>
             </div>

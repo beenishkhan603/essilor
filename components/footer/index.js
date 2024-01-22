@@ -19,10 +19,10 @@ const Footer = () => {
 	const [isMobile, setIsMobile] = useState(false);
 	const brands = [
 		{ name: 'Blanc', url: '' },
-		{ name: 'Matterhorn', url: '' },
-		{ name: 'Elbrus', url: '' },
+		{ name: 'Blanc II', url: '' },
+		{ name: 'Benty', url: '' },
 		{ name: 'Ben Nevis', url: '' },
-		{ name: 'Tatra', url: '' },
+		// { name: 'Tatra', url: '' },
 		{ name: 'Hamilton', url: '' },
 	];
 	useEffect(() => {

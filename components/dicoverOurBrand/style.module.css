@@ -46,13 +46,14 @@
   padding: 5% 0 0 0;
 }
 .brandLogo {
-  width: 136px;
-  height: 50px;
+  width: 140px;
+  height: 70px;
 }
 .brandImg {
   width: 282px;
   height: 300px;
   border-radius: 12px;
+  object-fit: cover;
 }
 .brandSlide {
   width: 80%;
@@ -67,7 +68,7 @@
   flex-direction: column;
 }
 .brandName {
-  font-size: 21px;
+  font-size: 18px;
   line-height: 30px;
   letter-spacing: 0;
   font-weight: 700;
@@ -75,6 +76,24 @@
   height: 100px;
   color: #fff;
 }
+.brandNameLogo {
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0;
+  font-weight: 900;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.brandNameLogoP {
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0;
+  font-weight: 900;
+  margin-bottom: 8px;
+  color: #020d3b;
+}
+
 .discoverBtn {
   background-color: #fff;
   color: #18b1ae;

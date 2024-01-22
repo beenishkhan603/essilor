@@ -9,6 +9,7 @@ import {
 	Grid,
 	Typography,
 } from '@mui/material';
+import img from './imgs/img.jpg'
 import CloseIcon from '@mui/icons-material/Close';
 import AddIcon from '@mui/icons-material/Add';
 
@@ -24,13 +25,14 @@ export default function AccordProduct() {
 						md={12}
 						sm={6}
 						xs={12}
-						lg={6}
+						lg={8}
 						//height={{ xs: '50%', sm: '50%', md: '100%', lg: '100%' }}
 						padding={{ xs: '20px', sm: '20px', md: '100px', lg: '100px' }}
 					>
 						<p
 							className={styles.heading}
-						>{`Which Xperio lenses are right for me?`}</p>
+						>{`Is it necessary for me to use glasses that block blue light?
+						?`}</p>
 
 						<Accordion
 							onChange={() => {
@@ -64,7 +66,7 @@ export default function AccordProduct() {
 								id="panel1a-header"
 							>
 								<Typography variant="p" className={styles.drawerLink}>
-									{`I drive very often `}
+									{`Recomended for everyone `}
 								</Typography>
 							</AccordionSummary>
 							<AccordionDetails className={styles.accordionDetail}>
@@ -76,15 +78,15 @@ export default function AccordProduct() {
 									}}
 								>
 									<Typography variant="p" className={styles.text}>
-										{`Polarised lenses reduce glare while driving in the sun so you can drive safer and enjoy the journey.`}
+										{`Light surrounds us constantly. Whether it's from the sun, artificial lighting, or screens, we are consistently exposed to blue light throughout the day and year. Regardless of your lifestyle, it is advisable for everyone to regulate their exposure to UV and blue light. Prioritize maintaining optimal vision every day.`}
 									</Typography>
 									<Typography variant="p" className={styles.text2}>
-										{` Discover Xperio® Polarised`}
+										{` Discover Belvin® Start. `}
 									</Typography>
 								</div>
 							</AccordionDetails>
 						</Accordion>
-						<Accordion
+						{/* <Accordion
 							onChange={() => {
 								setAccordionOpen2(!accordionOpen2);
 								setAccordionOpen1(false);
@@ -132,18 +134,18 @@ export default function AccordProduct() {
 										{`Tinted sun lenses offer great UV protection1. Why stick to grey or black when you can choose from a wide array of colour tints and mirror effects?`}
 									</Typography>
 									<Typography variant="p" className={styles.text2}>
-										{` Discover Xperio® Tinted`}
+										{` Discover Benty Tinted`}
 									</Typography>
 								</div>
 							</AccordionDetails>
-						</Accordion>
+						</Accordion> */}
 					</Grid>
 					<Grid
 						item
 						md={12}
 						sm={6}
 						xs={12}
-						lg={6}
+						lg={4}
 						height={{ xs: '60%', sm: '60%', md: '100%', lg: '100%' }}
 					>
 						{accordionOpen2 ? (
@@ -157,7 +159,7 @@ export default function AccordProduct() {
 						) : (
 							<img
 								src={
-									'https://media.essilor.com/cms/caas/v1/media/112960/data/picture/0f62b8667fe7fef721a101377f73ab17.jpg'
+									img.src
 								}
 								alt={'pic'}
 								className={styles.image}

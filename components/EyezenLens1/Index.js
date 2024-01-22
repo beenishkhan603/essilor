@@ -2,9 +2,17 @@ import React, { useEffect, useState } from 'react';
 import styles from './style.module.css';
 import Carousel from '../dicoverOurBrand/carousel';
 import DiscoverCards from '../dicoverOurBrand/discoverCards';
+import hamImg from '../assets/hamilton1.jpg'
+import discoverImg from '@/components/assets/Eyezen-lenses.jpg';
+import variluxImg from '@/components/assets/beautiful-woman-sitting-chair.jpg';
+import xperiaImg from '@/components/assets/fashionable-girl-cafe.jpg';
+import crizalImg from '@/components/assets/stylish-businesswoman-cafe.jpg';
+import nevImg from '../assets/nevis.jpg'
 import { Box } from '@mui/material';
 
-export default function EyezenLens() {
+export default function EyezenLens(props) {
+	const { title } = props;
+
 	const items = [
 		<div>
 			<p className={styles.headingMbl}>Protect your eyes</p>
@@ -37,10 +45,10 @@ export default function EyezenLens() {
 			<DiscoverCards
 				disc={'Light Intelligent Technology'}
 				logo={
-					'https://media.essilor.com/cms/caas/v1/media/108828/data/picture/623eb9a7a9542e23e8644eb2d5700424.png'
+					null
 				}
 				image={
-					'https://media.essilor.com/cms/caas/v1/media/108852/data/picture/d8930867df0d4b44342bc28ccdc9de0b.png'
+					nevImg
 				}
 				productbtn={true}
 			/>
@@ -50,10 +58,10 @@ export default function EyezenLens() {
 			<DiscoverCards
 				disc={`Your lenses' invisible shield`}
 				logo={
-					'https://media.essilor.com/cms/caas/v1/media/108822/data/picture/fa10b1d3b7f907793c7fce164c1bfa79.png'
+					null
 				}
 				image={
-					'https://media.essilor.com/cms/caas/v1/media/108854/data/picture/8b9408b1a90c793db84d0f424c7fffe6.png'
+					hamImg
 				}
 				productbtn={true}
 			/>
@@ -64,7 +72,7 @@ export default function EyezenLens() {
 		// Check if window is defined (to avoid SSR issues)
 		if (typeof window !== 'undefined') {
 			setIsMobile(window.innerWidth <= 480);
-
+  
 			// Add event listener to update isMobile on window resize
 			const handleResize = () => {
 				setIsMobile(window.innerWidth <= 480);
@@ -82,7 +90,7 @@ export default function EyezenLens() {
 		<>
 			<Box width={'90%'}>
 				<div className={styles.completeLen}>
-					<h1>Complete your Eyezen lenses with</h1>
+					<h1>{title}</h1>
 					{isMobile ? null : (
 						<div style={{ display: 'flex', justifyContent: 'space-between' }}>
 							<h3>Protect your eyes</h3>
@@ -127,7 +135,7 @@ export default function EyezenLens() {
 							'https://media.essilor.com/cms/caas/v1/media/108820/data/picture/d30ed6b7f52abd6faae16f80d9c03a09.png'
 						}
 						image={
-							'https://media.essilor.com/cms/caas/v1/media/108848/data/picture/0a32bbb2935711109896f3b653966f11.jpg'
+							discoverImg
 						}
 						productbtn={true}
 					/>
@@ -137,27 +145,27 @@ export default function EyezenLens() {
 							'	https://media.essilor.com/cms/caas/v1/media/108832/data/picture/a68cfc95885bb96717cc4e2b92b56624.png'
 						}
 						image={
-							'https://media.essilor.com/cms/caas/v1/media/108850/data/picture/a483b831bc5b9c39f55d3766f8d22e7d.png'
+							variluxImg
 						}
 						productbtn={true}
 					/>
 					<DiscoverCards
 						disc={'Advanced filtration technology'}
 						logo={
-							'https://media.essilor.com/cms/caas/v1/media/108828/data/picture/623eb9a7a9542e23e8644eb2d5700424.png'
+							null
 						}
 						image={
-							'https://media.essilor.com/cms/caas/v1/media/108852/data/picture/d8930867df0d4b44342bc28ccdc9de0b.png'
+							xperiaImg
 						}
 						productbtn={true}
 					/>
 					<DiscoverCards
 						disc={`Your lenses' invisible shield`}
 						logo={
-							'https://media.essilor.com/cms/caas/v1/media/108822/data/picture/fa10b1d3b7f907793c7fce164c1bfa79.png'
+							null
 						}
 						image={
-							'https://media.essilor.com/cms/caas/v1/media/108854/data/picture/8b9408b1a90c793db84d0f424c7fffe6.png'
+							crizalImg
 						}
 						productbtn={true}
 					/>

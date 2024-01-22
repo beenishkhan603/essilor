@@ -11,9 +11,10 @@ import {
 } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
 import AddIcon from '@mui/icons-material/Add';
-
+import img from './imgs/img.jpg'
 export default function AccordProduct() {
   const [accordionOpen2, setAccordionOpen2] = useState(false);
+  console.log('img',img)
   return (
     <div className={styles.main}>
       <div className={styles.mainSub}>
@@ -23,13 +24,13 @@ export default function AccordProduct() {
             md={12}
             sm={6}
             xs={12}
-            lg={6}
+            lg={8}
             //height={{ xs: '50%', sm: '50%', md: '100%', lg: '100%' }}
             padding={{ xs: '20px', sm: '20px', md: '100px', lg: '100px' }}
           >
             <p
               className={styles.heading}
-            >{`Which Varilux lenses are right for me?`}</p>
+            >{`Which Blanc II lenses are right for me?`}</p>
 
             <Accordion
               onChange={() => {
@@ -63,7 +64,7 @@ export default function AccordProduct() {
                 id='panel1a-header'
               >
                 <Typography variant='p' className={styles.drawerLink}>
-                  {`Does your lifestyle demand sharp vision at all times? `}
+                  {`Is sharp vision essential for your lifestyle?`}
                 </Typography>
               </AccordionSummary>
               <AccordionDetails className={styles.accordionDetail}>
@@ -75,7 +76,7 @@ export default function AccordProduct() {
                   }}
                 >
                   <Typography variant='p' className={styles.text}>
-                    {`Lenses should adapt to your behaviour and not the other way around. Experience instant sharpness even in motion`}
+                    {`Lenses ought to adjust to your behavior, not the other way around. Enjoy instant sharpness, even during motion.`}
                   </Typography>
                   <Typography variant='p' className={styles.text2}>
                     {` Discover Belvin® Start.`}
@@ -89,7 +90,7 @@ export default function AccordProduct() {
             md={12}
             sm={6}
             xs={12}
-            lg={6}
+            lg={4}
             height={{ xs: '60%', sm: '60%', md: '100%', lg: '100%' }}
           >
             {accordionOpen2 ? (
@@ -102,9 +103,7 @@ export default function AccordProduct() {
               />
             ) : (
               <img
-                src={
-                  'https://media.essilor.com/cms/caas/v1/media/631284/data/picture/7dfb78d6d6f3e24ce06501c4d4c46503.png'
-                }
+                src={img.src}
                 alt={'pic'}
                 className={styles.image}
               />

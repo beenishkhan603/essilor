@@ -36,16 +36,16 @@ const Page = () => {
                   </div>
                 </div>
                 <div className={styles.second_row}>
-                  <img
+                  {/* <img
                     src={
                       'https://www.essilor.com/_next/image/?url=https%3A%2F%2Fmedia.essilor.com%2Fcms%2Fcaas%2Fv1%2Fmedia%2F111502%2Fdata%2Fpicture%2F70dbb1cd9b39a7097896c9142f80f620.png&w=256&q=75'
                     }
                     alt='eyexen logo'
-                  />
+                  /> */}
                 </div>
                 <div className={styles.third_row}>
-                  <p className={styles.descrip}>
-                    {`A filter at the very heart of the lens reduces exposure to light from sun and screens in an optimal, clear lens for everyone, every day`}
+                  <p className={styles.descrip} style={{ marginTop: "2rem" }}>
+                    {`The final step that enhances correction while providing protection. Each Hamilton® coating incorporates unique technologies and benefits, acting as an invisible shield to safeguard both your eyes and your lenses.`}
                   </p>
                 </div>
               </div>
@@ -99,39 +99,16 @@ const Page = () => {
           <ol>
             <li>
               {' '}
-              Compared with regular single vision lenses Eyezen® in-Life
-              consumer studies - 3rd Independent parties - [Eyezen® Boost
-              Crizal® Prevencia - 2015 - FR- n=76 / Eyezen Eyezen® Boost EPS -
-              2016 - FR - n=51 / Eyezen® Start (Rx) - 2018 - FR - n=49 / Eyezen®
-              Start (Stock) - 2020 - FR - n=52].{' '}
+              Higher number of current Hamilton users who declared to be “completely satisfied” compared to the average of competitors. Analysis based on a 3-year average from Essilor Brand Tracking – BR/CN/FR/IN/US - MSW - 2020 (n=4 997 respondents).{' '}
             </li>
             <li>
-              Compared with regular single vision lenses Eyezen® in-Life
-              consumer studies - 3rd Independent parties - [Eyezen® Boost
-              Crizal® Prevencia - 2015 - FR- n=76 / Eyezen Eyezen® Boost EPS -
-              2016 - FR - n=51 / Eyezen® Start (Rx) - 2018 - FR - n=49 / Eyezen®
-              Start (Stock) - 2020 - FR - n=52].{' '}
+              . 8/10 current Hamilton users declare to be “completely or very satisfied” vs 5/10 unbranded/generic coating wearers. Data is based on a 3-year average (Brand Tracking – MSW - 2020 – 5 countries - 4997 respondents).{' '}
             </li>
 
             <li>
-              Compared with regular single vision lenses Eyezen® in-Life
-              consumer studies - 3rd Independent parties - [Eyezen® Boost
-              Crizal® Prevencia - 2015 - FR- n=76 / Eyezen Eyezen® Boost EPS -
-              2016 - FR - n=51 / Eyezen® Start (Rx) - 2018 - FR - n=49 / Eyezen®
-              Start (Stock) - 2020 - FR - n=52].{' '}
+              Within Hamilton® coatings range. External laboratories tests and internal technical tests in 2019 – compared to all previous generations of Hamilton® coatings{' '}
             </li>
 
-            <li>
-              {' '}
-              Blue-violet light is between 400 and 455nm as stated by ISO TR
-              20772:2018.{' '}
-            </li>
-            <li>
-              Protection against UV and blue-violet light filtering.
-              (Blue-violet light is between 400 and 455nm as stated by ISO TR
-              20772:2018). 10. EyezenTM in-Life Wearers Test - 3rd independent
-              party - FRANCE - 2015 (n=76).
-            </li>
           </ol>
         </Grid>
       </Grid>

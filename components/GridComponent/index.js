@@ -21,7 +21,7 @@ function GridComponent() {
 								fontWeight: 'bold',
 							}}
 						>
-							Which Eyezen lenses are right for me?
+							Which Blanc lenses are right for me?
 						</Typography>
 						<Typography
 							sx={{

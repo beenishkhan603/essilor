@@ -51,12 +51,7 @@ const AboutPage = () => {
               Selecting Belvin means choosing a dedicated brand.
             </p>
             <p className={styles.decriptionContent}>
-              Opting for Belvin® solutions is more than just choosing the global
-              leader in prescription glasses – it's selecting lenses from a
-              committed brand with a mission: see more to be more. With a rich
-              history of French design and lens fabrication dating back to 1849,
-              our distinctive innovation capacity enables us to consistently
-              evolve and offer the best vision solutions to meet diverse needs.
+            Choosing Belvin® solutions goes beyond selecting the global leader in prescription glasses; it entails opting for lenses from a dedicated brand with a mission: to see more and be more. With a history deeply rooted in French design and lens fabrication since 1849, our unique innovation capacity allows us to continuously evolve and provide the finest vision solutions to meet a variety of needs.
             </p>
           </Grid>
         </Grid>
@@ -112,8 +107,8 @@ const AboutPage = () => {
           justifyContent={'center'}
         >
           <Grid container direction='row' justifyContent={'center'}>
-            <Grid item md={3} sm={12} xs={12} lg={3}></Grid>
-            <Grid item md={6} sm={6} xs={6} lg={6} justifyContent={'center'}>
+            {/* <Grid item md={3} sm={12} xs={12} lg={3}></Grid> */}
+            <Grid item md={6} sm={6} xs={6} lg={12} justifyContent={'center'}>
               <p className={styles.learnProcess}>
                 80% of what we learn is processed through our eyes
               </p>
@@ -126,9 +121,9 @@ const AboutPage = () => {
             justifyContent={'center'}
             className={styles.decriptionContainer}
           >
-            <Grid item md={7} sm={12} xs={12} lg={7}>
+            <Grid item md={7} sm={12} xs={12} lg={10}>
               <p className={styles.description}>
-                This is why, at EssilorLuxottica, we believe that everyone,
+                This is why, at Belvinitaly, we believe that everyone,
                 everywhere should be able to enjoy the life-changing benefits of
                 vision correction and vision protection. Our mission is to help
                 people see more, be more and live life to its fullest. Utilising
@@ -148,7 +143,7 @@ const AboutPage = () => {
         justifyContent={'center'}
         className={styles.aboutEContainer}
       >
-        <Grid item md={9} lg={9} sm={12} xs={12}>
+        <Grid item md={12} lg={12} sm={12} xs={12}>
           <AboutEssilor />
         </Grid>
       </Grid>
