@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid } from '@mui/material';
 import DiscoverCards from './discoverCards';
-
+import img from './imgs/img.jpg'
 import style from './style.module.css';
 
 export default function discoverRange() {
@@ -39,7 +39,7 @@ export default function discoverRange() {
               '	https://media.essilor.com/cms/caas/v1/media/108954/data/picture/92e19318e219365f76fd58ded659d571.png'
             }
             image={
-              'https://media.essilor.com/cms/caas/v1/media/108962/data/picture/6ba14e0d22a4829c7d94d9731a87c20c.jpg'
+              img
             }
             productbtn={false}
           />

@@ -7,7 +7,7 @@ import variluxImg from '@/components/assets/beautiful-woman-sitting-chair.jpg';
 import xperiaImg from '@/components/assets/fashionable-girl-cafe.jpg';
 import crizalImg from '@/components/assets/stylish-businesswoman-cafe.jpg';
 import { Box } from '@mui/material';
-
+import img from './imgs/img.jpg'
 export default function discoverRange() {
   const items = [
     <DiscoverCards
