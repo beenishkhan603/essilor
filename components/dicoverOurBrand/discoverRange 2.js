@@ -1,6 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import styles from './style.module.css';
 import Carousel from '../dicoverOurBrand/carousel';
+import discoverImg from '@/components/assets/Eyezen-lenses.jpg';
+import variluxImg from '@/components/assets/beautiful-woman-sitting-chair.jpg';
+import xperiaImg from '@/components/assets/fashionable-girl-cafe.jpg';
+import crizalImg from '@/components/assets/stylish-businesswoman-cafe.jpg';
 import DiscoverCards from '../dicoverOurBrand/discoverCards';
 import { Box } from '@mui/material';
 
@@ -109,7 +113,7 @@ export default function discoverRange() {
               'https://media.essilor.com/cms/caas/v1/media/109008/data/picture/e57842de5b858baae624f4c3295c3948.png'
             }
             image={
-              'https://media.essilor.com/cms/caas/v1/media/498200/data/picture/d1668089e1da751e6db4a51cbbdc3ba4.png'
+              discoverImg
             }
             productbtn={false}
             title= {"Benty"}
@@ -120,7 +124,7 @@ export default function discoverRange() {
               'https://media.essilor.com/cms/caas/v1/media/109008/data/picture/e57842de5b858baae624f4c3295c3948.png'
             }
             image={
-              'https://media.essilor.com/cms/caas/v1/media/108904/data/picture/ca158195c0fbdec39ebf67ac545eabed.jpg'
+              variluxImg
             }
             productbtn={false}
             title= {"Balnc II"}
@@ -131,7 +135,8 @@ export default function discoverRange() {
               '	https://media.essilor.com/cms/caas/v1/media/109004/data/picture/5637fe212b1592919b040274d3bc0490.png'
             }
             image={
-              'https://media.essilor.com/cms/caas/v1/media/109012/data/picture/d69997f14aa9276617a66836037d4728.jpg'
+            
+              crizalImg
             }
             productbtn={false}
             title= {"Hamilton"}
@@ -142,7 +147,7 @@ export default function discoverRange() {
               'https://media.essilor.com/cms/caas/v1/media/115414/data/picture/a2488ffde0cdcbd4c979e4a007b14d70.png'
             }
             image={
-              '	https://media.essilor.com/cms/caas/v1/media/109014/data/picture/d37abedd42de32adc70005bdafd44995.png'
+              xperiaImg
             }
             productbtn={false}
             title= {"Blanc"}

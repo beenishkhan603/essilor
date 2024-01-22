@@ -9,6 +9,7 @@ import {
   Grid,
   Typography,
 } from '@mui/material';
+import img from './imgs/img.jpg'
 import CloseIcon from '@mui/icons-material/Close';
 import AddIcon from '@mui/icons-material/Add';
 
@@ -157,9 +158,9 @@ export default function AccordProduct() {
               />
             ) : (
               <img
-                src={
-                  'https://media.essilor.com/cms/caas/v1/media/112960/data/picture/0f62b8667fe7fef721a101377f73ab17.jpg'
-                }
+              src={
+                img.src
+              }
                 alt={'pic'}
                 className={styles.image}
               />

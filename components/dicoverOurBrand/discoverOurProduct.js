@@ -3,27 +3,23 @@ import React from 'react';
 import Image from 'next/image';
 import Carousel from './carousel';
 
-import discoverImg from '@/components/assets/discover.jpg';
-import ayezenImg from '@/components/assets/products/EyezenImg.png';
-import xperioImg from '@/components/assets/products/xperio-sun.png';
-import variluxImg from '@/components/assets/products/varilux-x-7.jpg';
-import comfortImg from '@/components/assets/products/ComfortMax.jpg';
-import physioImg from '@/components/assets/products/physio.jpg';
-import xperioPImg from '@/components/assets/products/xperioP.webp';
-import blueUvImg from '@/components/assets/products/Blue-UVImg.png';
-import eyezenLogo from '@/components/assets/products/eyezen.png';
-import xperioMLogo from '@/components/assets/products/xperioM.png';
-import variluxLogo from '@/components/assets/products/varilux.png';
-import variluxCLogo from '@/components/assets/products/variluxC.png';
-import variluxPLogo from '@/components/assets/products/variluxP.png';
-import xperioUvLogo from '@/components/assets/products/xperioUv.png';
-import BlueUvLogo from '@/components/assets/products/BlueUv.png';
-import DiscoverCards from './discoverCards';
+import discoverImg from '@/components/assets/Eyezen-lenses.jpg';
+import variluxImg from '@/components/assets/beautiful-woman-sitting-chair.jpg';
+import bluevImg from '@/components/assets/overtime-work.jpg';
+import xperiaImg from '@/components/assets/fashionable-girl-cafe.jpg';
+import transitionImg from '@/components/assets/transitionImg.jpg';
+import crizalImg from '@/components/assets/stylish-businesswoman-cafe.jpg';
+import eyexenLogo from '@/components/assets/eyexen.webp';
+import variluxLogo from '@/components/assets/varilux.webp';
+import bluevLogo from '@/components/assets/bluev.webp';
+import xperioLogo from '@/components/assets/xperio.webp';
+import transitionLogo from '@/components/assets/transition.png';
+import crizalLogo from '@/components/assets/crizal.png';
 import styles from './style.module.css';
 
 const items = [
   <div className={styles.brandSlide}>
-    <Image className={styles.brandImg} alt='brand' src={ayezenImg} />
+    <Image className={styles.brandImg} alt='brand' src={discoverImg} />
     {/* <Image alt='logo' src={eyezenLogo} className={styles.brandLogo} /> */}
     <p className={styles.brandNameLogoP}>Balnc Start</p>
     <p className={`${styles.brandName} ${styles.black}`}>
@@ -32,7 +28,7 @@ const items = [
     <button className={styles.discoverBtn}>Discover</button>
   </div>,
   <div className={styles.brandSlide}>
-    <Image className={styles.brandImg} alt='brand' src={xperioImg} />
+    <Image className={styles.brandImg} alt='brand' src={variluxImg} />
     {/* <Image alt='logo' src={xperioMLogo} className={styles.brandLogo} /> */}
     <p className={styles.brandNameLogoP}>Ben Nevis</p>
     <p className={`${styles.brandName} ${styles.black}`}>
@@ -41,7 +37,7 @@ const items = [
     <button className={styles.discoverBtn}>Discover</button>
   </div>,
   <div className={styles.brandSlide}>
-    <Image className={styles.brandImg} alt='brand' src={variluxImg} />
+    <Image className={styles.brandImg} alt='brand' src={crizalImg} />
     {/* <Image alt='logo' src={variluxLogo} className={styles.brandLogo} /> */}
     <p className={styles.brandNameLogoP}>Hamilton</p>
     <p className={`${styles.brandName} ${styles.black}`}>
@@ -74,7 +70,7 @@ const items = [
   //   <button className={styles.discoverBtn}>Discover</button>
   // </div>,
   <div className={styles.brandSlide}>
-    <Image className={styles.brandImg} alt='brand' src={blueUvImg} />
+    <Image className={styles.brandImg} alt='brand' src={bluevImg} />
     {/* <Image alt='logo' src={BlueUvLogo} className={styles.brandLogo} /> */}
     <p className={styles.brandNameLogoP}>Benty</p>
     <p className={`${styles.brandName} ${styles.black}`}>

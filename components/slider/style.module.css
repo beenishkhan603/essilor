@@ -1,6 +1,7 @@
 .HeroBannerStatic {
 	/* position: absolute; */
-	background-image: url('https://media.essilor.com/cms/caas/v1/media/109328/data/picture/3d3c7deeb6456317830f9b97dd7f1c08.jpg');
+	background-image: url('./imgs/man-looking-new-glasses-optometrist.jpg');
+	background-size: cover;
 	height: 100vh;
 	max-height: 700px;
 	width: 100%;
@@ -11,7 +12,8 @@
 }
 .HeroBannerStatic2 {
 	/* position: absolute; */
-	background-image: url('https://media.essilor.com/cms/caas/v1/media/109332/data/picture/c78611e1535ce771823ff7a8be584de9.png');
+	background-image: url('./imgs/businessman-using-pen-signing-invisible-screen.jpg');
+	background-size: cover;
 	height: 100vh;
 	max-height: 700px;
 	width: 100%;

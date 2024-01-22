@@ -53,6 +53,7 @@
   width: 282px;
   height: 300px;
   border-radius: 12px;
+  object-fit: cover;
 }
 .brandSlide {
   width: 80%;

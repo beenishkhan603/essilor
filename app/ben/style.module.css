@@ -12,8 +12,8 @@
   height: 550px;
   width: 100%;
 
-  background-image: url('https://media.essilor.com/cms/caas/v1/media/114182/data/picture/46a7f5ab8c7532911fc2c052dc723c1d.jpg');
-  background-position: center;
+  background-image: url('./imgs/fashionable-girl-cafe.jpg');
+  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;

@@ -4,11 +4,11 @@ import Image from 'next/image';
 import Carousel from './carousel';
 
 import discoverImg from '@/components/assets/Eyezen-lenses.jpg';
-import variluxImg from '@/components/assets/variluximg.webp';
-import bluevImg from '@/components/assets/bluevImg.jpg';
-import xperiaImg from '@/components/assets/xperiaImg.jpg';
+import variluxImg from '@/components/assets/beautiful-woman-sitting-chair.jpg';
+import bluevImg from '@/components/assets/overtime-work.jpg';
+import xperiaImg from '@/components/assets/fashionable-girl-cafe.jpg';
 import transitionImg from '@/components/assets/transitionImg.jpg';
-import crizalImg from '@/components/assets/crizal.jpg';
+import crizalImg from '@/components/assets/stylish-businesswoman-cafe.jpg';
 import eyexenLogo from '@/components/assets/eyexen.webp';
 import variluxLogo from '@/components/assets/varilux.webp';
 import bluevLogo from '@/components/assets/bluev.webp';

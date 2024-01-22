@@ -14,7 +14,7 @@
 
   background: var(--essilor-color-filter);
 
-  background-image: url('https://media.essilor.com/cms/caas/v1/media/111498/data/picture/c26e3db107dc60c2aeeb6e9e408fe63d.jpg');
+  background-image: url('./imgs/overtime-work.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -11,9 +11,10 @@ import {
 } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
 import AddIcon from '@mui/icons-material/Add';
-
+import img from './imgs/img.jpg'
 export default function AccordProduct() {
   const [accordionOpen2, setAccordionOpen2] = useState(false);
+  console.log('img',img)
   return (
     <div className={styles.main}>
       <div className={styles.mainSub}>
@@ -102,9 +103,7 @@ export default function AccordProduct() {
               />
             ) : (
               <img
-                src={
-                  'https://media.essilor.com/cms/caas/v1/media/631284/data/picture/7dfb78d6d6f3e24ce06501c4d4c46503.png'
-                }
+                src={img.src}
                 alt={'pic'}
                 className={styles.image}
               />

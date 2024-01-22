@@ -14,10 +14,10 @@
 
   background: var(--essilor-color-filter);
 
-  background-image: url('https://media.essilor.com/cms/caas/v1/media/114934/data/picture/55b7259f22e6e86cab21cbd4b7af82bc.png');
+  background-image: url('./imgs/beautiful-woman-sitting-chair.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
   display: flex;
   align-items: center;
 }

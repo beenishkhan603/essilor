@@ -3,6 +3,10 @@ import styles from './style.module.css';
 import Carousel from '../dicoverOurBrand/carousel';
 import DiscoverCards from '../dicoverOurBrand/discoverCards';
 import hamImg from '../assets/hamilton1.jpg'
+import discoverImg from '@/components/assets/Eyezen-lenses.jpg';
+import variluxImg from '@/components/assets/beautiful-woman-sitting-chair.jpg';
+import xperiaImg from '@/components/assets/fashionable-girl-cafe.jpg';
+import crizalImg from '@/components/assets/stylish-businesswoman-cafe.jpg';
 import nevImg from '../assets/nevis.jpg'
 import { Box } from '@mui/material';
 
@@ -117,7 +121,7 @@ export default function EyezenLens() {
               'https://media.essilor.com/cms/caas/v1/media/108824/data/picture/e99ad6f8be401d9a340e03118038d7fa.png'
             }
             image={
-              'https://media.essilor.com/cms/caas/v1/media/108858/data/picture/2bc61102fa37d6b8a38c2de43a6a7a1a.jpg'
+              discoverImg
             }
             title= {"Balnc"}
             productbtn={true}
@@ -128,7 +132,7 @@ export default function EyezenLens() {
               null
             }
             image={
-              nevImg
+              variluxImg
             }
             productbtn={true}
             title= {"Benty"}
@@ -138,7 +142,7 @@ export default function EyezenLens() {
             logo={
               null
             }
-            image={hamImg}
+            image={crizalImg}
             
             productbtn={true}
             title= {"Hamilton"}

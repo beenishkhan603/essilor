@@ -3,6 +3,10 @@ import styles from './style.module.css';
 import Carousel from '../dicoverOurBrand/carousel';
 import DiscoverCards from '../dicoverOurBrand/discoverCards';
 import hamImg from '../assets/hamilton1.jpg'
+import discoverImg from '@/components/assets/Eyezen-lenses.jpg';
+import variluxImg from '@/components/assets/beautiful-woman-sitting-chair.jpg';
+import xperiaImg from '@/components/assets/fashionable-girl-cafe.jpg';
+import crizalImg from '@/components/assets/stylish-businesswoman-cafe.jpg';
 import nevImg from '../assets/nevis.jpg'
 import { Box } from '@mui/material';
 
@@ -131,7 +135,7 @@ export default function EyezenLens(props) {
 							'https://media.essilor.com/cms/caas/v1/media/108820/data/picture/d30ed6b7f52abd6faae16f80d9c03a09.png'
 						}
 						image={
-							'https://media.essilor.com/cms/caas/v1/media/108848/data/picture/0a32bbb2935711109896f3b653966f11.jpg'
+							discoverImg
 						}
 						productbtn={true}
 					/>
@@ -141,7 +145,7 @@ export default function EyezenLens(props) {
 							'	https://media.essilor.com/cms/caas/v1/media/108832/data/picture/a68cfc95885bb96717cc4e2b92b56624.png'
 						}
 						image={
-							'https://media.essilor.com/cms/caas/v1/media/108850/data/picture/a483b831bc5b9c39f55d3766f8d22e7d.png'
+							variluxImg
 						}
 						productbtn={true}
 					/>
@@ -151,7 +155,7 @@ export default function EyezenLens(props) {
 							null
 						}
 						image={
-							nevImg
+							xperiaImg
 						}
 						productbtn={true}
 					/>
@@ -161,7 +165,7 @@ export default function EyezenLens(props) {
 							null
 						}
 						image={
-							hamImg
+							crizalImg
 						}
 						productbtn={true}
 					/>
