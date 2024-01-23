@@ -16,9 +16,9 @@ export default function EyezenLens() {
       <p className={styles.headingMbl}>Correct your vision</p>
       <DiscoverCards
         disc={'Advanced filtration technology'}
-        logo={
-          'https://media.essilor.com/cms/caas/v1/media/108824/data/picture/e99ad6f8be401d9a340e03118038d7fa.png'
-        }
+        // logo={
+        //   'https://media.essilor.com/cms/caas/v1/media/108824/data/picture/e99ad6f8be401d9a340e03118038d7fa.png'
+        // }
         image={
           'https://media.essilor.com/cms/caas/v1/media/108858/data/picture/2bc61102fa37d6b8a38c2de43a6a7a1a.jpg'
         }
@@ -30,9 +30,9 @@ export default function EyezenLens() {
       <p className={styles.headingMbl}>Correct your vision</p>
       <DiscoverCards
         disc={'Light Intelligent Technology'}
-        logo={
-          'https://media.essilor.com/cms/caas/v1/media/108828/data/picture/623eb9a7a9542e23e8644eb2d5700424.png'
-        }
+        // logo={
+        //   'https://media.essilor.com/cms/caas/v1/media/108828/data/picture/623eb9a7a9542e23e8644eb2d5700424.png'
+        // }
         image={
           'https://media.essilor.com/cms/caas/v1/media/108852/data/picture/d8930867df0d4b44342bc28ccdc9de0b.png'
         }
@@ -43,9 +43,9 @@ export default function EyezenLens() {
       <p className={styles.headingMbl}>Enhance your vision</p>
       <DiscoverCards
         disc={`Your lenses' invisible shield`}
-        logo={
-          'https://media.essilor.com/cms/caas/v1/media/108822/data/picture/fa10b1d3b7f907793c7fce164c1bfa79.png'
-        }
+        // logo={
+        //   'https://media.essilor.com/cms/caas/v1/media/108822/data/picture/fa10b1d3b7f907793c7fce164c1bfa79.png'
+        // }
         image={
           hamImg
         }
@@ -117,9 +117,9 @@ export default function EyezenLens() {
         >
           <DiscoverCards
             disc={'Advanced filtration technology'}
-            logo={
-              'https://media.essilor.com/cms/caas/v1/media/108824/data/picture/e99ad6f8be401d9a340e03118038d7fa.png'
-            }
+            // logo={
+            //   'https://media.essilor.com/cms/caas/v1/media/108824/data/picture/e99ad6f8be401d9a340e03118038d7fa.png'
+            // }
             image={
               discoverImg
             }

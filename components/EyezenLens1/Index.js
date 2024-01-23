@@ -18,9 +18,9 @@ export default function EyezenLens(props) {
 			<p className={styles.headingMbl}>Protect your eyes</p>
 			<DiscoverCards
 				disc={'Advanced filtration technology'}
-				logo={
-					'https://media.essilor.com/cms/caas/v1/media/108820/data/picture/d30ed6b7f52abd6faae16f80d9c03a09.png'
-				}
+				// logo={
+				// 	'https://media.essilor.com/cms/caas/v1/media/108820/data/picture/d30ed6b7f52abd6faae16f80d9c03a09.png'
+				// }
 				image={
 					'https://media.essilor.com/cms/caas/v1/media/108848/data/picture/0a32bbb2935711109896f3b653966f11.jpg'
 				}
@@ -31,9 +31,9 @@ export default function EyezenLens(props) {
 			<p className={styles.headingMbl}>Protect your eyes</p>
 			<DiscoverCards
 				disc={'Goes beyond protection'}
-				logo={
-					'	https://media.essilor.com/cms/caas/v1/media/108832/data/picture/a68cfc95885bb96717cc4e2b92b56624.png'
-				}
+				// logo={
+				// 	'	https://media.essilor.com/cms/caas/v1/media/108832/data/picture/a68cfc95885bb96717cc4e2b92b56624.png'
+				// }
 				image={
 					'https://media.essilor.com/cms/caas/v1/media/108850/data/picture/a483b831bc5b9c39f55d3766f8d22e7d.png'
 				}
@@ -131,9 +131,9 @@ export default function EyezenLens(props) {
 				>
 					<DiscoverCards
 						disc={'The new generation of single vision lenses'}
-						logo={
-							'https://media.essilor.com/cms/caas/v1/media/108820/data/picture/d30ed6b7f52abd6faae16f80d9c03a09.png'
-						}
+						// logo={
+						// 	'https://media.essilor.com/cms/caas/v1/media/108820/data/picture/d30ed6b7f52abd6faae16f80d9c03a09.png'
+						// }
 						image={
 							discoverImg
 						}
@@ -141,9 +141,9 @@ export default function EyezenLens(props) {
 					/>
 					<DiscoverCards
 						disc={'Mastering sharpness instantly'}
-						logo={
-							'	https://media.essilor.com/cms/caas/v1/media/108832/data/picture/a68cfc95885bb96717cc4e2b92b56624.png'
-						}
+						// logo={
+						// 	'	https://media.essilor.com/cms/caas/v1/media/108832/data/picture/a68cfc95885bb96717cc4e2b92b56624.png'
+						// }
 						image={
 							variluxImg
 						}

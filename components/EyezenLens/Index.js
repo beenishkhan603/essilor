@@ -19,12 +19,12 @@ export default function EyezenLens() {
       <p className={styles.headingMbl}>Protect your eyes</p>
       <DiscoverCards
         disc={'Advanced filtration technology'}
-        logo={
-          'https://media.essilor.com/cms/caas/v1/media/108820/data/picture/d30ed6b7f52abd6faae16f80d9c03a09.png'
-        }
-        image={
-          'https://media.essilor.com/cms/caas/v1/media/108848/data/picture/0a32bbb2935711109896f3b653966f11.jpg'
-        }
+        // logo={
+        //   'https://media.essilor.com/cms/caas/v1/media/108820/data/picture/d30ed6b7f52abd6faae16f80d9c03a09.png'
+        // }
+        // image={
+        //   'https://media.essilor.com/cms/caas/v1/media/108848/data/picture/0a32bbb2935711109896f3b653966f11.jpg'
+        // }
         productbtn={true}
         
       />
@@ -33,12 +33,12 @@ export default function EyezenLens() {
       <p className={styles.headingMbl}>Protect your eyes</p>
       <DiscoverCards
         disc={'Goes beyond protection'}
-        logo={
-          '	https://media.essilor.com/cms/caas/v1/media/108832/data/picture/a68cfc95885bb96717cc4e2b92b56624.png'
-        }
-        image={
-          'https://media.essilor.com/cms/caas/v1/media/108850/data/picture/a483b831bc5b9c39f55d3766f8d22e7d.png'
-        }
+        // logo={
+        //   '	https://media.essilor.com/cms/caas/v1/media/108832/data/picture/a68cfc95885bb96717cc4e2b92b56624.png'
+        // }
+        // image={
+        //   'https://media.essilor.com/cms/caas/v1/media/108850/data/picture/a483b831bc5b9c39f55d3766f8d22e7d.png'
+        // }
         productbtn={true}
       />
     </div>,
@@ -133,9 +133,9 @@ export default function EyezenLens() {
         >
           <DiscoverCards
             disc={'Advanced filtration technology'}
-            logo={
-              'https://media.essilor.com/cms/caas/v1/media/108820/data/picture/d30ed6b7f52abd6faae16f80d9c03a09.png'
-            }
+            // logo={
+            //   'https://media.essilor.com/cms/caas/v1/media/108820/data/picture/d30ed6b7f52abd6faae16f80d9c03a09.png'
+            // }
             image={
               discoverImg
             }
@@ -144,9 +144,9 @@ export default function EyezenLens() {
           />
           <DiscoverCards
             disc={'Goes beyond protection'}
-            logo={
-              '	https://media.essilor.com/cms/caas/v1/media/108832/data/picture/a68cfc95885bb96717cc4e2b92b56624.png'
-            }
+            // logo={
+            //   '	https://media.essilor.com/cms/caas/v1/media/108832/data/picture/a68cfc95885bb96717cc4e2b92b56624.png'
+            // }
             image={
               variluxImg
             }
@@ -155,9 +155,9 @@ export default function EyezenLens() {
           />
           <DiscoverCards
             disc={'Light Intelligent Technology'}
-            logo={
-              'https://media.essilor.com/cms/caas/v1/media/108828/data/picture/623eb9a7a9542e23e8644eb2d5700424.png'
-            }
+            // logo={
+            //   'https://media.essilor.com/cms/caas/v1/media/108828/data/picture/623eb9a7a9542e23e8644eb2d5700424.png'
+            // }
             image={
               bluevImg
             }
@@ -166,9 +166,9 @@ export default function EyezenLens() {
           />
           <DiscoverCards
             disc={`Your lenses' invisible shield`}
-            logo={
-              'https://media.essilor.com/cms/caas/v1/media/108822/data/picture/fa10b1d3b7f907793c7fce164c1bfa79.png'
-            }
+            // logo={
+            //   'https://media.essilor.com/cms/caas/v1/media/108822/data/picture/fa10b1d3b7f907793c7fce164c1bfa79.png'
+            // }
             image={
               crizalImg
             }

@@ -2,19 +2,11 @@
 import React from 'react';
 import Image from 'next/image';
 import Carousel from './carousel';
-
 import discoverImg from '@/components/assets/Eyezen-lenses.jpg';
 import variluxImg from '@/components/assets/beautiful-woman-sitting-chair.jpg';
 import bluevImg from '@/components/assets/overtime-work.jpg';
 import xperiaImg from '@/components/assets/fashionable-girl-cafe.jpg';
-import transitionImg from '@/components/assets/transitionImg.jpg';
 import crizalImg from '@/components/assets/stylish-businesswoman-cafe.jpg';
-import eyexenLogo from '@/components/assets/eyexen.webp';
-import variluxLogo from '@/components/assets/varilux.webp';
-import bluevLogo from '@/components/assets/bluev.webp';
-import xperioLogo from '@/components/assets/xperio.webp';
-import transitionLogo from '@/components/assets/transition.png';
-import crizalLogo from '@/components/assets/crizal.png';
 import styles from './style.module.css';
 
 const items = [

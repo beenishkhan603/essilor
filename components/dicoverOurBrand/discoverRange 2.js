@@ -12,9 +12,9 @@ export default function discoverRange() {
   const items = [
     <DiscoverCards
       disc={'Instant sharpness even in motion'}
-      logo={
-        'https://media.essilor.com/cms/caas/v1/media/109008/data/picture/e57842de5b858baae624f4c3295c3948.png'
-      }
+      // logo={
+      //   'https://media.essilor.com/cms/caas/v1/media/109008/data/picture/e57842de5b858baae624f4c3295c3948.png'
+      // }
       image={
         'https://media.essilor.com/cms/caas/v1/media/498200/data/picture/d1668089e1da751e6db4a51cbbdc3ba4.png'
       }
@@ -22,9 +22,9 @@ export default function discoverRange() {
     />,
     <DiscoverCards
       disc={'Capture every detail with instant sharp vision'}
-      logo={
-        'https://media.essilor.com/cms/caas/v1/media/109008/data/picture/e57842de5b858baae624f4c3295c3948.png'
-      }
+      // logo={
+      //   'https://media.essilor.com/cms/caas/v1/media/109008/data/picture/e57842de5b858baae624f4c3295c3948.png'
+      // }
       image={
         'https://media.essilor.com/cms/caas/v1/media/108904/data/picture/ca158195c0fbdec39ebf67ac545eabed.jpg'
       }
@@ -32,9 +32,9 @@ export default function discoverRange() {
     />,
     <DiscoverCards
       disc={`Your lenses' invisible shield`}
-      logo={
-        '	https://media.essilor.com/cms/caas/v1/media/109004/data/picture/5637fe212b1592919b040274d3bc0490.png'
-      }
+      // logo={
+      //   '	https://media.essilor.com/cms/caas/v1/media/109004/data/picture/5637fe212b1592919b040274d3bc0490.png'
+      // }
       image={
         'https://media.essilor.com/cms/caas/v1/media/109012/data/picture/d69997f14aa9276617a66836037d4728.jpg'
       }
@@ -42,9 +42,9 @@ export default function discoverRange() {
     />,
     <DiscoverCards
       disc={`Effortless vision for busy and active lifestyles `}
-      logo={
-        'https://media.essilor.com/cms/caas/v1/media/115414/data/picture/a2488ffde0cdcbd4c979e4a007b14d70.png'
-      }
+      // logo={
+      //   'https://media.essilor.com/cms/caas/v1/media/115414/data/picture/a2488ffde0cdcbd4c979e4a007b14d70.png'
+      // }
       image={
         '	https://media.essilor.com/cms/caas/v1/media/109014/data/picture/d37abedd42de32adc70005bdafd44995.png'
       }
@@ -109,9 +109,9 @@ export default function discoverRange() {
         >
           <DiscoverCards
             disc={'Instant sharpness even in motion'}
-            logo={
-              'https://media.essilor.com/cms/caas/v1/media/109008/data/picture/e57842de5b858baae624f4c3295c3948.png'
-            }
+            // logo={
+            //   'https://media.essilor.com/cms/caas/v1/media/109008/data/picture/e57842de5b858baae624f4c3295c3948.png'
+            // }
             image={
               discoverImg
             }
@@ -120,9 +120,9 @@ export default function discoverRange() {
           />
           <DiscoverCards
             disc={'Capture every detail with instant sharp vision'}
-            logo={
-              'https://media.essilor.com/cms/caas/v1/media/109008/data/picture/e57842de5b858baae624f4c3295c3948.png'
-            }
+            // logo={
+            //   'https://media.essilor.com/cms/caas/v1/media/109008/data/picture/e57842de5b858baae624f4c3295c3948.png'
+            // }
             image={
               variluxImg
             }
@@ -131,9 +131,9 @@ export default function discoverRange() {
           />
           <DiscoverCards
             disc={`Your lenses' invisible shield`}
-            logo={
-              '	https://media.essilor.com/cms/caas/v1/media/109004/data/picture/5637fe212b1592919b040274d3bc0490.png'
-            }
+            // logo={
+            //   '	https://media.essilor.com/cms/caas/v1/media/109004/data/picture/5637fe212b1592919b040274d3bc0490.png'
+            // }
             image={
             
               crizalImg
@@ -143,9 +143,9 @@ export default function discoverRange() {
           />
           <DiscoverCards
             disc={`Effortless vision for busy and active lifestyles `}
-            logo={
-              'https://media.essilor.com/cms/caas/v1/media/115414/data/picture/a2488ffde0cdcbd4c979e4a007b14d70.png'
-            }
+            // logo={
+            //   'https://media.essilor.com/cms/caas/v1/media/115414/data/picture/a2488ffde0cdcbd4c979e4a007b14d70.png'
+            // }
             image={
               xperiaImg
             }
