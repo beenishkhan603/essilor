@@ -96,7 +96,7 @@ export default function AccordProduct() {
             {accordionOpen2 ? (
               <img
                 src={
-                  '	https://media.essilor.com/cms/caas/v1/media/112954/data/picture/827b6943afdf4b7bd81d537442a99337.jpg'
+                  '#'
                 }
                 alt={'pic'}
                 className={styles.image}

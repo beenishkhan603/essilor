@@ -28,7 +28,7 @@ const Page = () => {
             <div className={styles.headerCon}>
               <div className={styles.header_content}>
                 <div className={styles.first_row}>
-                  <Image height={32} width={32} src={cupIcon} alt='icon' />
+                  <Image layout="responsive" height={32} width={32} src={cupIcon} alt='icon' />
                   <div style={{ fontWeight: '700', color: '#fff' }}>
                     Protect your eyes
                   </div>

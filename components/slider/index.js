@@ -1,36 +1,33 @@
-'use client';
-
-import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
-import { Navigation } from 'swiper/modules';
-import '../global.css';
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
-import style from './style.module.css';
-import Link from 'next/link';
+"use client";
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper/modules";
+import "../global.css";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import style from "./style.module.css";
+import Link from "next/link";
 
 export default function Slider() {
   return (
     <div
-      style={{ paddingBottom: '50px', background: '#18b1ae' }}
-      className='homepageSlider'
+      style={{ paddingBottom: "50px", background: "#18b1ae" }}
+      className="homepageSlider"
     >
-      {' '}
+      {" "}
       <Swiper
         navigation={true}
         modules={[Navigation]}
-        className='mySwiper'
+        className="mySwiper"
         slidesPerView={1}
       >
         <SwiperSlide>
           <div
             style={{
-              background: '#18b1ae',
-              width: '100%',
-              display: 'flex',
+              background: "#18b1ae",
+              width: "100%",
+              display: "flex",
             }}
           >
             <div className={style.HeroBannerStatic}>
@@ -48,8 +45,8 @@ Finding the ideal eyewear is not a straightforward task. It requires selecting a
         <SwiperSlide>
           <div
             style={{
-              width: '100%',
-              display: 'flex',
+              width: "100%",
+              display: "flex",
             }}
           >
             <div className={style.HeroBannerStatic2}>
@@ -69,7 +66,7 @@ Finding the ideal eyewear is not a straightforward task. It requires selecting a
                   solutions and to respond to all needs.`}
                 </p>
                 <button className={style.discoverBtn}>
-                  <Link href='/about-us'>Know more</Link>
+                  <Link href="/about-us">Know more</Link>
                 </button>
               </div>
             </div>

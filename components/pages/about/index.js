@@ -1,7 +1,6 @@
 'use client';
 import { Grid, Container } from '@mui/material';
 import { useState, useEffect } from 'react';
-
 import Header from '../../header';
 import Footer from '../../footer';
 import NewsLetter from '../../newsLetter';
@@ -13,18 +12,12 @@ import styles from './style.module.css';
 const AboutPage = () => {
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
-    // Check if window is defined (to avoid SSR issues)
     if (typeof window !== 'undefined') {
       setIsMobile(window.innerWidth <= 480);
-
-      // Add event listener to update isMobile on window resize
       const handleResize = () => {
         setIsMobile(window.innerWidth <= 480);
       };
-
       window.addEventListener('resize', handleResize);
-
-      // Remove event listener on component unmount
       return () => {
         window.removeEventListener('resize', handleResize);
       };
@@ -107,7 +100,6 @@ const AboutPage = () => {
           justifyContent={'center'}
         >
           <Grid container direction='row' justifyContent={'center'}>
-            {/* <Grid item md={3} sm={12} xs={12} lg={3}></Grid> */}
             <Grid item md={6} sm={6} xs={6} lg={12} justifyContent={'center'}>
               <p className={styles.learnProcess}>
                 80% of what we learn is processed through our eyes

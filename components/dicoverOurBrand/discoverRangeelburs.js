@@ -33,9 +33,9 @@ export default function discoverRange() {
 					<DiscoverCards
 						disc={'Ultimate visual comfort'}
 						width={'20% !important'}
-						logo={
-							'https://media.essilor.com/cms/caas/v1/media/108896/data/picture/317a6be1f91ad8662031c633cc22794c.png'
-						}
+						// logo={
+						// 	'https://media.essilor.com/cms/caas/v1/media/108896/data/picture/317a6be1f91ad8662031c633cc22794c.png'
+						// }
 						image={
 							img
 						}

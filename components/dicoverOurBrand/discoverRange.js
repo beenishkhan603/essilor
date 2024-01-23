@@ -35,9 +35,9 @@ export default function discoverRange() {
           <DiscoverCards
             disc={'The new generation of single vision lenses'}
             width={'20% !important'}
-            logo={
-              '	https://media.essilor.com/cms/caas/v1/media/108954/data/picture/92e19318e219365f76fd58ded659d571.png'
-            }
+            // logo={
+            //   '	https://media.essilor.com/cms/caas/v1/media/108954/data/picture/92e19318e219365f76fd58ded659d571.png'
+            // }
             image={
               img
             }

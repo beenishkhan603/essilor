@@ -155,7 +155,7 @@ export default function Accord() {
             {accordionOpen1 ? (
               <img
                 src={
-                  'https://media.essilor.com/cms/caas/v1/media/109456/data/picture/1d8b8eeb2556134ff9dd1714b1692388.jpg'
+                  '#'
                 }
                 alt={'pic'}
                 className={styles.image}
@@ -163,7 +163,7 @@ export default function Accord() {
             ) : accordionOpen2 ? (
               <img
                 src={
-                  'https://media.essilor.com/cms/caas/v1/media/109458/data/picture/296be10e71775209297dd48c5b4693ee.jpg'
+                  '#'
                 }
                 alt={'pic'}
                 className={styles.image}
@@ -171,7 +171,7 @@ export default function Accord() {
             ) : (
               <img
                 src={
-                  'https://media.essilor.com/cms/caas/v1/media/109460/data/picture/751f95fe05bf4498dbbb6daacb668d5c.jpg'
+                  '#'
                 }
                 alt={'pic'}
                 className={styles.image}
