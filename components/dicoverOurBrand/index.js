@@ -12,7 +12,7 @@ import styles from './style.module.css';
 const items = [
 	<div className={styles.brandSlide}>
 		<Image className={styles.brandImg} alt="brand" src={discoverImg} />
-		{/* <Image alt="logo" src={eyexenLogo} className={styles.brandLogo} /> */}
+		npm r
 		<p className={styles.brandNameLogo}>Balnc</p>
 		<p className={styles.brandName}>
 			The latest iteration of single vision lenses.
